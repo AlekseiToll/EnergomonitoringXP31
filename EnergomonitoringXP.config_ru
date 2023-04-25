@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>Русский</Language>
+  <FloatSigns>2</FloatSigns>
+  <ShowAvgTooltip>true</ShowAvgTooltip>
+  <SerialPortName>COM1</SerialPortName>
+  <SerialPortSpeed>115200</SerialPortSpeed>
+  <IOInterface>COM</IOInterface>
+  <PgServers>
+    <PgServerItem>
+      <PgPort>5432</PgPort>
+      <PgHost>localhost</PgHost>
+      <PgServerName>local</PgServerName>
+    </PgServerItem>
+  </PgServers>
+  <Licences>
+    <DeviceLicences />
+  </Licences>
+  <CurrentRatio>1</CurrentRatio>
+  <VoltageRatio>1</VoltageRatio>
+  <PowerRatio>1</PowerRatio>
+  <AvgBrushColor1>-8355712</AvgBrushColor1>
+  <AvgBrushColor2>-16777216</AvgBrushColor2>
+</Settings>

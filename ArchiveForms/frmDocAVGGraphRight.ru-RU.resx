@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="zedGraphU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 148</value>
+  </data>
+  <data name="zedGraphI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 146</value>
+  </data>
+  <data name="splitLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 298</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitLeft.SplitterDistance" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="splitLeft.SplitterWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="zedGraphW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 148</value>
+  </data>
+  <data name="zedGraphAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 146</value>
+  </data>
+  <data name="splitRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 298</value>
+  </data>
+  <data name="splitRight.SplitterDistance" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="splitRight.SplitterWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="splitTopVert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 298</value>
+  </data>
+  <data name="splitTopVert.SplitterDistance" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="splitTopVert.SplitterWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radialGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radialGraph.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="radialGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 134</value>
+  </data>
+  <data name="tsScaleMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="tsScaleMode.Text" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="tsScaleMode.ToolTipText" xml:space="preserve">
+    <value>Перейти в режим масштаба</value>
+  </data>
+  <data name="tsSep3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tslblNominalVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 22</value>
+  </data>
+  <data name="tslblNominalVoltage.Text" xml:space="preserve">
+    <value>U ном. (В):</value>
+  </data>
+  <data name="tsNominalVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 25</value>
+  </data>
+  <data name="tsSep4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tslblNominalCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="tslblNominalCurrent.Text" xml:space="preserve">
+    <value>I ном. (А):</value>
+  </data>
+  <data name="tsNominalCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 25</value>
+  </data>
+  <data name="splitContMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 461</value>
+  </data>
+  <data name="splitContMain.SplitterDistance" type="System.Int32, mscorlib">
+    <value>298</value>
+  </data>
+  <data name="splitContMain.SplitterWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tsLg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 22</value>
+  </data>
+  <data name="tsLg.ToolTipText" xml:space="preserve">
+    <value>Представлять ось Y как логарифмическую (log10)</value>
+  </data>
+  <data name="tsSep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tsFirstHarmonic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="tsFirstHarmonic.Text" xml:space="preserve">
+    <value>1 г</value>
+  </data>
+  <data name="tsFirstHarmonic.ToolTipText" xml:space="preserve">
+    <value>Отображать первую гармонику</value>
+  </data>
+  <data name="tsSep2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tsPhaseA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsPhaseA.ToolTipText" xml:space="preserve">
+    <value>Отображать значения параметров фазы A</value>
+  </data>
+  <data name="tsPhaseB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsPhaseB.ToolTipText" xml:space="preserve">
+    <value>Отображать значения параметров фазы B</value>
+  </data>
+  <data name="tsPhaseC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsPhaseC.ToolTipText" xml:space="preserve">
+    <value>Отображать значения параметров фазы C</value>
+  </data>
+  <data name="tsSumm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsSumm.ToolTipText" xml:space="preserve">
+    <value>Отображать суммарные
+значения мощностей гармоник</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tsLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="tsLeft.Text" xml:space="preserve">
+    <value>Левая</value>
+  </data>
+  <data name="tsLeft.ToolTipText" xml:space="preserve">
+    <value>Отображать панель
+гармоник тока и напряжения</value>
+  </data>
+  <data name="tsRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="tsRight.Text" xml:space="preserve">
+    <value>Правая</value>
+  </data>
+  <data name="tsRight.ToolTipText" xml:space="preserve">
+    <value>Отображать панель
+мощностей гармоник углов
+между гармоническими
+составляющими тока и напряжения</value>
+  </data>
+  <data name="tsBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 22</value>
+  </data>
+  <data name="tsBottom.Text" xml:space="preserve">
+    <value>Нижняя</value>
+  </data>
+  <data name="tsBottom.ToolTipText" xml:space="preserve">
+    <value>Отображать панель
+векторной диаграммы</value>
+  </data>
+  <data name="grToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 25</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>390, 486</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAuLi4/7i4uP+4uLj/uLi4/7i4uP+4uLj/uLi4/7i4uP+4uLj/uLi4/7i4uP+4uLj/uLi4/7i4
+        uP+4uLj/wMD//7q6//+ysv//qan//6Cf//+UlP//iYr//359//9xcf//ZWX//1hY//9LS///QED//zIz
+        //8oKP//uLi4/8XF//+/v///t7f//6+v//+lpf//nJv//5CQ//+Fhf//eXn//21s//9gYP//U1P//0dG
+        //87O///Ly///7i4uP/Kyf//xMT//7y8//+1tP//q6v//6Gh//+Xl///jIv//4CA//90dP//Z2f//1tb
+        //9PT///QkP//zc3//+4uLj/zs7//8jI///Cwv//urr//7Gy//+oqP//nZ3//5OT//+Hh///e3v//29v
+        //9jY///V1f//0pK//8/Pv//uLi4/9LS///Nzf//xsb//7+///+3t///rq7//6Sk//+Zmf//j4///4KC
+        //93d///a2v//19e//9SU///Rkb//7i4uP/T/9r/zv/V/8f/z/+//8j/t//C/63/uv+k/7L/mf+p/47/
+        oP+D/5f/d/+N/2v/g/9g/3r/Vf9x/0v/af+4uLj/2P/d/9L/2f/M/9P/xf/O/73/x/+0/8D/qv+3/6H/
+        sP+W/6f/iv+d/3//lP9z/4v/aP+B/13/eP9T/2//uLi4/9z/4f/X/9z/0f/Y/8r/0v/D/8z/uv/F/7H/
+        vv+n/7X/nf+t/5L/pP+H/5r/fP+S/3D/h/9m/3//W/92/7i4uP/g/+T/2//g/9b/3P/P/9b/yP/R/8H/
+        yv+4/8L/r/+7/6X/s/+b/6v/kP+h/4T/mP95/4//bf+G/2P/ff+4uLj/5P/n/9//5P/a/9//1P/a/87/
+        1f/H/8//vv/I/7X/wf+s/7n/ov+w/5j/qP+N/5//gf+W/3f/jf9r/4P/uLi4/+X////h////2////9X/
+        ///O////xv///77///+2////q////6L///+X////jf///4P///94////bv///7i4uP/p////5P///+D/
+        ///a////0////8z////E////vP///7P///+p////n////5X///+L////gP///3b///+4uLj/7f///+n/
+        ///k////3////9j////S////yv///8L///+6////sf///6f///+d////k////4n///9+////uLi4/+//
+        ///s////6P///+P////d////1////9D////I////wf///7j///+v////pf///5v///+Q////hv///7i4
+        uP/y////7////+v////n////4v///9z////W////z////8f///+/////tv///63///+i////mf///4//
+        //8AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAEAAA==
+</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>Диаграммы</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Диаграммы (усредненные значения)</value>
+  </data>
+</root>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{998CE547-E905-4931-91B6-5E0439177E7E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ZedGraph</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ZedGraph</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/ZedGraph/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\ZedGraph.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'QuickRun|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\QuickRun\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Installs|AnyCPU' ">
+    <OutputPath>bin\Installs\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>system.design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ZedGraph\ArrowItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Bar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\BarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\BasicArrayPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Border.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\BoxItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\CollectionPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ColorSymbolRotator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\CurveItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\CurveList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\EllipseItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ErrorBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ErrorBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Fill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\FontSpec.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\GraphItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\GraphItemList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\GraphPane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\HiLowBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\HiLowBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\HSBColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ImageItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\IPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Legend.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\LineItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\MasterPane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PaneBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PaneList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PieItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PointPair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PointPairList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PolyItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\StickItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Symbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\TextItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Types.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ValueHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\XAxis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\XDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Y2Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\YAxis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphWeb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphWebData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphWebTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZoomState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ZedGraph\ZedGraphControl.resx">
+      <DependentUpon>ZedGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZedGraph\ZedGraphControl.ru-RU.resx">
+      <DependentUpon>ZedGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZedGraph\ZedGraphLocale.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZedGraph\ZedGraphLocale.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ModelSupport\ZedGraph\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

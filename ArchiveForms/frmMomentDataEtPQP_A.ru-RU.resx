@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="labelF.Text" xml:space="preserve">
+    <value>F, Гц</value>
+  </data>
+  <data name="gbF.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="labelIav.Text" xml:space="preserve">
+    <value>Iср, A</value>
+  </data>
+  <data name="gbI.Text" xml:space="preserve">
+    <value>Ток</value>
+  </data>
+  <data name="labelUavl.Text" xml:space="preserve">
+    <value>Uср, В</value>
+  </data>
+  <data name="labelUl.Text" xml:space="preserve">
+    <value>U, В</value>
+  </data>
+  <data name="gbUl.Text" xml:space="preserve">
+    <value>Линейное напряжение</value>
+  </data>
+  <data name="labelUav.Text" xml:space="preserve">
+    <value>Uср, В</value>
+  </data>
+  <data name="labelU.Text" xml:space="preserve">
+    <value>U, В</value>
+  </data>
+  <data name="gbU.Text" xml:space="preserve">
+    <value>Фазное напряжение</value>
+  </data>
+  <data name="tabVoltages.Text" xml:space="preserve">
+    <value>Напряжение и ток</value>
+  </data>
+  <data name="labelP0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP0.Text" xml:space="preserve">
+    <value>P0, Вт</value>
+  </data>
+  <data name="labelP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP2.Text" xml:space="preserve">
+    <value>P2, Вт</value>
+  </data>
+  <data name="labelP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP1.Text" xml:space="preserve">
+    <value>P1, Вт</value>
+  </data>
+  <data name="labelPaSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="labelPaSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="labelPaSum.Text" xml:space="preserve">
+    <value>Суммарный</value>
+  </data>
+  <data name="labelPFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="labelPFull.Text" xml:space="preserve">
+    <value>S, ВА</value>
+  </data>
+  <data name="labelPreact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelPreact.Text" xml:space="preserve">
+    <value>Q, вар</value>
+  </data>
+  <data name="labelPactive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="labelPactive.Text" xml:space="preserve">
+    <value>P, Вт</value>
+  </data>
+  <data name="tabPowers.Text" xml:space="preserve">
+    <value>Мощность</value>
+  </data>
+  <data name="labeldUlinRelNeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="labeldUlinRelNeg.Text" xml:space="preserve">
+    <value>dUотн-, %</value>
+  </data>
+  <data name="labeldUlinRelPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labeldUlinRelPos.Text" xml:space="preserve">
+    <value>dUотн+, %</value>
+  </data>
+  <data name="labeldUlinNeg.Text" xml:space="preserve">
+    <value>dU-, В</value>
+  </data>
+  <data name="labeldUlinPos.Text" xml:space="preserve">
+    <value>dU+, В</value>
+  </data>
+  <data name="labelUNomLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="labelUNomLin.Text" xml:space="preserve">
+    <value>U ном лин, В</value>
+  </data>
+  <data name="labelUNomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="labelUNomPh.Text" xml:space="preserve">
+    <value>U ном ф, В</value>
+  </data>
+  <data name="labelU0.Text" xml:space="preserve">
+    <value>U0, В</value>
+  </data>
+  <data name="labelU2.Text" xml:space="preserve">
+    <value>U2, В</value>
+  </data>
+  <data name="labelU1_2.Text" xml:space="preserve">
+    <value>U1, В</value>
+  </data>
+  <data name="labeldUrelNeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="labeldUrelNeg.Text" xml:space="preserve">
+    <value>dUотн-, %</value>
+  </data>
+  <data name="labeldUrelPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labeldUrelPos.Text" xml:space="preserve">
+    <value>dUотн+, %</value>
+  </data>
+  <data name="labeldUneg.Text" xml:space="preserve">
+    <value>dU-, В</value>
+  </data>
+  <data name="labeldUpos.Text" xml:space="preserve">
+    <value>dU+, В</value>
+  </data>
+  <data name="tabPQP.Text" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+  <data name="labelUdiag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="labelUdiag.Text" xml:space="preserve">
+    <value>Uф(1), В</value>
+  </data>
+  <data name="labelAIU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelAIU.Text" xml:space="preserve">
+    <value>UI, град</value>
+  </data>
+  <data name="labelAUPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="labelAUPh.Text" xml:space="preserve">
+    <value>Uф, град</value>
+  </data>
+  <data name="tabAngles.Text" xml:space="preserve">
+    <value>Углы</value>
+  </data>
+  <data name="labelGrgSumPh.Text" xml:space="preserve">
+    <value>Σgrg&gt;1, В</value>
+  </data>
+  <data name="labelHarmPhOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 13</value>
+  </data>
+  <data name="labelHarmPhOrders.Text" xml:space="preserve">
+    <value>Коэффициенты для порядков 2…50</value>
+  </data>
+  <data name="colKOrdersPh.Text" xml:space="preserve">
+    <value>K п,%</value>
+  </data>
+  <data name="labelU1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="labelU1.Text" xml:space="preserve">
+    <value>Uф(1), В</value>
+  </data>
+  <data name="labelHarmPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="labelHarmPh.Text" xml:space="preserve">
+    <value>Значения для порядков 1…50</value>
+  </data>
+  <data name="colGsgPh.Text" xml:space="preserve">
+    <value>Gsg,В</value>
+  </data>
+  <data name="tabVoltHarmPh.Text" xml:space="preserve">
+    <value>Гармоники Uф</value>
+  </data>
+  <data name="labelGrgSumLin.Text" xml:space="preserve">
+    <value>Σgrg&gt;1, В</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Коэффициенты для порядков 2…50</value>
+  </data>
+  <data name="colKOrdersLin.Text" xml:space="preserve">
+    <value>K п,%</value>
+  </data>
+  <data name="labelHarmLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="labelHarmLin.Text" xml:space="preserve">
+    <value>Значения для порядков 1…50</value>
+  </data>
+  <data name="labelU1l.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="labelU1l.Text" xml:space="preserve">
+    <value>Uлин(1), В</value>
+  </data>
+  <data name="colGsgHarmL.Text" xml:space="preserve">
+    <value>Gsg,В</value>
+  </data>
+  <data name="tabVoltHarmLin.Text" xml:space="preserve">
+    <value>Гармоники Uлин</value>
+  </data>
+  <data name="labelInterharmUlin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 13</value>
+  </data>
+  <data name="labelInterharmUlin.Text" xml:space="preserve">
+    <value>Интергармоники линейного напряжения, В</value>
+  </data>
+  <data name="colCigLin.Text" xml:space="preserve">
+    <value>Cig, В</value>
+  </data>
+  <data name="labelInterharmUph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 13</value>
+  </data>
+  <data name="labelInterharmUph.Text" xml:space="preserve">
+    <value>Интергармоники фазного напряжения, В</value>
+  </data>
+  <data name="colCigPh.Text" xml:space="preserve">
+    <value>Cig, В</value>
+  </data>
+  <data name="tabInterharmU.Text" xml:space="preserve">
+    <value>Интергармоники напряжения</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Коэффициенты для порядков 2…50</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Σgrg&gt;1, А</value>
+  </data>
+  <data name="colKOrdersI.Text" xml:space="preserve">
+    <value>K п,%</value>
+  </data>
+  <data name="labelHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="labelHarmI.Text" xml:space="preserve">
+    <value>Значения для порядков 1…50</value>
+  </data>
+  <data name="tabCurHarm.Text" xml:space="preserve">
+    <value>Гармоники тока</value>
+  </data>
+  <data name="labelInterharmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 13</value>
+  </data>
+  <data name="labelInterharmI.Text" xml:space="preserve">
+    <value>Интергармоники тока, A</value>
+  </data>
+  <data name="colCigInterharmI.Text" xml:space="preserve">
+    <value>Cig, А</value>
+  </data>
+  <data name="tabInterharmI.Text" xml:space="preserve">
+    <value>Интергармоники тока</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="btnLoad.Text" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="rb2hour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="rb2hour.Text" xml:space="preserve">
+    <value>2 часа</value>
+  </data>
+  <data name="rb10min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="rb10min.Text" xml:space="preserve">
+    <value>10 мин</value>
+  </data>
+  <data name="rb3sec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="rb3sec.Text" xml:space="preserve">
+    <value>3 сек</value>
+  </data>
+  <data name="labelName.Text" xml:space="preserve">
+    <value>Имя объекта:</value>
+  </data>
+  <data name="labelScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 15</value>
+  </data>
+  <data name="labelScheme.Text" xml:space="preserve">
+    <value>Схема подключения:</value>
+  </data>
+  <data name="labelSerial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 15</value>
+  </data>
+  <data name="labelSerial.Text" xml:space="preserve">
+    <value>Серийный номер:</value>
+  </data>
+  <data name="btnExport.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Мгновенные значения</value>
+  </data>
+</root>

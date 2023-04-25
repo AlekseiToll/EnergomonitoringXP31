@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="name_measure_type_avg_full" xml:space="preserve">
+    <value>Усредненные значения</value>
+  </data>
+  <data name="name_measure_type_dns_full" xml:space="preserve">
+    <value>Провалы и перенапряжения</value>
+  </data>
+  <data name="name_measure_type_pke_full" xml:space="preserve">
+    <value>Показатели качества энергии</value>
+  </data>
+  <data name="name_submeasure_avg_angles" xml:space="preserve">
+    <value>Углы и мощности гармоник</value>
+  </data>
+  <data name="name_submeasure_avg_harmonics" xml:space="preserve">
+    <value>Гармоники</value>
+  </data>
+  <data name="name_submeasure_avg_main" xml:space="preserve">
+    <value>Основные показатели</value>
+  </data>
+  <data name="msg_device_connect_lost_caption" xml:space="preserve">
+    <value>Ошибка ввода вывода</value>
+  </data>
+  <data name="msg_device_connect_lost_text" xml:space="preserve">
+    <value>Потеряно соединение с устройством.
+Интерфейс: {0} (параметры интерфейса: {1}{2}).
+Операция сохранения была прервана!</value>
+  </data>
+  <data name="msg_device_data_reading_error_caption" xml:space="preserve">
+    <value>Ошибка чтения данных из прибора</value>
+  </data>
+  <data name="name_exchange_window_caption" xml:space="preserve">
+    <value>Импорт данных из файла Образа</value>
+  </data>
+  <data name="name_exchange_window_tree_caption" xml:space="preserve">
+    <value>Данные, хранящиеся в файле Образа:</value>
+  </data>
+  <data name="dialog_filter" xml:space="preserve">
+    <value>Файлы образа EmWorkNet7|*.{0}|Все файлы|*.*</value>
+  </data>
+  <data name="warning_caption" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="msg_dns_empty_text" xml:space="preserve">
+    <value>За выбранное время не произошло ни одного события</value>
+  </data>
+  <data name="event_journal_0_text" xml:space="preserve">
+    <value>Включение прибора</value>
+  </data>
+  <data name="event_journal_1_text" xml:space="preserve">
+    <value>Выключение прибора</value>
+  </data>
+  <data name="event_journal_2_text" xml:space="preserve">
+    <value>Запись нового суточного архива ПКЭ</value>
+  </data>
+  <data name="event_journal_3_text" xml:space="preserve">
+    <value>Форматирование памяти</value>
+  </data>
+  <data name="event_journal_4_text" xml:space="preserve">
+    <value>Программный перезапуск</value>
+  </data>
+  <data name="msg_device_licence_failed_caption" xml:space="preserve">
+    <value>Устройство не зарегистрировано</value>
+  </data>
+  <data name="msg_device_licence_failed_text" xml:space="preserve">
+    <value>Права на работу с данным устройством не подтверждены лицензией.
+Если у вас есть файл лицензии на данное устройство, откройте меню "Настройки"&gt;"Параметры",
+перейдите на вкладку "Менеджер устройств" и зарегистрируйте его.</value>
+  </data>
+  <data name="msg_device_connect_error_caption" xml:space="preserve">
+    <value>Ошибка подключения</value>
+  </data>
+  <data name="msg_device_connect_error_text" xml:space="preserve">
+    <value>Невозможно установить соединение с устройством.
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="msg_device_devinfo_error_text" xml:space="preserve">
+    <value>Ошибка при чтении системной информации из прибора.
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="msg_device_connect_em33t_error_text" xml:space="preserve">
+    <value>Невозможно установить соединение с устройством Em-33T. Для других устройств эта функция не реализована! 
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="information_caption" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="msg_device_empty_text" xml:space="preserve">
+    <value>В устройстве не сохранено ни одного архива</value>
+  </data>
+  <data name="unfortunately_caption" xml:space="preserve">
+    <value>К сожалению</value>
+  </data>
+  <data name="msg_db_connect_error_text" xml:space="preserve">
+    <value>Не удалось установить соединения с базой данных {0} по адресу {1}:{2}.
+Пожауйста, проверьте работоспособность СУБД PostgreSQL и попробуйте еще раз.</value>
+  </data>
+  <data name="msg_invalid_interface_text" xml:space="preserve">
+    <value>Устройство {0} не поддерживает интерфейс {1}.</value>
+  </data>
+  <data name="pke_reading_failed" xml:space="preserve">
+    <value>Не удалось считать архив ПКЭ с датой начала {0}.</value>
+  </data>
+  <data name="avg_reading_failed" xml:space="preserve">
+    <value>Не удалось считать архив усрдененных значений с датой начала {0}.</value>
+  </data>
+  <data name="dns_reading_failed" xml:space="preserve">
+    <value>Не удалось считать архив провалов с датой начала {0}.</value>
+  </data>
+  <data name="etpqp_version_is_old" xml:space="preserve">
+    <value>Версия прошивки прибора устарела, программа не сможет с ним работать. 
+    Для обновления версии прошивки обратитесь к разработчику.</value>
+  </data>
+  <data name="archive_more_than_limit" xml:space="preserve">
+    <value>Выбранный архив 3-секундных значений имеет длительность более {0} часов. Рекомендуем уменьшить временной отрезок. Продолжить без изменений?</value>
+  </data>
+  <data name="msg_not_read_avg_index" xml:space="preserve">
+    <value>Не удалось получить данные для выбранного временного интервала усредненных</value>
+  </data>
+  <data name="msg_not_read_avg_index" xml:space="preserve">
+    <value>Не удалось получить данные для выбранного временного интервала усредненных</value>
+  </data>
+  <data name="msg_time_not_correct" xml:space="preserve">
+    <value>Текущее время в приборе и в компьютере различаются! Необходимо выставить в приборе правильное время!</value>
+  </data>
+  <data name="msg_crc_error_pages" xml:space="preserve">
+    <value>Во время чтения системной информации произошла ошибка CRC на страницах: {0}!</value>
+  </data>
+</root>

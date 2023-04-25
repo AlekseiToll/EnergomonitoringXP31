@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{098971E0-3A0A-4EC2-A67E-468002E83DE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmDataSaver</RootNamespace>
+    <AssemblyName>EmDataSaver</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/EmDataSaver/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;/debug:full</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Installs|AnyCPU' ">
+    <OutputPath>bin\Installs\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmDataExport32.cs" />
+    <Compile Include="EmDataExport33.cs" />
+    <Compile Include="EmDataExportBase.cs" />
+    <Compile Include="EmDataReader32.cs" />
+    <Compile Include="EmDataReader33.cs" />
+    <Compile Include="EmDataReaderBase.cs" />
+    <Compile Include="EmDataSaver32.cs" />
+    <Compile Include="EmDataSaverBase.cs" />
+    <Compile Include="EmSqlImageCreator32.cs" />
+    <Compile Include="EmSqlImageCreator33.cs" />
+    <Compile Include="EmSqlImageCreatorBase.cs" />
+    <Compile Include="emstrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="emstrings.ru-RU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.ru-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EtDataExportPQP.cs" />
+    <Compile Include="EtDataExportPQP_A.cs" />
+    <Compile Include="EtDataReaderPQP.cs" />
+    <Compile Include="EtDataReaderPQP_A.cs" />
+    <Compile Include="EtDataSaverPQP.cs" />
+    <Compile Include="EtDataSaverPQP_A.cs" />
+    <Compile Include="EtSqlImageCreatorPQP.cs" />
+    <Compile Include="EtSqlImageCreatorPQP_A.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmAvgParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmAvgParams.designer.cs">
+      <DependentUpon>frmAvgParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmDeviceExchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\CheckTreeView\CheckTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\DeviceTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmEditTimeInterval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmEditTimeInterval.Designer.cs">
+      <DependentUpon>frmEditTimeInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmExport.Designer.cs">
+      <DependentUpon>frmExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmIfKuCalcCompleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmIfKuCalcCompleted.Designer.cs">
+      <DependentUpon>frmIfKuCalcCompleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmNewFirmware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmNewFirmware.Designer.cs">
+      <DependentUpon>frmNewFirmware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\frmSynchroTimeWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\frmSynchroTimeWarning.Designer.cs">
+      <DependentUpon>frmSynchroTimeWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\MessageBoxes.cs" />
+    <Compile Include="SavingInterface\SafeShowDialog.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SqlImage\EmSqlDataNode.cs" />
+    <Compile Include="XmlImage\EmXmlArchive.cs" />
+    <Compile Include="XmlImage\EmXmlArchivePart.cs" />
+    <Compile Include="XmlImage\EmXmlAVG.cs" />
+    <Compile Include="XmlImage\EmXmlDeviceImage.cs" />
+    <Compile Include="EmDataSaver33.cs" />
+    <Compile Include="XmlImage\EmXmlDNS.cs" />
+    <Compile Include="XmlImage\EmXmlFlik.cs" />
+    <Compile Include="XmlImage\EmXmlPQP.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\MeasureTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\MeasureTypeTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\ObjectTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\SubMeasureTreeNode.cs" />
+    <Compile Include="SavingInterface\enums.cs" />
+    <Compile Include="SavingInterface\TreeViewDragHelper.cs" />
+    <Compile Include="SqlImage\EmSqlDeviceImage.cs" />
+    <Compile Include="SqlImage\EmSqlArchive.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DbServiceLib\DbServiceLib.csproj">
+      <Project>{D1C2A389-7F49-4194-9FEF-25BD8A2A2F41}</Project>
+      <Name>DbServiceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeviceIO\DeviceIO.csproj">
+      <Project>{DF98EC72-E98B-4E25-9B0A-71DB44DEF54A}</Project>
+      <Name>DeviceIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmArchiveTree\EmArchiveTree.csproj">
+      <Project>{60C49F8C-2D40-4606-A8BA-DCD45DED4DF0}</Project>
+      <Name>EmArchiveTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmService\EmService.csproj">
+      <Project>{0CA7EBD3-A24E-4D19-9001-214C81ADAC51}</Project>
+      <Name>EmService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmWorkNetLicences\EmWorkNetLicences.csproj">
+      <Project>{CEC9A1C4-A14C-4C21-A0A8-E9FA812D97F6}</Project>
+      <Name>EmWorkNetLicences</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FTPClient\FTPClient.csproj">
+      <Project>{BA829AF7-71AD-4933-95CB-3A21CC6768B0}</Project>
+      <Name>FTPClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="emstrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emstrings.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings.ru-RU.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmAvgParams.resx">
+      <DependentUpon>frmAvgParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmAvgParams.ru-RU.resx">
+      <DependentUpon>frmAvgParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmDeviceExchange.resx">
+      <DependentUpon>frmDeviceExchange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmDeviceExchange.ru-RU.resx">
+      <DependentUpon>frmDeviceExchange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmDeviceExchange.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeviceExchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmEditTimeInterval.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditTimeInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmEditTimeInterval.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditTimeInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmExport.resx">
+      <DependentUpon>frmExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmExport.ru-RU.resx">
+      <DependentUpon>frmExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmIfKuCalcCompleted.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIfKuCalcCompleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmIfKuCalcCompleted.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIfKuCalcCompleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmNewFirmware.resx">
+      <DependentUpon>frmNewFirmware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmNewFirmware.ru-RU.resx">
+      <DependentUpon>frmNewFirmware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmSynchroTimeWarning.resx">
+      <DependentUpon>frmSynchroTimeWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmSynchroTimeWarning.ru-RU.resx">
+      <DependentUpon>frmSynchroTimeWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\frmSynchroTimeWarning.ru.resx">
+      <DependentUpon>frmSynchroTimeWarning.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20A0A526-729F-4895-9D0F-8026AF1BA03B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExportToExcel</RootNamespace>
+    <AssemblyName>ExportToExcel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDocPQPReportSaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocPQPReportSaveDialog.designer.cs">
+      <DependentUpon>frmDocPQPReportSaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxes.cs" />
+    <Compile Include="PQPReportBase.cs" />
+    <Compile Include="PQPReportEtPQP_A.cs" />
+    <Compile Include="PQPReport_GOST.cs" />
+    <Compile Include="PQPReport_RD.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGridColumnStyles\DataGridColumnStyles.csproj">
+      <Project>{0D1756DE-7632-4882-A309-54E422EAF350}</Project>
+      <Name>DataGridColumnStyles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DbServiceLib\DbServiceLib.csproj">
+      <Project>{D1C2A389-7F49-4194-9FEF-25BD8A2A2F41}</Project>
+      <Name>DbServiceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeviceIO\DeviceIO.csproj">
+      <Project>{DF98EC72-E98B-4E25-9B0A-71DB44DEF54A}</Project>
+      <Name>DeviceIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmDataSaver\EmDataSaver.csproj">
+      <Project>{098971E0-3A0A-4EC2-A67E-468002E83DE4}</Project>
+      <Name>EmDataSaver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmService\EmService.csproj">
+      <Project>{0CA7EBD3-A24E-4D19-9001-214C81ADAC51}</Project>
+      <Name>EmService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="emstrings.resx" />
+    <EmbeddedResource Include="emstrings.ru-RU.resx" />
+    <EmbeddedResource Include="frmDocPQPReportSaveDialog.resx">
+      <DependentUpon>frmDocPQPReportSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocPQPReportSaveDialog.ru-RU.resx">
+      <DependentUpon>frmDocPQPReportSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

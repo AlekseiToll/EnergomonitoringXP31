@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelArchiveInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>654, 32</value>
+  </data>
+  <data name="labelArchiveInfo.Text" xml:space="preserve">
+    <value>Архив не выбран</value>
+  </data>
+  <data name="btnArchiveClose.Text" xml:space="preserve">
+    <value>Закрыть архив</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerArchiveInfo.SplitterDistance" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="tsLabelExportExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="tsAbortSaving.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHLSURBVDhPnZNLS1tBAIXzJ9pFKe666A+QLrpw5cIucrU0
+        CiYGpPEF2pXYQBOoVRCfmI0otm5EKAZ14aMLa7G4sYuSgJWmVsVHMIgvYvReb3LDpzOaeK1JDQ4MA5d7
+        vjlzzozFkmWg/UANFBGeeY4R/0u2/zJ+F+J4qAyMn2gHX1gbz88dYhaTDEBiAS3yiV/DT++G/Cs2zr5D
+        fA70GbRwF4t9edkhZvFKaIr2NjdVrgpqaypwOkux2RS0DQ/fuh/fhmSyvbk6ytCgF9urlyiKcjGtJI8H
+        OAnVMdny8BqSSWxos8x/9eFy2SkuVqiuKpdr4rAHfbeVo6Adv/cKogZeyLRTgYkz70f8F/btOBylTIx6
+        +BPs4E19ObHwB9RtD7H1Rlh6xoj7AZaduUL0o0k4m5WBJbVpFhd80ra76TVGdEDuvBb03hCHxx/hKHiC
+        JaEuy571vWGZtnE6xtREiwR0t9elbZt3TolPj5cvL5iAiJ71iA/j5DMf+xuxWq30dtbIM/9XnLqKAiJ6
+        1rbe4x95S0mJQr+vOjexGSJ6VlcbiG41E9t4lw7slu1sj0M4ET1Hl5zEflfKtHMWm52Inu8lNkNEz6Kq
+        dNoZbJ8DyU8SmlbtKe0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsAbortSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="tsAbortSaving.Text" xml:space="preserve">
+    <value>Отмена...</value>
+  </data>
+  <data name="tsMiCancelSaving.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMXSURBVDhPbZONT5NXFMb7vy1ZhiKttEj5nHWtTHBGYKPo
+        2MboBMPmPswWowOUsMUsCyHMFSw6WkpbS0uZpUJpnW0FFAwfpRVX6ddvp4VEjbvJm3vfm3ue8zznPEeh
+        eG3l9vbY9s8T6R8k1NNL8KuL+M93Mv/NZdYc98il07z+/o1zPpfjiXmc2NeXiA8Nkhi8Tvy7H1hu78Cn
+        a8BWqyc8dJN8Nvs2SCFz5GofG30/k1+YgUUvmEfJ/HiFzfNfEDvTyoL+FPZjdXg+M5F+vvsmyMrwCFvX
+        ++FpkJcBBy+Gb5KW/x1TN6utRhY/+JCZimp89SewqavwdHZDPr8PEl9cItLdA1E/z702/HKek6CY0cjq
+        x0YCtcdxHTdwv/d7HLqTOCtrsRzREB25tQ8QujbAtmTMhdxEr/zERiBIIhrD+1ELjkMqprX1rE05KKzQ
+        jV+YUlVgK9cyqW/clzLT0k7qj99hYoRk/1VSHtEv9JIP/8Hd9inrdmcxOOGbw994BqdGW5RxW6Utdkbh
+        bjhNVvTmBq4RN3XxuLmV9eFRslLYfDZHXoI3bHb+rtczI9ldIqEIUF5FpCDD9X4Dia5udrpMrH5i5L66
+        GleNjp1wuJg5m8ngO/c5tndK8ByrwSnf5AHAI0mkcJ46y8OmZlZa2gjUncBZrSMqfsiIvuRCkOyu7LFl
+        Zjs6sZVITTRV3JUajCsriYyaUSwNDAmtepYMjcyfbWPtnvigQPvuJHO1Oh59e5nci11S23HCfTekgJVY
+        yjTc1tSw9WARxb/rz7DWGfAISMjUQyaRYNM6xay0z31YhfuQkuCXF+R+h2cOJ3eUav58rwxPh4nc3oG1
+        Vyx/MVFajlenJyDW9YpxnMoK3No6XGot9jI1s+IJ58kmxkqPMq6uYXPO/8qN2VSK8K+/MVaiZFIe2yVo
+        urIae0UVU9I2q1poCxtzSRm3StUsj028PRMFkCdWOzbDaaGoEreVMyEsLAJoPnyU0XePYDU08dQ2TU46
+        879TWTBQOplk9Y4V38VLTDe342g5x+yFXh6bLbzc3Ho1AwcI/wHSaaBUqpznmgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsMiCancelSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 24</value>
+  </data>
+  <data name="tsMiCancelSaving.Text" xml:space="preserve">
+    <value>Щёлкните здесь, если вы хотите прервать данную операцию</value>
+  </data>
+  <data name="msFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="msFile.Text" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="msFileLoadFromDevice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHySURBVDhPpZLLaxNRFIfnPxIXLtyIK0EXLsWNLlq6ERHM
+        ooJSRKh1UWjFR8SKFlNq0aAWqy21WB9ZGIT6qJoGmyZtnpOHbTHJZGYyM5/3zhjSSVBEL/y4DDPfd+45
+        d5ThByU6M3SvxPm7RfpvqZy8VqBnJM/RSzkOX8hy4FyWff0ZN3sDaRQJh97gZvyVw9gLm+C8xeVnTYan
+        TQbDBgNTOmdCGqdv1zlxs07f9aqb3X1LnmBnBieLnB0vcuqGV/nIUI5DAxn2/6ooq7ayqyeKMvEkyt8u
+        xwHLdjCaDg3DZs/BXpQ7jyJ/5I9fUdz3jqBNGxfWBDz7+pMnGLu/2CUo1D8TKz/mbWYEKZBpNkE3QNNt
+        qprVFnS2IOEW1Np7g56kJgRVzWarukPQ2YL8UFaXq1Bty2oN2KqJCLiybf6+hblkwIWlyDS9XcLhlQCV
+        Hwi4ibpptAXByeddM2gdPVn56sKx4hdXpG6C+t0kWzYIz3/0hng1NOcTdPbfel5MTJMuQbZksKHqTDz9
+        4BeIK8ayxFVZ3rGPXVSYXR1lJj7KUj7mwskyrBd0EvmGXyDv2JJ3LHrWdDlpT1LaFoMUx84IMFWEbwVY
+        y+nE05pfIP+ueGKD5ZV13i2niLxPsRBdYyaS4OHLVaYWuuNrQQ7jX6P87/oJ04P0Pf/pEDQAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="msFileLoadFromDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 24</value>
+  </data>
+  <data name="msFileLoadFromDevice.Text" xml:space="preserve">
+    <value>&amp;Прочитать из устройства...</value>
+  </data>
+  <data name="msFileSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 6</value>
+  </data>
+  <data name="msFileOpenImageFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF8SURBVDhPldJZSwJhFAZg/1T9hyLwou4LCtpuvegmqAgq
+        SdFciDRRKyMlacGEtEhy0DYy1KA9S8U0MVMbt5m3mRGFcEbpwLkZvvPM+d4ZkUigboLnmFZaMLFgwpzG
+        Cof7CEJneZ8PSDRwuGpDb69BzDCY10egX6L+H1TXCT+BvnEZxKOKZkC7fgC+1qw5QFwGuIHeMTnEI0r0
+        DKv4AfDUknEPnd1DDUQwA/btfCXX23FIhDjEe1HbhLeEAOnyFjdcb0FAbd7n3YCiaaxue6G3nXKIIKAw
+        7DQBzCzIUgXp7A/sJ3fo6BoUBhZXbE1AsVxFJkcimvyGzR1uDcxrNv8A5UoV2XwJ8c8c7t/TsDivWwOz
+        SnMDqFAUcoUSEuk8HqMZBB4+YNr1twamZAYOoCgaBbKMZKaAl/gXgk8p+EIx6Kye1sCkVAeaSY0s1kKL
+        JLK4fU7hLBzD8VUE2g13e4ANjU2bDYy9s5FZW2fzQGtxQWV2tr8C+5naNd9/8Atb8cvx9plMCQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="msFileOpenImageFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 24</value>
+  </data>
+  <data name="msFileOpenImageFile.Text" xml:space="preserve">
+    <value>&amp;Открыть файл Образа...</value>
+  </data>
+  <data name="msFileSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 6</value>
+  </data>
+  <data name="msFileExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02CAAAAAAAADYEAAAoAAAAIAAAACAAAAABAAgAAAAAAAAAAADEDgAAxA4AAAABAAAAAQAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/8DAwP/A3MD/8Mqm/wAgQP8AIGD/ACCA/wAgoP8AIMD/ACDg/wBA
+        AP8AQCD/AEBA/wBAYP8AQID/AECg/wBAwP8AQOD/AGAA/wBgIP8AYED/AGBg/wBggP8AYKD/AGDA/wBg
+        4P8AgAD/AIAg/wCAQP8AgGD/AICA/wCAoP8AgMD/AIDg/wCgAP8AoCD/AKBA/wCgYP8AoID/AKCg/wCg
+        wP8AoOD/AMAA/wDAIP8AwED/AMBg/wDAgP8AwKD/AMDA/wDA4P8A4AD/AOAg/wDgQP8A4GD/AOCA/wDg
+        oP8A4MD/AODg/0AAAP9AACD/QABA/0AAYP9AAID/QACg/0AAwP9AAOD/QCAA/0AgIP9AIED/QCBg/0Ag
+        gP9AIKD/QCDA/0Ag4P9AQAD/QEAg/0BAQP9AQGD/QECA/0BAoP9AQMD/QEDg/0BgAP9AYCD/QGBA/0Bg
+        YP9AYID/QGCg/0BgwP9AYOD/QIAA/0CAIP9AgED/QIBg/0CAgP9AgKD/QIDA/0CA4P9AoAD/QKAg/0Cg
+        QP9AoGD/QKCA/0CgoP9AoMD/QKDg/0DAAP9AwCD/QMBA/0DAYP9AwID/QMCg/0DAwP9AwOD/QOAA/0Dg
+        IP9A4ED/QOBg/0DggP9A4KD/QODA/0Dg4P+AAAD/gAAg/4AAQP+AAGD/gACA/4AAoP+AAMD/gADg/4Ag
+        AP+AICD/gCBA/4AgYP+AIID/gCCg/4AgwP+AIOD/gEAA/4BAIP+AQED/gEBg/4BAgP+AQKD/gEDA/4BA
+        4P+AYAD/gGAg/4BgQP+AYGD/gGCA/4BgoP+AYMD/gGDg/4CAAP+AgCD/gIBA/4CAYP+AgID/gICg/4CA
+        wP+AgOD/gKAA/4CgIP+AoED/gKBg/4CggP+AoKD/gKDA/4Cg4P+AwAD/gMAg/4DAQP+AwGD/gMCA/4DA
+        oP+AwMD/gMDg/4DgAP+A4CD/gOBA/4DgYP+A4ID/gOCg/4DgwP+A4OD/wAAA/8AAIP/AAED/wABg/8AA
+        gP/AAKD/wADA/8AA4P/AIAD/wCAg/8AgQP/AIGD/wCCA/8AgoP/AIMD/wCDg/8BAAP/AQCD/wEBA/8BA
+        YP/AQID/wECg/8BAwP/AQOD/wGAA/8BgIP/AYED/wGBg/8BggP/AYKD/wGDA/8Bg4P/AgAD/wIAg/8CA
+        QP/AgGD/wICA/8CAoP/AgMD/wIDg/8CgAP/AoCD/wKBA/8CgYP/AoID/wKCg/8CgwP/AoOD/wMAA/8DA
+        IP/AwED/wMBg/8DAgP/AwKD/8Pv//6SgoP+AgID/AAD//wD/AP8A/////wAA//8A/////wD/////////
+        ////////////////9vb////////////29vb2//////////////////b29vb/9v/////////////29vb2
+        ///////////////////////to+zsCQn/////////////9v////////////////b/9gmSmtra2trj4wkJ
+        9v//9v//////////////9gdbSUlJCdra2tnZ2dna2tqakpKb9v//////////9v/2rlsAAEDs2dnZ2dnZ
+        2dnZ2dqaUlv29v//////////9vauWwAASAnZ2dnZ2dnZ2dnZ2ppSW/b2////////9vb29q5bAABI7NnZ
+        2dnZ2dnZ2dnamlJb9vb////////2//b2rlsAAEgJ2dnZ2dnZ2dnZ2dmaUlv29v//////9vb29vauXAAA
+        SAnZ2dnZ2dnZ2dnZ2ZpTW/b2////9vb29vb29q5cCgBI7NnZ2dnZ2dnZ2dnZmltb9vb///b29vb2r+/2
+        plQKAEjs2dnZ2dnZ2dnZ2dmaW1v29v/29vb29vZeVqdeXQoASOzZ2dnZ2dnZ2dnZ2ZqbW/b29qefn5+f
+        X1dWTlYVCgBI7Nna2dnZ2dnZ2dnZmptc9vb2n5+fn1dXV09PTg0MCgAJ2uPZ2dnZ2dnZ2dmam1z29van
+        n5+fl1dXVw4OTgsKAAna69nZ2dnZ2dnZ2ZqbXPb29qenn5+fn09OTlZeCgoA7Nni2dnZ2dna2tnZmpuc
+        9vb29vb29vb2Xlavr10AAAAJ2tra2uLh2tra2dqam6T29v/29vb29vamr/a3pQoASAni2uLi4uLi2tra
+        2pubpPb2////////9vb29relAAAACeLa4uLi4uLi4uLam5uk9vb////////29vb2B6UACgDs2uLa4uLi
+        4uLi4uKbm6T29v/////////29vYHpQoAAOzi4uLi2uLi4uLi4qOkpfb2///////////29geuCgAACeLi
+        4uLj4+Li4uLio6Sl9vb/////////9vb2B64AAAAJ4uLi4uLi4uLi4uLjpKX29v////////b29vYHrgAA
+        AOzi4uPi4uLi4uLi4+Skpfb2///////////29geuCgpICeLi4+Lj4+Pj4+Pj5KSl9vb/////////9vb2
+        CK4AAEgJ6+Pj4+Pj4+Pj4+OkpKX29v/////////29vYIrgoKSezj4+Pj4+Pj4+Pj5KWlrfb2///////2
+        //b29ra3ra73Cezj4+zj4+Pj5Ozs966t9vb/////////9vb2Bwe3Bwft4+zs4+Ps7fUHCQcHBwf29v//
+        ////////9vb29vb29vXs7QkJ//////////b29vb/////////9vb/9vb29vb2////////////9vb29vb2
+        9v8=
+</value>
+  </data>
+  <data name="msFileExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 24</value>
+  </data>
+  <data name="msFileExit.Text" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="msTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="msTools.Text" xml:space="preserve">
+    <value>&amp;Сервис</value>
+  </data>
+  <data name="miExportToExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgtJREFUOE9tU91L
+        k3EYfcG/IsjLLmQXfSCIEORuxtARJDIRp6RrNXJESSq4mynIQGYE6qAv6EIKXoJiUF3UTVfeeiXzI8US
+        3Vxzvc3Nfbj35Hny5/ZuDc7Ny855zvOc89Oefp3C7McgZt6PIaQ/RPDNCMZf+/DoxSDuR3tx90kPhsIu
+        gSfkgHuyQ9A12i7QSI6t6oK3K68EL5cXzrH4eRb1Q9QgiwDOfiZMVMwKypUTlMpFFEoF5Et5HBWPYBwb
+        yOQzSOfS4lIEaJ3TTfMfsYFcbCSnsqmqAO3QNgUefLgH/zuvYOC5G/lTcraQRd+024Lkn6TcyBG4Bo1H
+        o8DJqWVXtFPcBL+MCgbnnUKkcN9SD1rDV9Hkb8Le772qAHfh0dTOjvkbIvj4UwB39H44w/YG8m5mVxKy
+        +2zQaIUCPBiPlSvmZBK/UYCTaVVN/nn4AzvpnaoAlRiVIsvOZ3YZH9fgam2eS/A+uy3Y/rUt3/lNY1H4
+        RxUTyWOxYRFpnriImW9Bi8icPoXvB5tVATaMZVKTL9+yoRYU4T1qnWzUCrCe7IIqCDNmTAkjAR6LE+tF
+        15PrcEeu40p3MzT2ml1gu4RsHEhMJPNg3HcrtQVOJUiO78etAuwCyZz6PzJ3JnktsSZk4makFS2uC9DY
+        Z/UC1StUL5EJcXcF2iZItgiop8m8FVgSBcalwL0V6OAvDWa9C+a+54gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="miExportToExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="miExportToExcel.Text" xml:space="preserve">
+    <value>Экспорт таблиц данных в MS Excel</value>
+  </data>
+  <data name="msToolsExportToExcelPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 24</value>
+  </data>
+  <data name="msToolsExportToExcelPQP.Text" xml:space="preserve">
+    <value>Показатели качества энергии...</value>
+  </data>
+  <data name="msToolsExportToExcelAVG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 24</value>
+  </data>
+  <data name="msToolsExportToExcelAVG.Text" xml:space="preserve">
+    <value>Усредненные значения...</value>
+  </data>
+  <data name="msToolsExportToExcelDNS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 24</value>
+  </data>
+  <data name="msToolsExportToExcelDNS.Text" xml:space="preserve">
+    <value>Провалы и перенапряжения...</value>
+  </data>
+  <data name="msToolsExportToExcelEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 24</value>
+  </data>
+  <data name="msToolsExportToExcelEvents.Text" xml:space="preserve">
+    <value>Случайные события...</value>
+  </data>
+  <data name="miReportPQP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIJSURBVDhPbVNLS1thFLzgrxCaZRfiwgeCCIJ1E6QNQkUi
+        wQe2aitWpEpVaDZGkECIIvgAX+CiWAiCIrQudOOq266K8YmtxMQ0TdM8TKK5U+eYz+QaA7O5ZObMOTOf
+        Nr3rgOuLHRMbwxjzvId97R1GVnswuNSBvvkWvJlqxiunRdA2Zob14zPBi6EagUby1g+P4PP3FcHyt9l7
+        zG278HCIGmQQ0LI/HToyegbXmRukr1NIppNIpBOIpWKIXEUQToQRiofEpQjQOqfr+h2xgJwqJAejwZwA
+        7dA2BQY236J3vUvQvmhF4pYcTUZhG7caEPgXkBuZ+yuh8WgUuLm1bJl/Lm7sO0OCjpkGIVLY9qkZVc4K
+        FPUWwffXlxPgLjya2tk8UyeCH772o9vTigZnfQH5PHwuCdX3lEKjFQrwYDxWPBWXSfxGAU6mVTX515+f
+        OAud5QSoxKgUWXbO2mV8XIOrVbc9RddCp+D096l85zeNReEfVUwkD2+9FhHT6BNM7NkNIpMeB44vj3IC
+        bBjLpCaXvSxFPijCe+Q7OcwXYD3ZBVUQZsyY/BE/eCxOfCh6EDiA1V2L8iYTNPaaXWC7hBy5lJhI5sG4
+        70nwBJxKkLx/sW8UYBdI5tTHyNyZZK/fK2Si0V2FEksxNPZZvUD1CtVLZELcXYG2CZINAuppMm8FlkSB
+        cSlwbwU6+A8bzrUTamBVtQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="miReportPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="miReportPQP.Text" xml:space="preserve">
+    <value>Создать отчет ПКЭ в формате MS Excel</value>
+  </data>
+  <data name="miReportGOST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportGOST.Text" xml:space="preserve">
+    <value>ГОСТ Р 53333...</value>
+  </data>
+  <data name="miReportRD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportRD.Text" xml:space="preserve">
+    <value>РД 153-340-15.501...</value>
+  </data>
+  <data name="miReportFSK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportFSK.Text" xml:space="preserve">
+    <value>отчет ФСК</value>
+  </data>
+  <data name="miReportEtPqpA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportEtPqpA.Text" xml:space="preserve">
+    <value>по форме ГОСТ 33073-2014</value>
+  </data>
+  <data name="miReportEtPqpA_v2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportEtPqpA_v2.Text" xml:space="preserve">
+    <value>по форме ГОСТ 33073-2014 (в.2)...</value>
+  </data>
+  <data name="miReportEtPqpA_v3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miReportEtPqpA_v3.Text" xml:space="preserve">
+    <value>по форме ГОСТ 33073-2014 (в.3)...</value>
+  </data>
+  <data name="miEditReportTemplates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 24</value>
+  </data>
+  <data name="miEditReportTemplates.Text" xml:space="preserve">
+    <value>Редактировать шаблоны отчетов...</value>
+  </data>
+  <data name="miToolsSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="msToolsConstraints.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIMSURBVDhPldPdS1NxHMdx/4TqrlqyWtPhptVyFFF4kSD0
+        SClJDzS16GJ2kRmZtc1pBLGLKIKgvBB7QIyKrKuKmtkkN9KsaKBb26o9eOb2c2f/wLvTZI3SxTyXh/P6
+        fD+/H+dbUlLgcQ9sYbjfwJNr6yn0TcH3v3FaOMjIl8mkuxm6UV58yL9YFjbk5AWeFRPyN3YgC2sWpxNn
+        ERELD52awk1yWE7aldo53JHF6fhpxPcThCYPcdehWhjyB4tuYs4GxM92ZfJ50lKbglsRPgvS1UaSgUb8
+        72vps67Ih+Rr95CZ60Iy6Qg1mUhOWUjHWpn7fAbJ1kC4xkTKv5/YxDZ8r43cals2H/L2/malcg+z5jqk
+        7TqCm1SMVqsZbTGR8J4kfmofIWM546UqBivWcLGqFL/LQHfz8vkAV79RmWxHTnUiz55jqEbL9Z1lRD8d
+        RYSPII3txV1XRu8GNfGJasLuKkbureWSeWX+GC97NyIn2hHRVu7UG0hMH89i8a2e1PQeZsZ3MGDRE3pX
+        ifexFnvzqoUX+fxmJVKwhbkfTYjQYUTgIKmp3cxMbiXi1RMcqcTzSIvVvAjO/ZIPruiIfFFg4ICCd2Vx
+        VMH+4QrGBjX/x7mQvi4tIU8tsY/KZI8e3ysdrn41tsVqF1qG2x0avr4w8OFpGW/61i0N50KdFmWqct7O
+        Y6uLX6Qlr60CfgHnu4my3zarvwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="msToolsConstraints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="msToolsConstraints.Text" xml:space="preserve">
+    <value>&amp;Уставки...</value>
+  </data>
+  <data name="msToolsObjectNames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="msToolsObjectNames.Text" xml:space="preserve">
+    <value>&amp;Имена объектов...</value>
+  </data>
+  <data name="msToolsDevName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="msToolsDevName.Text" xml:space="preserve">
+    <value>Имя устройства...</value>
+  </data>
+  <data name="msToolsNominalValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="msToolsNominalValues.Text" xml:space="preserve">
+    <value>&amp;Номинальные значения...</value>
+  </data>
+  <data name="msToolsDeclaredU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 24</value>
+  </data>
+  <data name="msToolsDeclaredU.Text" xml:space="preserve">
+    <value>Согласованное напряжение...</value>
+  </data>
+  <data name="msService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="msService.Text" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="msServiceLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 24</value>
+  </data>
+  <data name="msServiceLanguage.Text" xml:space="preserve">
+    <value>&amp;Язык</value>
+  </data>
+  <data name="msServiceSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF5SURBVDhPjVNLa8JAGPQPqlDBo2Kr5JQoRAT1IoqYiI/E
+        R1iLaECtYnOpRSx66MF6s6VQ6N+ZZjdGo2nEwBLYnflmvpfP5/EZxi96vT07XhjXvU2azb5gGD+M3Gwu
+        MR6/3RZsNPo+Am1157/dfkepVHI7ospUVdc/rwZoNNaoVKbutC7VRLGJQOAO4XAYsRiHXI64AivK08nJ
+        ZLI7AgRBYkRCyJlVQl6OmHz+EZHIvfVOrdNDXXQ6H/D7/RgOh/9W3nZaLj+jXp9aGKd9+hCPxz3bZgvZ
+        HOaSXirK+uBgC1EUPQMMBpZTWV6gUBghFApZWE17deTX8gxgK6dSMhKJBIrFojsNCtL1lSvIZadUdXzC
+        9Pt7sygrZs0JnM/PB0vTdpCkhVnsLaLRh3ORbDaLVmtzdZAoORgMgud5ULxrF+xJTCYlVKtWXairdFo9
+        7MUGgiBcXy5JIqa9KLrdJSNlMm1wHIdarW8OT8SsfuH27ZRlmbVKVVVP0h+zSbwrOfEegQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="msServiceSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 24</value>
+  </data>
+  <data name="msServiceSettings.Text" xml:space="preserve">
+    <value>&amp;Настройки...</value>
+  </data>
+  <data name="msHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="msHelp.Text" xml:space="preserve">
+    <value>&amp;Справка</value>
+  </data>
+  <data name="msHelpHelp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuAAA
+        DrgBakH1WwAAArxJREFUOE99k1lIVFEYxwf1raKgeqigzchM2pQoJIgepMVWLBMzC9FyIZKCiCCRHpJK
+        IoMiJJDCBytCDCJFpEUdnXEWzcmZcR1vomYuc+eO6zjz69xrZpF14OOee77v/z//bzk63TyrqV2msW2E
+        JtXaR8ReZr64v86aBbCnfxT/tJ/fl983jatX4XPHf4hautwaxidMr0BJR4An1mkKDPDCBhMB1TuNrWse
+        ElunrIEt3yD7DeSVDtIlDeJ1f8fVI3O9eIwj+QGMnWqUXyhx/5nSiDxG2wAcvAtJeWrUsEgjwLOKPrGf
+        IjCpsOeKi53ZvQwLda4+L0fjkmZIZqVnPhll8wWJS/fq+Trg5kSOHd32KnKe2jV1afmtLItr4lqhRMAf
+        oKzSPENid8n0DvmIzGwjKr2ZTclG1iUYWHHSwJLYj+gbJY1gb3YjaxPN7M604BNFbe4YJiwsDJ2z24PR
+        obD+jJnIC1a2pZqIOG9izakaSt5aNfCNpy5WxtWJczPhyXqG5FFsnSOEhISgc3QrtHR6WB1fKwgs7Egz
+        sS7RRMbtTxq44HU/iw/VsCXFxKZzDUQkVyN7FL6IbgQHB6spKPimJohMqWVjkpGoixZCzzSQccdIV984
+        u7MaCU00CmIzq+KqOX69ThR4gvf1rQQFBaErflnO5NQUD0ocLDpQxdYUIVNIjc5qIP2+Q0g2areHnxU1
+        2V9BlcFF/9AYl67mznXCLuogRoWEm3UsjKlk6VE9j4pnUrj80ClS+MiCmHJyCy1aXIvLo7ZwbhZUFdLA
+        qHB6RZCV5YffsSe1gsJSJ6EJH9gQX0FR6RfhH8cpedkVvW/u9tkHoZI4vnq1ekhSD8/LrDx+ZaNS34Fb
+        HsSjjNEilMYeO/03eJYk91YeqtlFZ5yCrFWYQ1K0/6KScg34awL/9zx/Bs3mqX3/BfwBFcFisaCFCSkA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="miFeedback.Text" xml:space="preserve">
+    <value>Обратная связь...</value>
+  </data>
+  <data name="msHelpAbout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjBJREFUOE+Fk11I
+        U2EcxpckGNLnhbDKWHYTxVZ4ERKF5aUUXnQjSAhCJV0UVEhXiWDzq3L0ZVeVWBS6ldhsiUyaBfnBILX5
+        meQamrY5W6u5OdfT89/JKM6GL/w473n/z/Oc83/PezQANIKMswU/Nt+rj9yyWWOBQRcgdNqWv9++5mnU
+        7zy9m5I0ska0f30rEzG3PFkenJ4FQovA/AKwEAB8fsAzA7RavO7MjLzD9K6XEFXAXeNS08gEEFlSjOEw
+        EI3yPgIEgsDnaaC8rKef5myyThVgeaQYhZ8hIBajhCP2C1hk2JwPaG+N93qKbFcFdL1SzF++Jg/opIZm
+        I9mrCnjeBEx+Uvr1f1O34GYL1rZ4QD3ZrwpoNAX63AyY9QJTHsA7//8mDgwDlRVOP801RK8KKDr2OL/D
+        HA719gLvnMDQKDDyEfgwBvS9ByyWYHTXjiN2ms8TnSpAPs+5k201PR3A2y7A4SBvSDdgZ++5By4NUFNH
+        8kSbKCCFBa3Z5JtyvgD6X/LJNoU7FeNB1h6QQtGQlEQBcsDW3rg42jD2DHC18PXNhNeC3Kpx1sqJQTQJ
+        T6IsyrjfMHPdWN2Moyde42aJHQZDFbK2FbtYOiPff0WX7A00T63DxVdrm5GqLcWF4w+xSVuGLRsPOmgs
+        IhmrBhzS12Veudw9mZNjQmFWNfbpKoPpaVul/3yyYdUAClLJHlL6Z9dl52Uua1KLj6QtsCa/azrREdk0
+        QeayFv+V/w34DQmVO4mBL/lmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbExchangeWithDevice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHySURBVDhPpZLLaxNRFIfnPxIXLtyIK0EXLsWNLlq6ERHM
+        ooJSRKh1UWjFR8SKFlNq0aAWqy21WB9ZGIT6qJoGmyZtnpOHbTHJZGYyM5/3zhjSSVBEL/y4DDPfd+45
+        d5ThByU6M3SvxPm7RfpvqZy8VqBnJM/RSzkOX8hy4FyWff0ZN3sDaRQJh97gZvyVw9gLm+C8xeVnTYan
+        TQbDBgNTOmdCGqdv1zlxs07f9aqb3X1LnmBnBieLnB0vcuqGV/nIUI5DAxn2/6ooq7ayqyeKMvEkyt8u
+        xwHLdjCaDg3DZs/BXpQ7jyJ/5I9fUdz3jqBNGxfWBDz7+pMnGLu/2CUo1D8TKz/mbWYEKZBpNkE3QNNt
+        qprVFnS2IOEW1Np7g56kJgRVzWarukPQ2YL8UFaXq1Bty2oN2KqJCLiybf6+hblkwIWlyDS9XcLhlQCV
+        Hwi4ibpptAXByeddM2gdPVn56sKx4hdXpG6C+t0kWzYIz3/0hng1NOcTdPbfel5MTJMuQbZksKHqTDz9
+        4BeIK8ayxFVZ3rGPXVSYXR1lJj7KUj7mwskyrBd0EvmGXyDv2JJ3LHrWdDlpT1LaFoMUx84IMFWEbwVY
+        y+nE05pfIP+ueGKD5ZV13i2niLxPsRBdYyaS4OHLVaYWuuNrQQ7jX6P87/oJ04P0Pf/pEDQAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="tsbExchangeWithDevice.Text" xml:space="preserve">
+    <value>Прочитать данные из устройства...</value>
+  </data>
+  <data name="tsbExchangeWithDevice.ToolTipText" xml:space="preserve">
+    <value>Прочитать данные из устройства...</value>
+  </data>
+  <data name="tbsSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF5SURBVDhPjVNLa8JAGPQPqlDBo2Kr5JQoRAT1IoqYiI/E
+        R1iLaECtYnOpRSx66MF6s6VQ6N+ZZjdGo2nEwBLYnflmvpfP5/EZxi96vT07XhjXvU2azb5gGD+M3Gwu
+        MR6/3RZsNPo+Am1157/dfkepVHI7ospUVdc/rwZoNNaoVKbutC7VRLGJQOAO4XAYsRiHXI64AivK08nJ
+        ZLI7AgRBYkRCyJlVQl6OmHz+EZHIvfVOrdNDXXQ6H/D7/RgOh/9W3nZaLj+jXp9aGKd9+hCPxz3bZgvZ
+        HOaSXirK+uBgC1EUPQMMBpZTWV6gUBghFApZWE17deTX8gxgK6dSMhKJBIrFojsNCtL1lSvIZadUdXzC
+        9Pt7sygrZs0JnM/PB0vTdpCkhVnsLaLRh3ORbDaLVmtzdZAoORgMgud5ULxrF+xJTCYlVKtWXairdFo9
+        7MUGgiBcXy5JIqa9KLrdJSNlMm1wHIdarW8OT8SsfuH27ZRlmbVKVVVP0h+zSbwrOfEegQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="tbsSettings.Text" xml:space="preserve">
+    <value>Настройки программы...</value>
+  </data>
+  <data name="tbsSettings.ToolTipText" xml:space="preserve">
+    <value>Настройки программы...</value>
+  </data>
+  <data name="tbsConstraints.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
+        CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAQABADASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9H9e/aw0HRfjL4K0jVrPW5bzxlDNLogj02drayxDHIrF9m2WV
+        4pW3vGXEABQ7QXd+R+G/7dXh2++LuoaZpVtrI0mbxEuhXcE2mXEMcN9LLBGJ4ZWQRKzTXKiW3LhyA04U
+        HeJb/wAYPjf4B0K9bxH4T8a/DrW70JLHLpY8SabFOPOZWkltZZZlSMu6I0sbOqSbBICJFImz/wBnvxh8
+        NNH1k+NvGHxD+Gw8WXpMttYp4isXi0MNGIySyyFZbtowEeYEhVHlRnZveb+YaGR57/bilKEklZurf3ZK
+        +qUbdVpy/ZtdPZn6usTlyot8v7yyV+fS9227W2s0kr6Wvq22f//Z
+</value>
+  </data>
+  <data name="tbsConstraints.Text" xml:space="preserve">
+    <value>Уставки...</value>
+  </data>
+  <data name="tbsConstraints.ToolTipText" xml:space="preserve">
+    <value>Уставки...</value>
+  </data>
+  <data name="tbsHelp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOvQAA
+        Dr0BR/uQrQAAArxJREFUOE99k1lIVFEYxwf1raKgeqigzchM2pQoJIgepMVWLBMzC9FyIZKCiCCRHpJK
+        IoMiJJDCBytCDCJFpEUdnXEWzcmZcR1vomYuc+eO6zjz69xrZpF14OOee77v/z//bzk63TyrqV2msW2E
+        JtXaR8ReZr64v86aBbCnfxT/tJ/fl983jatX4XPHf4hautwaxidMr0BJR4An1mkKDPDCBhMB1TuNrWse
+        ElunrIEt3yD7DeSVDtIlDeJ1f8fVI3O9eIwj+QGMnWqUXyhx/5nSiDxG2wAcvAtJeWrUsEgjwLOKPrGf
+        IjCpsOeKi53ZvQwLda4+L0fjkmZIZqVnPhll8wWJS/fq+Trg5kSOHd32KnKe2jV1afmtLItr4lqhRMAf
+        oKzSPENid8n0DvmIzGwjKr2ZTclG1iUYWHHSwJLYj+gbJY1gb3YjaxPN7M604BNFbe4YJiwsDJ2z24PR
+        obD+jJnIC1a2pZqIOG9izakaSt5aNfCNpy5WxtWJczPhyXqG5FFsnSOEhISgc3QrtHR6WB1fKwgs7Egz
+        sS7RRMbtTxq44HU/iw/VsCXFxKZzDUQkVyN7FL6IbgQHB6spKPimJohMqWVjkpGoixZCzzSQccdIV984
+        u7MaCU00CmIzq+KqOX69ThR4gvf1rQQFBaErflnO5NQUD0ocLDpQxdYUIVNIjc5qIP2+Q0g2areHnxU1
+        2V9BlcFF/9AYl67mznXCLuogRoWEm3UsjKlk6VE9j4pnUrj80ClS+MiCmHJyCy1aXIvLo7ZwbhZUFdLA
+        qHB6RZCV5YffsSe1gsJSJ6EJH9gQX0FR6RfhH8cpedkVvW/u9tkHoZI4vnq1ekhSD8/LrDx+ZaNS34Fb
+        HsSjjNEilMYeO/03eJYk91YeqtlFZ5yCrFWYQ1K0/6KScg34awL/9zx/Bs3mqX3/BfwBFcFisaCFCSkA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbsHelp.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="tbsHelp.ToolTipText" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="tsbMomentData.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbMomentData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 24</value>
+  </data>
+  <data name="tsbMomentData.Text" xml:space="preserve">
+    <value>Запрос мгновенных значений</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAACAgAAAgICAAQEAgAEBAQABkZEAAZGRkAISEhACkpKQAxMSkAMTExADo6MQA6OjoAQkI6AEJC
+        QgBKSkIASkpKAFJSSgBSUlIAWlpSAFpaWgBjY1oAY2NjAGtrYwBra2sAc3NrAHNzcwB7e3sAhIR7AAAA
+        /wAICP8AEBD/ACEh/wApKf8AOjr/AEJC/wBra/8Ac3P/AHt7/wCEhIQAjIyEAIyMjACUlJQAnJyUAJyc
+        nAClpZwAnJylAKWlpQCtraUAra2tALW1rQC1tbUAtbW9AL29vQDFxb0AjIz/AJSU/wCcnP8ApaX/AK2t
+        /wC1tf8Avb3/AMXFxQDFxc4Azs7OANbW1gDe3t4A3t7mAMXF9wDOzvcAxcX/AM7O/wDW1v8A3t7/AObm
+        5gDv7+8A5ub/AO/v/wD39/cA9/f/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AA/4AAB//gAAf/8AAP//4Af/
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EmWorkNet версия </value>
+  </data>
+</root>

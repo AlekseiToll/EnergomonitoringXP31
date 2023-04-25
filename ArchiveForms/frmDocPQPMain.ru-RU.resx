@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgFrequencyDeparture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 515</value>
+  </data>
+  <data name="pqpGraph_dF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 244</value>
+  </data>
+  <data name="pqpGraph_dF.WorldNanText" xml:space="preserve">
+    <value>Не расчитано!</value>
+  </data>
+  <data name="splitContainerFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 764</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerFreq.SplitterDistance" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="barFreqNplSt.Caption" xml:space="preserve">
+    <value>В НДП (уст.)</value>
+  </data>
+  <data name="barFreqUplSt.Caption" xml:space="preserve">
+    <value>В ПДП (уст.)</value>
+  </data>
+  <data name="barFreqNplRes.Caption" xml:space="preserve">
+    <value>В НДП (рез.)</value>
+  </data>
+  <data name="barFreqUplRes.Caption" xml:space="preserve">
+    <value>В ПДП (рез.)</value>
+  </data>
+  <data name="dgU_Deviation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 417</value>
+  </data>
+  <data name="pqpGraph_dU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 338</value>
+  </data>
+  <data name="pqpGraph_dU.WorldNanText" xml:space="preserve">
+    <value>Не расчитано!</value>
+  </data>
+  <data name="splitContainerVolt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="splitContainerVolt.SplitterDistance" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="barVoltNplSt.Caption" xml:space="preserve">
+    <value>В НДП (уст.)</value>
+  </data>
+  <data name="barVoltUplSt.Caption" xml:space="preserve">
+    <value>В ПДП (уст.)</value>
+  </data>
+  <data name="barVoltNplRes.Caption" xml:space="preserve">
+    <value>В НДП (рез.)</value>
+  </data>
+  <data name="barVoltUplRes.Caption" xml:space="preserve">
+    <value>В ПДП (рез.)</value>
+  </data>
+  <data name="dgNonSymmetry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 417</value>
+  </data>
+  <data name="pqpGraphVoltUnb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 338</value>
+  </data>
+  <data name="pqpGraphVoltUnb.WorldNanText" xml:space="preserve">
+    <value>Не расчитано!</value>
+  </data>
+  <data name="splitContainerVoltHarm0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="splitContainerVoltHarm0.SplitterDistance" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="barVoltUnbNplSt.Caption" xml:space="preserve">
+    <value>В НДП (уст.)</value>
+  </data>
+  <data name="barVoltUnbUplSt.Caption" xml:space="preserve">
+    <value>В ПДП (уст.)</value>
+  </data>
+  <data name="barVoltUnbUplRes.Caption" xml:space="preserve">
+    <value>В ПДП (рез.)</value>
+  </data>
+  <data name="dgUNonsinusoidality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 135</value>
+  </data>
+  <data name="lblPhase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 25</value>
+  </data>
+  <data name="lblPhase.Text" xml:space="preserve">
+    <value>Фазные гармоники:</value>
+  </data>
+  <data name="dgUNonsinusoidality2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 227</value>
+  </data>
+  <data name="lblInterphase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 25</value>
+  </data>
+  <data name="lblInterphase.Text" xml:space="preserve">
+    <value>Междуфазные гармоники:</value>
+  </data>
+  <data name="splitContainerVoltHarm1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 417</value>
+  </data>
+  <data name="splitContainerVoltHarm1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="pqpGraphVoltNS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 338</value>
+  </data>
+  <data name="pqpGraphVoltNS.WorldNanText" xml:space="preserve">
+    <value>Не расчитано!</value>
+  </data>
+  <data name="scVolHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="scVolHarmonics.SplitterDistance" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="barVoltNsNplSt.Caption" xml:space="preserve">
+    <value>В НДП (уст.)</value>
+  </data>
+  <data name="barVoltNsUplSt.Caption" xml:space="preserve">
+    <value>В ПДП (уст.)</value>
+  </data>
+  <data name="dgFlicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 760</value>
+  </data>
+  <data name="dgFlickerLong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>680, 760</value>
+  </data>
+  <data name="scFliker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="scFliker.SplitterDistance" type="System.Int32, mscorlib">
+    <value>406</value>
+  </data>
+  <data name="cmsDoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 92</value>
+  </data>
+  <data name="percentToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVDhPYxhGwDt5QqhXyoT/IOydMjENKgwHHil9Z7CJ
+        g4F35jRB58S+d55J/TNBGMQGiUGlGbxS+stB4lAuJkDY3l8OwUBXAMXAcol9Su4pE+4iG4gB8BkAdjqU
+        jRPg8gLY6SkTVoHYnskTdoMMBtFQbagAFEAQV0ACEdnpcENTJhpDDemAasMNQDbBQh1kEMgAEBtEg7wF
+        YuMEMKdDuaQZgC3UQU4Gey21z4WgF5CdDgNEBeJQBQwMAG9ZlR6uvyAaAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="percentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="percentToolStripMenuItem.Text" xml:space="preserve">
+    <value>Проценты</value>
+  </data>
+  <data name="percentGlToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVDhPYxhGwDt5QqhXyoT/IOydMjENKgwHHil9Z7CJ
+        g4F35jRB58S+d55J/TNBGMQGiUGlGbxS+stB4lAuJkDY3l8OwUBXAMXAcol9Su4pE+4iG4gB8BkAdjqU
+        jRPg8gLY6SkTVoHYnskTdoMMBtFQbagAFEAQV0ACEdnpcENTJhpDDemAasMNQDbBQh1kEMgAEBtEg7wF
+        YuMEMKdDuaQZgC3UQU4Gey21z4WgF5CdDgNEBeJQBQwMAG9ZlR6uvyAaAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="percentGlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="percentGlToolStripMenuItem.Text" xml:space="preserve">
+    <value>Проценты за весь интервал</value>
+  </data>
+  <data name="timeToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALmSURBVDhPZZNZT1NRFIXvXxM1GByJvikxkhg1ERUImkgi
+        KoiAGCdQUSnFARRCpAUHwCrFiaEMLaWUTtCrvYWKWDq3CJ+He43jTs7b+dY+a+19pH9rZDiCwRCi7oaL
+        mmorlRcslJ8fRN/k5JVJ5ue1/8s/l+LBA4X6Oi93GubQ64O0tHyluTnEjetuyssHOXWqh3NnTVht838L
+        +f0pmnSf0ekCorvM+LiXpaUoxSc/kEqvElqMMjLm42Grg5MlfRQVPhV3Ar9FHj1U0DUG6O11E16Osl5r
+        4mRtKMX83s3i8grBrxns7hANumEKjhkoLOzQBGy2BLdu+jAaZWKxxC84nlpVBV4PuJEXkszNp/B8TjJk
+        VbhQ8568vHv09LiQ2p4EuXtXxjEtq/CqoGPJVZYiK6pAX78Lv4C9gSROOcHkbJyWp2McOPBI5PISqb7e
+        I8JbEF4zrP2Ev0VXCIUzmoUPs3gUDbbPJphwx3gzEuDQESO5u2qRamvttLdH1MDSGQ3+El5BWUyrAn+e
+        CU8My4wWbsEJMzlbKpCqq8ZobV0i832NhPD9RQSmiMDkUBqfkqLzuZOOZ07au5x09rkZdEQZsIY5ctTE
+        5k1lSJWVFhpuz6IshIXv72ra8kIar3i261OSqbk4Vk+cUdH541SEt7YIxgGZvXmPNYGmphmqqkZF2g4N
+        Xu8cXIcTAk78godE53eTEd5MLFOnH2T7jqscPqxDslgWKT1t4l6jHaszqMFiXA4B23xxxlwxhqYjGjy+
+        TIfJR0FxN1lZZ8S2vtV2oaLCTGlpP7r7owzbFKb9Gjyqwlrn/nX4lY/TFb3k5FwWE6j+vYl2e0isaDdF
+        xS+4dGWIx53j9I8oatotbV66hOf65o8cK3lOztbLbMk+i9k8/fd/sFqDlJQYyM/Xc/Bgm1jXl6rA8aIB
+        9ue3s3PnNTaKZ+fm1vwP/1kG4xRlZc/Ys/sK27ZeJDv7HPv2NVBz6QVd3ZP/gJL0A/MQyPN2+RwYAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="timeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="timeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="numberToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsOAAALDgFAvuFBAAAAuklE
+        QVQ4T62SwQ2DMAxFs0JXYAVW6Il7N6hYoStw7JUVukJXYAVW6AquH4olN1iCKD286MfY34lDEpEmwmAN
+        YbCGNNyfno/SBfqmrIooc47tDEimCH1VKEBfFOJToXcGdHlnPTr9UOjMd/YYb+ZmgCsJEXR6ZW0GS953
+        5QlIpDOa7qatoDToSwOOxd3RfoCHBn+5gp86iTZAOByiJdn7eg2nnpECCtF+mAbd6cpJfn8klhbCYA1h
+        8DySvkQ9OHyFAumMAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="numberToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="numberToolStripMenuItem.Text" xml:space="preserve">
+    <value>Число отсчетов</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1099, 790</value>
+  </data>
+  <data name="tabFrequencyDeparture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 764</value>
+  </data>
+  <data name="tabFrequencyDeparture.Text" xml:space="preserve">
+    <value>Отклонение частоты (∆f)</value>
+  </data>
+  <data name="tabDips.Text" xml:space="preserve">
+    <value>Провалы и перенапряжения</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="lblDips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 25</value>
+  </data>
+  <data name="lblDips.Text" xml:space="preserve">
+    <value>Провалы:</value>
+  </data>
+  <data name="lblSwells.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 190</value>
+  </data>
+  <data name="lblSwells.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 25</value>
+  </data>
+  <data name="lblSwells.Text" xml:space="preserve">
+    <value>Перенапряжения:</value>
+  </data>
+  <data name="dgOvers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 219</value>
+  </data>
+  <data name="dgOvers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 157</value>
+  </data>
+  <data name="lblSwells2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 570</value>
+  </data>
+  <data name="lblSwells2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 25</value>
+  </data>
+  <data name="lblSwells2.Text" xml:space="preserve">
+    <value>Перенапряжения:</value>
+  </data>
+  <data name="dgDips2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 409</value>
+  </data>
+  <data name="dgDips2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 157</value>
+  </data>
+  <data name="dgOvers2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 599</value>
+  </data>
+  <data name="dgOvers2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 157</value>
+  </data>
+  <data name="dgDips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 157</value>
+  </data>
+  <data name="lblDips2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 380</value>
+  </data>
+  <data name="lblDips2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 25</value>
+  </data>
+  <data name="lblDips2.Text" xml:space="preserve">
+    <value>Провалы:</value>
+  </data>
+  <data name="tabFValues.Text" xml:space="preserve">
+    <value>∆f (значения)</value>
+  </data>
+  <data name="dgFValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="tabU_Deviation.Text" xml:space="preserve">
+    <value>Отклонение напряжения (δU)</value>
+  </data>
+  <data name="tabVolValues.Text" xml:space="preserve">
+    <value>δU (значения)</value>
+  </data>
+  <data name="dgVolValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="tabVoltageNnbalance.Text" xml:space="preserve">
+    <value>Несимметрия напряжений</value>
+  </data>
+  <data name="tabVoltageNonsinusoidality.Text" xml:space="preserve">
+    <value>Несинусоидальность напряжения</value>
+  </data>
+  <data name="tabInterharm.Text" xml:space="preserve">
+    <value>Интергармоники</value>
+  </data>
+  <data name="dgInterharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="tabFlickerNum.Text" xml:space="preserve">
+    <value>Фликер</value>
+  </data>
+  <data name="dgFlickerNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="tabFliker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1091, 760</value>
+  </data>
+  <data name="tabFliker.Text" xml:space="preserve">
+    <value>Фликер (значения)</value>
+  </data>
+  <data name="lbl_EPI_Caption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 25</value>
+  </data>
+  <data name="lbl_EPI_Caption.Text" xml:space="preserve">
+    <value>Показатели качества энергии</value>
+  </data>
+  <data name="btnMaxMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 0</value>
+  </data>
+  <data name="btnMaxMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 27</value>
+  </data>
+  <data name="btnMaxMode.Text" xml:space="preserve">
+    <value>Режим наиб. нагрузок</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+</root>

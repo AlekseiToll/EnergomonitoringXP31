@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F8E0F13F-33FD-4FC6-8F80-889959415259}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>EmWorkNet</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EnergomonitoringXP</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/EnergomonitoringXP/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\EmWorkNet.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>1591</NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <FxCopRules>+!Microsoft.Design#CA1012;+!Microsoft.Design#CA2210;+!Microsoft.Design#CA1040;+!Microsoft.Design#CA1005;+!Microsoft.Design#CA1020;+!Microsoft.Design#CA1021;+!Microsoft.Design#CA1010;+!Microsoft.Design#CA1011;+!Microsoft.Design#CA1009;+!Microsoft.Design#CA1050;+!Microsoft.Design#CA1026;+!Microsoft.Design#CA1019;+!Microsoft.Design#CA1031;+!Microsoft.Design#CA1047;+!Microsoft.Design#CA1000;+!Microsoft.Design#CA1048;+!Microsoft.Design#CA1051;+!Microsoft.Design#CA1002;+!Microsoft.Design#CA1061;+!Microsoft.Design#CA1006;+!Microsoft.Design#CA1046;+!Microsoft.Design#CA1045;+!Microsoft.Design#CA1038;+!Microsoft.Design#CA1008;+!Microsoft.Design#CA1028;+!Microsoft.Design#CA1004;+!Microsoft.Design#CA1035;+!Microsoft.Design#CA1032;+!Microsoft.Design#CA1023;+!Microsoft.Design#CA1033;+!Microsoft.Design#CA1039;+!Microsoft.Design#CA1016;+!Microsoft.Design#CA1014;+!Microsoft.Design#CA1017;+!Microsoft.Design#CA1018;+!Microsoft.Design#CA1027;+!Microsoft.Design#CA1059;+!Microsoft.Design#CA1060;+!Microsoft.Design#CA1034;+!Microsoft.Design#CA1036;+!Microsoft.Design#CA1013;+!Microsoft.Design#CA1044;+!Microsoft.Design#CA1041;+!Microsoft.Design#CA1025;+!Microsoft.Design#CA1052;+!Microsoft.Design#CA1053;+!Microsoft.Design#CA1057;+!Microsoft.Design#CA1058;+!Microsoft.Design#CA1001;+!Microsoft.Design#CA1049;+!Microsoft.Design#CA1054;+!Microsoft.Design#CA1056;+!Microsoft.Design#CA1055;+!Microsoft.Design#CA1030;+!Microsoft.Design#CA1003;+!Microsoft.Design#CA1007;+!Microsoft.Design#CA1043;+!Microsoft.Design#CA1024;+!Microsoft.Design#CA1062</FxCopRules>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>/debug:full</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'QuickRun|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\QuickRun\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>bin\Debug\EmWorkNet.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Installs|AnyCPU' ">
+    <OutputPath>bin\Installs\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_|AnyCPU'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\App.ico" />
+    <None Include="app.config" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="ArchiveForms\ArchiveInfo.cs" />
+    <Compile Include="ArchiveForms\frmMomentDataEtPQP_A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmMomentDataEtPQP_A.Designer.cs">
+      <DependentUpon>frmMomentDataEtPQP_A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeViewBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeViewEM32.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeViewEM33T.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeViewETPQP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeViewETPQP_A.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AutoDialThread.cs" />
+    <Compile Include="AVGDataGridWrapper.cs" />
+    <Compile Include="CalendarCell.cs" />
+    <Compile Include="CalendarColumn.cs" />
+    <Compile Include="CalendarEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DockContentGraphMethods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeclaredU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeclaredU.Designer.cs">
+      <DependentUpon>frmDeclaredU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPeakLoadTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPeakLoadTime.Designer.cs">
+      <DependentUpon>frmPeakLoadTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemperatureReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemperatureReport.Designer.cs">
+      <DependentUpon>frmTemperatureReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceForms\frmAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmAboutBox.Designer.cs">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNewFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewFolder.Designer.cs">
+      <DependentUpon>frmAddNewFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveTree\ArchiveTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="emstrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="emstrings.ru-RU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.ru-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAvgPages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAvgPages.Designer.cs">
+      <DependentUpon>frmAvgPages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConstraintsLoadDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConstraintsLoadDetails.Designer.cs">
+      <DependentUpon>frmConstraintsLoadDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeviceName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeviceName.Designer.cs">
+      <DependentUpon>frmDeviceName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocAVG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocDNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocDNSGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocDNSGraph.Designer.cs">
+      <DependentUpon>frmDocDNSGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocFlikGraphBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocFPQPGraphBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocPQP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocPQPUValGraphBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocPQPMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocAVGMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocDNSMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocAVGGraphBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocAVGGraphRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocAVGGraphRight.Designer.cs">
+      <DependentUpon>frmDocAVGGraphRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveForms\frmDocPQPUValGraphBottom_PQP_A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmEventJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmEventJournal.Designer.cs">
+      <DependentUpon>frmEventJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmMessage.Designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveForms\frmMomentData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmMomentData.Designer.cs">
+      <DependentUpon>frmMomentData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceForms\frmNewSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceForms\frmNewSoftware.designer.cs">
+      <DependentUpon>frmNewSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNominalsAndTimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNominalsAndTimes.Designer.cs">
+      <DependentUpon>frmNominalsAndTimes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObjectNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObjectNames.Designer.cs">
+      <DependentUpon>frmObjectNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportTemplates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportTemplates.Designer.cs">
+      <DependentUpon>frmReportTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveForms\frmSeparatedGraphs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchiveForms\frmSeparatedGraphs.Designer.cs">
+      <DependentUpon>frmSeparatedGraphs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptionsDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptionsEm32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptionsFld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPgServerAddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPgServerAddNew.Designer.cs">
+      <DependentUpon>frmPgServerAddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPgServers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPgServers.Designer.cs">
+      <DependentUpon>frmPgServers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveTree\frmToolbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConstraints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConstraints.Designer.cs">
+      <DependentUpon>frmConstraints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphColors.cs" />
+    <Compile Include="MessageBoxes.cs" />
+    <Compile Include="param_strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>param_strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="param_strings.ru-Ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>param_strings.ru-Ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="pgServerNode.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewDragHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ArchiveForms\frmMomentData.ru-RU.resx">
+      <DependentUpon>frmMomentData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmMomentDataEtPQP_A.resx">
+      <DependentUpon>frmMomentDataEtPQP_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmMomentDataEtPQP_A.ru-RU.resx">
+      <DependentUpon>frmMomentDataEtPQP_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emstrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emstrings.ru-RU.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings.ru-RU.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeclaredU.resx">
+      <DependentUpon>frmDeclaredU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeclaredU.ru-RU.resx">
+      <DependentUpon>frmDeclaredU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPeakLoadTime.resx">
+      <DependentUpon>frmPeakLoadTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPeakLoadTime.ru-RU.resx">
+      <DependentUpon>frmPeakLoadTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemperatureReport.resx">
+      <DependentUpon>frmTemperatureReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemperatureReport.ru-RU.resx">
+      <DependentUpon>frmTemperatureReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmAboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmAboutBox.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewFolder.resx">
+      <DependentUpon>frmAddNewFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewFolder.ru-RU.resx">
+      <DependentUpon>frmAddNewFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAvgPages.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAvgPages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAvgPages.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAvgPages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstraints.ru-RU.resx">
+      <DependentUpon>frmConstraints.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstraintsLoadDetails.resx">
+      <DependentUpon>frmConstraintsLoadDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstraintsLoadDetails.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConstraintsLoadDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeviceName.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeviceName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeviceName.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeviceName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVG.resx">
+      <DependentUpon>frmDocAVG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVG.ru-RU.resx">
+      <DependentUpon>frmDocAVG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNS.resx">
+      <DependentUpon>frmDocDNS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNS.ru-RU.resx">
+      <DependentUpon>frmDocDNS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNSGraph.resx">
+      <DependentUpon>frmDocDNSGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNSGraph.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDocDNSGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocFlikGraphBottom.resx">
+      <DependentUpon>frmDocFlikGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocFlikGraphBottom.ru-RU.resx">
+      <DependentUpon>frmDocFlikGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocFPQPGraphBottom.resx">
+      <DependentUpon>frmDocFPQPGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocFPQPGraphBottom.ru-RU.resx">
+      <DependentUpon>frmDocFPQPGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQP.resx">
+      <DependentUpon>frmDocPQP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQP.ru-RU.resx">
+      <DependentUpon>frmDocPQP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPUValGraphBottom.resx">
+      <DependentUpon>frmDocPQPUValGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPUValGraphBottom.ru-RU.resx">
+      <DependentUpon>frmDocPQPUValGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPMain.resx">
+      <DependentUpon>frmDocPQPMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPMain.ru-RU.resx">
+      <DependentUpon>frmDocPQPMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGMain.resx">
+      <DependentUpon>frmDocAVGMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGMain.ru-RU.resx">
+      <DependentUpon>frmDocAVGMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNSMain.resx">
+      <DependentUpon>frmDocDNSMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocDNSMain.ru-RU.resx">
+      <DependentUpon>frmDocDNSMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGGraphBottom.resx">
+      <DependentUpon>frmDocAVGGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGGraphBottom.ru-RU.resx">
+      <DependentUpon>frmDocAVGGraphBottom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGGraphRight.resx">
+      <DependentUpon>frmDocAVGGraphRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocAVGGraphRight.ru-RU.resx">
+      <DependentUpon>frmDocAVGGraphRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPMain.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDocPQPMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPMain.sms-FI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDocPQPMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPUValGraphBottom_PQP_A.resx">
+      <DependentUpon>frmDocPQPUValGraphBottom_PQP_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmDocPQPUValGraphBottom_PQP_A.ru-RU.resx">
+      <DependentUpon>frmDocPQPUValGraphBottom_PQP_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmEventJournal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmEventJournal.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.ru-RU.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmMomentData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMomentData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmMomentData.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMomentData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmNewSoftware.resx">
+      <DependentUpon>frmNewSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceForms\frmNewSoftware.ru-RU.resx">
+      <DependentUpon>frmNewSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNominalsAndTimes.resx">
+      <DependentUpon>frmNominalsAndTimes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNominalsAndTimes.ru-RU.resx">
+      <DependentUpon>frmNominalsAndTimes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObjectNames.resx">
+      <DependentUpon>frmObjectNames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObjectNames.ru-RU.resx">
+      <DependentUpon>frmObjectNames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsEm32.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptionsEm32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportTemplates.resx">
+      <DependentUpon>frmReportTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportTemplates.ru-RU.resx">
+      <DependentUpon>frmReportTemplates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmSeparatedGraphs.resx">
+      <DependentUpon>frmSeparatedGraphs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveForms\frmSeparatedGraphs.ru-RU.resx">
+      <DependentUpon>frmSeparatedGraphs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.ru-RU.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.ru.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsDb.resx">
+      <DependentUpon>frmOptionsDb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsDb.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptionsDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsEm32.resx">
+      <DependentUpon>frmOptionsEm32.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsEm32.ru-RU.resx">
+      <DependentUpon>frmOptionsEm32.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsFld.resx">
+      <DependentUpon>frmOptionsFld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptionsFld.ru-RU.resx">
+      <DependentUpon>frmOptionsFld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPgServerAddNew.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPgServerAddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPgServerAddNew.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPgServerAddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPgServers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPgServers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPgServers.ru-RU.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPgServers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveTree\frmToolbox.resx">
+      <DependentUpon>frmToolbox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstraints.resx">
+      <DependentUpon>frmConstraints.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchiveTree\frmToolbox.ru-RU.resx">
+      <DependentUpon>frmToolbox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="param_strings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>param_strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="param_strings.ru-Ru.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>param_strings.ru-Ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DataGridColumnStyles\DataGridColumnStyles.csproj">
+      <Project>{0D1756DE-7632-4882-A309-54E422EAF350}</Project>
+      <Name>DataGridColumnStyles</Name>
+    </ProjectReference>
+    <ProjectReference Include="DbServiceLib\DbServiceLib.csproj">
+      <Project>{D1C2A389-7F49-4194-9FEF-25BD8A2A2F41}</Project>
+      <Name>DbServiceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmArchiveTree\EmArchiveTree.csproj">
+      <Project>{60C49F8C-2D40-4606-A8BA-DCD45DED4DF0}</Project>
+      <Name>EmArchiveTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmDataSaver\EmDataSaver.csproj">
+      <Project>{098971E0-3A0A-4EC2-A67E-468002E83DE4}</Project>
+      <Name>EmDataSaver</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmService\EmService.csproj">
+      <Project>{0CA7EBD3-A24E-4D19-9001-214C81ADAC51}</Project>
+      <Name>EmService</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmWorkNetLicences\EmWorkNetLicences.csproj">
+      <Project>{CEC9A1C4-A14C-4C21-A0A8-E9FA812D97F6}</Project>
+      <Name>EmWorkNetLicences</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExportToExcel\ExportToExcel.csproj">
+      <Project>{20A0A526-729F-4895-9D0F-8026AF1BA03B}</Project>
+      <Name>ExportToExcel</Name>
+    </ProjectReference>
+    <ProjectReference Include="FTPClient\FTPClient.csproj">
+      <Project>{BA829AF7-71AD-4933-95CB-3A21CC6768B0}</Project>
+      <Name>FTPClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="NPlot\NPlot.csproj">
+      <Project>{E6867FF5-74EC-4464-8958-D71CB46232F3}</Project>
+      <Name>NPlot</Name>
+    </ProjectReference>
+    <ProjectReference Include="ZedGraph\ZedGraph.csproj">
+      <Project>{998CE547-E905-4931-91B6-5E0439177E7E}</Project>
+      <Name>ZedGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmGraphLib\EmGraphLib.csproj">
+      <Project>{62A91BE2-C885-4701-AD0A-C1DA6324BBD4}</Project>
+      <Name>EmGraphLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="DeviceIO\DeviceIO.csproj">
+      <Project>{DF98EC72-E98B-4E25-9B0A-71DB44DEF54A}</Project>
+      <Name>DeviceIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="WinFormsUI\WinFormsUI.csproj">
+      <Project>{D3C782BA-178E-4235-A3BA-8C11DEBB6BEE}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="XML.Excel\XML.Excel.csproj">
+      <Project>{EDFAEF62-129E-47BF-89B2-DDDFC72C669E}</Project>
+      <Name>XML.Excel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>IF "$(ConfigurationName)" NEQ "Debug" (
+  COPY "$(SolutionDir)bin\Debug\EmUsb.dll" "$(TargetDir)"
+)
+
+IF NOT EXIST "$(TargetDir)doc" MKDIR "$(TargetDir)doc"
+COPY /Y  "$(SolutionDir)doc" "$(TargetDir)doc"
+
+IF NOT EXIST "$(TargetDir)templates" MKDIR "$(TargetDir)templates"
+COPY /Y  "$(SolutionDir)templates" "$(TargetDir)templates"
+
+
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

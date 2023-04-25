@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my Int64 string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtMaxRegime2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConstrType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConstrType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNomIph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNomIph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDeviceInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNominalLinVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNominalPhVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNominalPhVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNominalFrequency.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNominalFrequency.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNominalLinVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConnectionScheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConnectionScheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaxRegime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaxRegime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbDbOptions.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pbDatabase.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="pbDatabase.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCTurnRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCTurnRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCNumbers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCNumbers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCGradeOfOccuracy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCGradeOfOccuracy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCSecondaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCSecondaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCPrimaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCPrimaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grbCurrentTransformer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCurrentTrPresent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVNumbers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVNumbers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVGradeOfOccuracy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVGradeOfOccuracy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVSecondaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVSecondaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVPrimaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVPrimaryWinding.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVTurnRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVTurnRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grbVoltageTransformer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVoltageTrPresent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnergyQualityRations.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblADConverterValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDipsAndOvervoltages.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageValuesTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblADConverterValuesTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnergyQualityRationsTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnJournal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtComment.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComment.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

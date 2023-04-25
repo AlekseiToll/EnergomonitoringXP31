@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my Int64 string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabVoltages.Text" xml:space="preserve">
+    <value>Измерения</value>
+  </data>
+  <data name="tabPowers.Text" xml:space="preserve">
+    <value>Мощности</value>
+  </data>
+  <data name="tabPQP.Text" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+  <data name="tabAngles.Text" xml:space="preserve">
+    <value>Углы</value>
+  </data>
+  <data name="tabVoltHarm.Text" xml:space="preserve">
+    <value>Гармоники напряжения</value>
+  </data>
+  <data name="tabCurHarm.Text" xml:space="preserve">
+    <value>Гармоники тока</value>
+  </data>
+  <data name="tabHarmPowers.Text" xml:space="preserve">
+    <value>Мощности гармоник</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tcMomentData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
+  </data>
+  <data name="gbTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 352</value>
+  </data>
+  <data name="gbTemperature.Text" xml:space="preserve">
+    <value>Температура</value>
+  </data>
+  <data name="gbI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 324</value>
+  </data>
+  <data name="gbI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 110</value>
+  </data>
+  <data name="gbI.Text" xml:space="preserve">
+    <value>Ток</value>
+  </data>
+  <data name="labelCI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 15</value>
+  </data>
+  <data name="labelBI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 15</value>
+  </data>
+  <data name="labelAI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 16</value>
+  </data>
+  <data name="labelIav.Text" xml:space="preserve">
+    <value>Iср, А</value>
+  </data>
+  <data name="gbUl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 190</value>
+  </data>
+  <data name="gbUl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 107</value>
+  </data>
+  <data name="gbUl.Text" xml:space="preserve">
+    <value>Линейное напряжение</value>
+  </data>
+  <data name="labelCl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 15</value>
+  </data>
+  <data name="labelBl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 15</value>
+  </data>
+  <data name="labelAl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 15</value>
+  </data>
+  <data name="labelUavl.Text" xml:space="preserve">
+    <value>Uср, В</value>
+  </data>
+  <data name="labelUl.Text" xml:space="preserve">
+    <value>U, В</value>
+  </data>
+  <data name="gbU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 56</value>
+  </data>
+  <data name="gbU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 107</value>
+  </data>
+  <data name="gbU.Text" xml:space="preserve">
+    <value>Фазное напряжение</value>
+  </data>
+  <data name="labelC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 16</value>
+  </data>
+  <data name="labelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 16</value>
+  </data>
+  <data name="labelA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 16</value>
+  </data>
+  <data name="labelUav.Text" xml:space="preserve">
+    <value>Uср, В</value>
+  </data>
+  <data name="labelU.Text" xml:space="preserve">
+    <value>U, В</value>
+  </data>
+  <data name="labelF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="labelF.Text" xml:space="preserve">
+    <value>F, Гц</value>
+  </data>
+  <data name="gbPower2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 38</value>
+  </data>
+  <data name="gbPower2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 88</value>
+  </data>
+  <data name="tbUI0new.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 48</value>
+  </data>
+  <data name="tbUI2new.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 48</value>
+  </data>
+  <data name="tbUI1new.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 45</value>
+  </data>
+  <data name="labelUI0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 51</value>
+  </data>
+  <data name="labelUI0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="labelUI0.Text" xml:space="preserve">
+    <value>UI0, град</value>
+  </data>
+  <data name="labelUI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 51</value>
+  </data>
+  <data name="labelUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="labelUI2.Text" xml:space="preserve">
+    <value>UI2, град</value>
+  </data>
+  <data name="labelUI1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 48</value>
+  </data>
+  <data name="labelUI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="labelUI1.Text" xml:space="preserve">
+    <value>UI1, град</value>
+  </data>
+  <data name="tbP0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 19</value>
+  </data>
+  <data name="labelP0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 22</value>
+  </data>
+  <data name="labelP0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP0.Text" xml:space="preserve">
+    <value>P0, Вт</value>
+  </data>
+  <data name="tbP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 19</value>
+  </data>
+  <data name="labelP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 22</value>
+  </data>
+  <data name="labelP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP2.Text" xml:space="preserve">
+    <value>P2, Вт</value>
+  </data>
+  <data name="tbP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="labelP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="labelP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelP1.Text" xml:space="preserve">
+    <value>P1, Вт</value>
+  </data>
+  <data name="gbPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 157</value>
+  </data>
+  <data name="gbPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 151</value>
+  </data>
+  <data name="labelPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 16</value>
+  </data>
+  <data name="labelPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="labelPAA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 16</value>
+  </data>
+  <data name="labelPFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="labelPFull.Text" xml:space="preserve">
+    <value>S, Вт</value>
+  </data>
+  <data name="labelPr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelPr.Text" xml:space="preserve">
+    <value>Q, вар</value>
+  </data>
+  <data name="labelPa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="labelPa.Text" xml:space="preserve">
+    <value>P, Вт</value>
+  </data>
+  <data name="gbNominals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 21</value>
+  </data>
+  <data name="gbNominals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 136</value>
+  </data>
+  <data name="gbNominals.Text" xml:space="preserve">
+    <value>Номинальные значения</value>
+  </data>
+  <data name="labelINomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 100</value>
+  </data>
+  <data name="labelINomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labelINomPh.Text" xml:space="preserve">
+    <value>I ном ф, A</value>
+  </data>
+  <data name="labelUNomLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="labelUNomLin.Text" xml:space="preserve">
+    <value>U ном лин, В</value>
+  </data>
+  <data name="labelUNomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 48</value>
+  </data>
+  <data name="labelUNomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="labelUNomPh.Text" xml:space="preserve">
+    <value>U ном ф, В</value>
+  </data>
+  <data name="labelFNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 22</value>
+  </data>
+  <data name="labelFNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="labelFNom.Text" xml:space="preserve">
+    <value>F ном, Гц</value>
+  </data>
+  <data name="tbINomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 97</value>
+  </data>
+  <data name="tbUNomLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 71</value>
+  </data>
+  <data name="tbUNomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="tbFNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 19</value>
+  </data>
+  <data name="gbFlikker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 82</value>
+  </data>
+  <data name="gbFlikker.Text" xml:space="preserve">
+    <value>Фликер</value>
+  </data>
+  <data name="labelI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 82</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelI2.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="labelI0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 83</value>
+  </data>
+  <data name="labelI0.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="labelI1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 82</value>
+  </data>
+  <data name="labelI1_2.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="tbI0.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="tbI1.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="tbI2.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="labelU0.Text" xml:space="preserve">
+    <value>U0, В</value>
+  </data>
+  <data name="labelU2.Text" xml:space="preserve">
+    <value>U2, В</value>
+  </data>
+  <data name="labelU1_2.Text" xml:space="preserve">
+    <value>U1, В</value>
+  </data>
+  <data name="tbdU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 34</value>
+  </data>
+  <data name="labeldU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 37</value>
+  </data>
+  <data name="labeldU.Text" xml:space="preserve">
+    <value>dU, В</value>
+  </data>
+  <data name="gbPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 75</value>
+  </data>
+  <data name="gbPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 125</value>
+  </data>
+  <data name="labelPQPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 15</value>
+  </data>
+  <data name="labelPQPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 16</value>
+  </data>
+  <data name="labelPQPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 15</value>
+  </data>
+  <data name="labeldF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="labeldF.Text" xml:space="preserve">
+    <value>dF, Гц</value>
+  </data>
+  <data name="gbAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 101</value>
+  </data>
+  <data name="labelAIU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 69</value>
+  </data>
+  <data name="labelAIU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelAIU.Text" xml:space="preserve">
+    <value>UI, град</value>
+  </data>
+  <data name="labelAUPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="labelAUPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="labelAUPh.Text" xml:space="preserve">
+    <value>Uph, град</value>
+  </data>
+  <data name="labelAnC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 15</value>
+  </data>
+  <data name="labelAnB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 15</value>
+  </data>
+  <data name="labelAnA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 15</value>
+  </data>
+  <data name="labelU1.Text" xml:space="preserve">
+    <value>Uph(1), В</value>
+  </data>
+  <data name="labelHarmL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 13</value>
+  </data>
+  <data name="labelHarmL.Text" xml:space="preserve">
+    <value>Коэфф. гармоник линейного напряжения, %</value>
+  </data>
+  <data name="labelHarmPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 13</value>
+  </data>
+  <data name="labelHarmPh.Text" xml:space="preserve">
+    <value>Коэфф. гармоник фазного напряжения, %</value>
+  </data>
+  <data name="labelU1l.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 41</value>
+  </data>
+  <data name="labelU1l.Text" xml:space="preserve">
+    <value>Ulin(1), В</value>
+  </data>
+  <data name="labelHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="labelHarmI.Text" xml:space="preserve">
+    <value>Коэфф. гармоник тока, %</value>
+  </data>
+  <data name="labelAPHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 13</value>
+  </data>
+  <data name="labelAPHarm.Text" xml:space="preserve">
+    <value>Углы мощностей гармоник, град</value>
+  </data>
+  <data name="labelHarmPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="labelHarmPower.Text" xml:space="preserve">
+    <value>Мощности гармоник, Вт</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>880, 634</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="btnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 634</value>
+  </data>
+  <data name="btnLoad.Text" xml:space="preserve">
+    <value>Запрос</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 634</value>
+  </data>
+  <data name="gbInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 94</value>
+  </data>
+  <data name="rb30min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 58</value>
+  </data>
+  <data name="rb1min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 35</value>
+  </data>
+  <data name="rb3sec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 12</value>
+  </data>
+  <data name="gbSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 94</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelName2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 15</value>
+  </data>
+  <data name="labelName.Text" xml:space="preserve">
+    <value>Имя прибора:</value>
+  </data>
+  <data name="labelScheme2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 37</value>
+  </data>
+  <data name="labelSerial2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 14</value>
+  </data>
+  <data name="labelScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 15</value>
+  </data>
+  <data name="labelScheme.Text" xml:space="preserve">
+    <value>Схема подключения:</value>
+  </data>
+  <data name="labelSerial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 15</value>
+  </data>
+  <data name="labelSerial.Text" xml:space="preserve">
+    <value>Серийный номер:</value>
+  </data>
+  <data name="btnExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 634</value>
+  </data>
+  <data name="btnExport.Text" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>976, 667</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Мгновенные значения</value>
+  </data>
+</root>

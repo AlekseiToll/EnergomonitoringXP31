@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentProperties">
+    <value xml:space="preserve"> &lt;DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"&gt;
+  &lt;Title&gt;{0}&lt;/Title&gt;
+  &lt;Subject&gt;{1}&lt;/Subject&gt;
+  &lt;Author&gt;{2}&lt;/Author&gt;
+  &lt;LastAuthor&gt;{3}&lt;/LastAuthor&gt;
+  &lt;Created&gt;{4}&lt;/Created&gt;
+  &lt;Company&gt;{5}&lt;/Company&gt;
+  &lt;Version&gt;{6}&lt;/Version&gt;
+ &lt;/DocumentProperties&gt;</value>
+  </data>
+  <data name="Styles">
+    <value xml:space="preserve"> &lt;Styles&gt;
+  &lt;Style ss:ID="Default" ss:Name="Normal"&gt;
+   &lt;Alignment ss:Vertical="Bottom"/&gt;
+   &lt;Borders/&gt;
+   &lt;Font ss:FontName="Arial Cyr" x:CharSet="204"/&gt;
+   &lt;Interior/&gt;
+   &lt;NumberFormat/&gt;
+   &lt;Protection/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmHeader"&gt;   
+   &lt;Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{0}" ss:Size="{1}"
+    ss:Color="#000000" ss:Bold="{2}" ss:Italic="{3}"/&gt;
+   &lt;Interior ss:Color="#{4}" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmParamName"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmEventDatetime"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="DD.MM.YY hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumber"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberPhA"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFF99" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberPhB"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberPhC"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCC99" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberCommon"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberRes"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmNumberSt"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCCCC" ss:Pattern="Solid"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercent"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentPhA"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFF99" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentPhB"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentPhC"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCC99" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentCommon"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentRes"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmPercentSt"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCCCC" ss:Pattern="Solid"/&gt;
+    &lt;NumberFormat ss:Format="0.0000%"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespan"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanPhA"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFFF99" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanPhB"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanPhC"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCC99" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanCommon"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanRes"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/&gt;
+   &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+  &lt;Style ss:ID="EmTimespanSt"&gt;
+   &lt;Borders&gt;
+    &lt;Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+    &lt;Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/&gt;
+   &lt;/Borders&gt;
+   &lt;Font ss:FontName="{5}" ss:Size="{6}"
+    ss:Color="#000000" ss:Bold="{7}" ss:Italic="{8}"/&gt;
+   &lt;Interior ss:Color="#FFCCCC" ss:Pattern="Solid"/&gt;
+    &lt;NumberFormat ss:Format="hh:mm:ss"/&gt;
+  &lt;/Style&gt;
+ &lt;/Styles&gt;</value>
+  </data>
+  <data name="WorkbookFooter">
+    <value xml:space="preserve">&lt;/Workbook&gt;
+</value>
+  </data>
+  <data name="WorkbookHeader">
+    <value xml:space="preserve">&lt;?xml version="1.0"?&gt;
+&lt;?mso-application progid="Excel.Sheet"?&gt;
+&lt;Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"&gt;</value>
+  </data>
+  <data name="WorksheetOptions">
+    <value xml:space="preserve">&lt;WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"&gt;
+   &lt;PageSetup&gt;
+    &lt;PageMargins/&gt;
+   &lt;/PageSetup&gt;
+   &lt;Selected/&gt;
+   &lt;ProtectObjects&gt;False&lt;/ProtectObjects&gt;
+   &lt;ProtectScenarios&gt;False&lt;/ProtectScenarios&gt;
+  &lt;/WorksheetOptions&gt;</value>
+  </data>
+</root>

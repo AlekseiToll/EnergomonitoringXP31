@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbIBav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 88</value>
+  </data>
+  <data name="tbIBav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbICav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 87</value>
+  </data>
+  <data name="tbICav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIAav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 53</value>
+  </data>
+  <data name="tbIB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 52</value>
+  </data>
+  <data name="tbIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 126</value>
+  </data>
+  <data name="tbUBavl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 84</value>
+  </data>
+  <data name="tbUBavl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUCavl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 84</value>
+  </data>
+  <data name="tbUCavl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUAavl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUBl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 52</value>
+  </data>
+  <data name="tbUBl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUCl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 52</value>
+  </data>
+  <data name="tbUCl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUAl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbUl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 126</value>
+  </data>
+  <data name="tbUBav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 87</value>
+  </data>
+  <data name="tbUBav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUCav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 87</value>
+  </data>
+  <data name="tbUCav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUAav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 52</value>
+  </data>
+  <data name="tbUB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 52</value>
+  </data>
+  <data name="tbUC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 126</value>
+  </data>
+  <data name="labelF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="tabVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="tbUI0new.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 48</value>
+  </data>
+  <data name="tbUI0new.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUI2new.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUI1new.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelUI0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="labelUI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="labelUI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="tbP0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 19</value>
+  </data>
+  <data name="tbP0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelP0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="tbP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="tbP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="tbKPSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 149</value>
+  </data>
+  <data name="tbKPSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPFullSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPrSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPaSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPFullB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 116</value>
+  </data>
+  <data name="tbPFullB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPFullC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 116</value>
+  </data>
+  <data name="tbPFullC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPFullA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 116</value>
+  </data>
+  <data name="tbPFullA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="labelPFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="tbKPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 149</value>
+  </data>
+  <data name="tbKPB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbKPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 149</value>
+  </data>
+  <data name="tbKPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbKPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 149</value>
+  </data>
+  <data name="tbKPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPrB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 84</value>
+  </data>
+  <data name="tbPrB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPrC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 84</value>
+  </data>
+  <data name="tbPrC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPrA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 84</value>
+  </data>
+  <data name="tbPrA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="labelPr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="tbPaB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 52</value>
+  </data>
+  <data name="tbPaB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPaC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 52</value>
+  </data>
+  <data name="tbPaC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="tbPaA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 52</value>
+  </data>
+  <data name="tbPaA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="labelPa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="gbPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 192</value>
+  </data>
+  <data name="tabPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="labelINomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 122</value>
+  </data>
+  <data name="labelINomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="labelUNomLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 91</value>
+  </data>
+  <data name="labelUNomLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="labelUNomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 60</value>
+  </data>
+  <data name="labelUNomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="labelFNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 29</value>
+  </data>
+  <data name="labelFNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="tbINomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 120</value>
+  </data>
+  <data name="tbINomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUNomLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 89</value>
+  </data>
+  <data name="tbUNomLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUNomPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 58</value>
+  </data>
+  <data name="tbUNomPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbFNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 27</value>
+  </data>
+  <data name="tbFNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbNominals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 21</value>
+  </data>
+  <data name="gbNominals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 156</value>
+  </data>
+  <data name="labelFlikC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 20</value>
+  </data>
+  <data name="labelFlikB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 20</value>
+  </data>
+  <data name="labelFlikA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="tbFlikB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 51</value>
+  </data>
+  <data name="tbFlikB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbFlikC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 51</value>
+  </data>
+  <data name="tbFlikC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbFlikA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 51</value>
+  </data>
+  <data name="tbFlikA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbFlikker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 366</value>
+  </data>
+  <data name="gbFlikker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 82</value>
+  </data>
+  <data name="labelI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 100</value>
+  </data>
+  <data name="labelI0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 100</value>
+  </data>
+  <data name="labelI1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 100</value>
+  </data>
+  <data name="tbI0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 98</value>
+  </data>
+  <data name="tbI0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbI2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 98</value>
+  </data>
+  <data name="tbI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbKU0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 66</value>
+  </data>
+  <data name="tbKU0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelKU0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 68</value>
+  </data>
+  <data name="tbKU2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 66</value>
+  </data>
+  <data name="tbKU2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelKU2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 68</value>
+  </data>
+  <data name="tbdUPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labeldUPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 68</value>
+  </data>
+  <data name="tbU0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 34</value>
+  </data>
+  <data name="tbU0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelU0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 36</value>
+  </data>
+  <data name="tbU2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 34</value>
+  </data>
+  <data name="tbU2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelU2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 38</value>
+  </data>
+  <data name="tbU1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="gbPQP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 225</value>
+  </data>
+  <data name="gbPQP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 133</value>
+  </data>
+  <data name="tbdU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="tbdU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labeldU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 33</value>
+  </data>
+  <data name="tbdIB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 113</value>
+  </data>
+  <data name="tbdIB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdIC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 111</value>
+  </data>
+  <data name="tbdIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdIA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUBl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 81</value>
+  </data>
+  <data name="tbdUBl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUCl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 79</value>
+  </data>
+  <data name="tbdUCl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUAl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 49</value>
+  </data>
+  <data name="tbdUB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 47</value>
+  </data>
+  <data name="tbdUC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbdUA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelPQPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <data name="gbPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 62</value>
+  </data>
+  <data name="gbPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 155</value>
+  </data>
+  <data name="tbdF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 31</value>
+  </data>
+  <data name="tbdF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labeldF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 35</value>
+  </data>
+  <data name="labeldF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="tabPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="tbUB1diag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 85</value>
+  </data>
+  <data name="tbUB1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUC1diag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 83</value>
+  </data>
+  <data name="tbUC1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbUA1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIB1diag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 51</value>
+  </data>
+  <data name="tbIB1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIC1diag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 51</value>
+  </data>
+  <data name="tbIC1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIA1diag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelCdiag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 20</value>
+  </data>
+  <data name="labelBdiag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 20</value>
+  </data>
+  <data name="labelAdiag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="gbDiag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 139</value>
+  </data>
+  <data name="radialGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 14</value>
+  </data>
+  <data name="radialGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 434</value>
+  </data>
+  <data name="tbAIUB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 81</value>
+  </data>
+  <data name="tbAIUB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbAIUC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 81</value>
+  </data>
+  <data name="tbAIUC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbAIUA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelAIU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="tbAUPhB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 49</value>
+  </data>
+  <data name="tbAUPhB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbAUPhC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 49</value>
+  </data>
+  <data name="tbAUPhC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbAUPhA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelAUPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="labelAnC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 20</value>
+  </data>
+  <data name="labelAnB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 20</value>
+  </data>
+  <data name="labelAnA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="gbAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 120</value>
+  </data>
+  <data name="tabAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="labelHarmC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 16</value>
+  </data>
+  <data name="labelHarmB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 16</value>
+  </data>
+  <data name="labelHarmA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 16</value>
+  </data>
+  <data name="tbUB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 37</value>
+  </data>
+  <data name="tbUB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbUC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 37</value>
+  </data>
+  <data name="tbUC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbUA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="tbUA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="labelU1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 37</value>
+  </data>
+  <data name="tbKuPhB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 68</value>
+  </data>
+  <data name="tbKuPhB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbKuPhC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 68</value>
+  </data>
+  <data name="tbKuPhC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbKuPhA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 68</value>
+  </data>
+  <data name="tbKuPhA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="labelKuPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 72</value>
+  </data>
+  <data name="gbHarmPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 107</value>
+  </data>
+  <data name="labelHarmL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 165</value>
+  </data>
+  <data name="labelHarmL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 17</value>
+  </data>
+  <data name="labelHarmPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 17</value>
+  </data>
+  <data name="labelKHarmC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 16</value>
+  </data>
+  <data name="labelKHarmB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 16</value>
+  </data>
+  <data name="labelKHarmA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 16</value>
+  </data>
+  <data name="tbKuLinB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 68</value>
+  </data>
+  <data name="tbKuLinB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbKuLinC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 68</value>
+  </data>
+  <data name="tbKuLinC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbKuLinA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 68</value>
+  </data>
+  <data name="tbKuLinA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="labelKuLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 72</value>
+  </data>
+  <data name="tbUB1l.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 37</value>
+  </data>
+  <data name="tbUB1l.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbUC1l.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 37</value>
+  </data>
+  <data name="tbUC1l.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tbUA1l.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 37</value>
+  </data>
+  <data name="tbUA1l.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="gbHarmLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 17</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colHarmLA.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colHarmLB.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colHarmLC.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lvHarmonicsL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 201</value>
+  </data>
+  <data name="lvHarmonicsL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 275</value>
+  </data>
+  <data name="colHarmPhA.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colHarmPhB.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colHarmPhC.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lvHarmonicsPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 275</value>
+  </data>
+  <data name="tabVoltHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="tbIB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 41</value>
+  </data>
+  <data name="tbIB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 41</value>
+  </data>
+  <data name="tbIC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbIA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="tbIA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelI1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 43</value>
+  </data>
+  <data name="labelKiC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 20</value>
+  </data>
+  <data name="labelKiB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 20</value>
+  </data>
+  <data name="labelKiA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 20</value>
+  </data>
+  <data name="tbKiB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 72</value>
+  </data>
+  <data name="tbKiB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbKiC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 72</value>
+  </data>
+  <data name="tbKiC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="tbKiA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 72</value>
+  </data>
+  <data name="tbKiA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="labelKi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 74</value>
+  </data>
+  <data name="gbKI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 14</value>
+  </data>
+  <data name="gbKI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>529, 112</value>
+  </data>
+  <data name="labelHarmI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 148</value>
+  </data>
+  <data name="labelHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="lvHarmI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 177</value>
+  </data>
+  <data name="lvHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 295</value>
+  </data>
+  <data name="tabCurHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="labelAPHarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 26</value>
+  </data>
+  <data name="labelAPHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 17</value>
+  </data>
+  <data name="colAPHarmA.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colAPHarmB.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colAPHarmC.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lvAPHarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 58</value>
+  </data>
+  <data name="lvAPHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 412</value>
+  </data>
+  <data name="labelHarmPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 17</value>
+  </data>
+  <data name="colPHarmA.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colPHarmB.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="colPHarmC.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lvPHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 412</value>
+  </data>
+  <data name="tabHarmPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 491</value>
+  </data>
+  <data name="tcMomentData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>951, 520</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 645</value>
+  </data>
+  <data name="btnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 645</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 645</value>
+  </data>
+  <data name="rb30min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
+  </data>
+  <data name="rb1min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="rb3sec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="labelName2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 62</value>
+  </data>
+  <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 62</value>
+  </data>
+  <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="labelScheme2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 39</value>
+  </data>
+  <data name="labelSerial2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 17</value>
+  </data>
+  <data name="labelScheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 39</value>
+  </data>
+  <data name="labelScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="labelSerial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSerial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="btnExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 645</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>976, 686</value>
+  </data>
+</root>

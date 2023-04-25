@@ -1,0 +1,1572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dgVolPhHarmonics.Name" xml:space="preserve">
+    <value>dgVolPhHarmonics</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPowers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabInterHarmUph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmsDoc2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;miSortDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblHarmonicsCur.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="dgI_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabHarmonicVoltagePh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabHarmonicI.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblAngles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPQP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblHarmonicsVolPh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabHarmonicPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabInterHarmUlin.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="dgCurrentHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicAngles.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_AVG_Caption.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsCur.Name" xml:space="preserve">
+    <value>lblHarmonicsCur</value>
+  </data>
+  <data name="&gt;&gt;lblPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_U_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_I_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabInterHarmUlin.Text" xml:space="preserve">
+    <value>Ulin Interharmonics</value>
+  </data>
+  <data name="dgHarmonicAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AVG_Caption.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tabPQP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentsVoltages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgVolPhHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUlin.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicPowers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabCurrentsAndVoltages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;dgVolPhHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miSort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_I_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgVolLinHarmonics.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblHarmonicAngles.Parent" xml:space="preserve">
+    <value>tabHarmonicAngles</value>
+  </data>
+  <data name="&gt;&gt;lblAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="tabHarmonicAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;miHarmCurPercent.Name" xml:space="preserve">
+    <value>miHarmCurPercent</value>
+  </data>
+  <data name="&gt;&gt;lbl_I_Interharm.Name" xml:space="preserve">
+    <value>lbl_I_Interharm</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolPh.Parent" xml:space="preserve">
+    <value>tabHarmonicVoltagePh</value>
+  </data>
+  <data name="lbl_AVG_Caption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 29</value>
+  </data>
+  <data name="dgCurrentHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dgPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicAngles.Name" xml:space="preserve">
+    <value>dgHarmonicAngles</value>
+  </data>
+  <data name="miSortDesc.Text" xml:space="preserve">
+    <value>Sort desc</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="miSortDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="dgI_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicPowers.Name" xml:space="preserve">
+    <value>lblHarmonicPowers</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.Text" xml:space="preserve">
+    <value>Voltage Lin Harmonics</value>
+  </data>
+  <data name="&gt;&gt;lbl_U_Interharm.Name" xml:space="preserve">
+    <value>lbl_U_Interharm</value>
+  </data>
+  <data name="dgUph_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicAngles.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgPQP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgPQP.Name" xml:space="preserve">
+    <value>dgPQP</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltagePh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPQP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="miHarmCurPercent.Text" xml:space="preserve">
+    <value>Show Harmonic Current in Percent</value>
+  </data>
+  <data name="&gt;&gt;dgUlin_Interharm.Name" xml:space="preserve">
+    <value>dgUlin_Interharm</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHarmonicAngles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="lblHarmonicsVolLin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblHarmonicsVolLin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgPhAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="lblHarmonicsCur.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmI.Name" xml:space="preserve">
+    <value>tabInterHarmI</value>
+  </data>
+  <data name="dgPhAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;dgVolPhHarmonics.Parent" xml:space="preserve">
+    <value>tabHarmonicVoltagePh</value>
+  </data>
+  <data name="dgPQP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgCurrentHarmonics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblPQP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPQP.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="miSeparator2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblHarmonicsCur.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;miHarmPowersWatt.Name" xml:space="preserve">
+    <value>miHarmPowersWatt</value>
+  </data>
+  <data name="&gt;&gt;tabAngles.Name" xml:space="preserve">
+    <value>tabAngles</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentsAndVoltages.Name" xml:space="preserve">
+    <value>lblCurrentsAndVoltages</value>
+  </data>
+  <data name="miSort.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cgAAEnIBXmVb4wAAAYFJREFUOE+dks1LAkEchj37B/gfdOoQZHSyr4NFRNgxpTp0CiKL0AqsLWipJDKJ
+        SogiEoQ+0GqTyo2QDLxEGH0Re8hNqlO6SmFS1FsOiciomC/MYd5n5pnfYWSpRF4/oBnwIRJ7x1+VK9n5
+        xNot1N0HcHCB4gQdYz5ohw6h7lz8vyAgSGjq80B8jkLZYsbJWTCfhGbdZj/aTTzMy15Uaa3oGnUWLvj6
+        +oam/wjhWIKA03MRSs0U7h8juSSZvX7aD5VuHrvHN3hPfKJWZyWC1t6VwgRFhBYcWFbAsXPwLq2Dm7TB
+        0dWDy+2twifgRsZJGY/GsKptg6WxLt+YNItLEil9tlUwZSW49uxThxiGgdvtTvbgeR5GozHzzNPVHeYa
+        mrFh0NMv/EYURXI5tf726dh7x7FQr8Jb+IWAcJD+TAqFglyWy+WZzG93YramGheuTQLiUQl7JgMlCIVC
+        RCAIQpqFxQfMqMoxXFGKnTETnIN9YKsr4WKGKEEyLMtm7YuMTPYDxBLnDy8t14gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPowers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 20</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltageLin.Name" xml:space="preserve">
+    <value>tabHarmonicVoltageLin</value>
+  </data>
+  <data name="&gt;&gt;lbl_Ulin_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmUlin</value>
+  </data>
+  <data name="lblAngles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolLin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsCur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_U_Interharm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHarmonicAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="dgI_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblHarmonicsCur.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentsAndVoltages.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgHarmonicAngles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cgAAEnIBXmVb4wAAAoxJREFUOE+dkmlIlFEUhidIKkRCIrSUCII0M0nNBMf+2OaSZVIGRSpOSkIpaAtU
+        jtu4m1SaWEiLlCiEYgNZpmiOOmoqYblmaoJmMtqMmk3m+NQ3pfJVf+qFF+7l3vfhcM6RLOi5uosIeQ6/
+        rv+mZ/WdXL9XhouXbBGgblSSmnFE5F9PYlU0dHI1v5SKhi4RQAgYDFrm5kb5qm8lNtbz74C8glIqG7to
+        7hz5A5B3OxylUkFbY7ER0NVUx/1oGQ9+ODPI7+ff+Kw7tPaM0t43JgKkpB5mdrKZWW0NLapcFPIDFMsj
+        mR/sBpWSQOuVS4COAQ29QxMiQLLCC72mDP3Hh7ysiiEr0JeiC2G0J0fTJj/DiXUmS4D+YS3l6hHO5owQ
+        fm0IWXofSXG7mRnO5vP7JJrLZaQH7GX2ViJfsi/TFB0oBnzQTCENecKY1sDA2Dy1nQYUV9yYfhfNVM8p
+        1CX7SfPbxXRGFLrE06hCfcWAiUk9W/0L8QgrIyiujqgbbSRedEL3xh/dqz3UF20jxduF8UsnGYvypyrA
+        TQyY0X/D5mABySV6YopmCFaoSYjagrbFmU9NNtQVWJDkYc9w+D6GgqU89bQVA+YM81h55BKZryP05gQ+
+        514QF7GRiXpLxlWrUd01QSHdRP8xR94e2sxjqYUYIMjcNZOjaaP4xI+wU1ZBbLglmprlaKol1OZLSNix
+        nm5Pazo81lLiZPpbBXMGVm1Pwv38IHbHy9lg74081Hwx7ORoR7zDGl67m/HIYYXRAsA4dmMTddNGgBAU
+        XK1qQR5iio/rMqTOVuQVKImzNTOGFlxc3rgEKFTWGiFCJYKEngiNFaYjjFjYE2HZhI2tbOpdCgsSDv9j
+        Y1gikXwHy6Qh8kSL+bgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tabAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;miAddColumnToGraphRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolLin.Parent" xml:space="preserve">
+    <value>tabHarmonicVoltageLin</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dgCurrentHarmonics.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dgUph_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmUph</value>
+  </data>
+  <data name="&gt;&gt;dgPhAngles.Name" xml:space="preserve">
+    <value>dgPhAngles</value>
+  </data>
+  <data name="lblHarmonicPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="miAddColumnToGraphRight.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="lblHarmonicPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="miHarmPowersPercent.Text" xml:space="preserve">
+    <value>Show Harmonic Powers in Percent</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabHarmonicAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.DockContentGraphMethods, EmWorkNet, Version=7.1.5.265, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="&gt;&gt;tabAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAngles.Name" xml:space="preserve">
+    <value>lblAngles</value>
+  </data>
+  <data name="tabHarmonicI.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicAngles.Name" xml:space="preserve">
+    <value>tabHarmonicAngles</value>
+  </data>
+  <data name="&gt;&gt;lblPowers.Parent" xml:space="preserve">
+    <value>tabPowers</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicAngles.Parent" xml:space="preserve">
+    <value>tabHarmonicAngles</value>
+  </data>
+  <data name="&gt;&gt;dgI_Interharm.Name" xml:space="preserve">
+    <value>dgI_Interharm</value>
+  </data>
+  <data name="&gt;&gt;dgI_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmI</value>
+  </data>
+  <data name="&gt;&gt;miSeparator2.Name" xml:space="preserve">
+    <value>miSeparator2</value>
+  </data>
+  <data name="lblHarmonicsVolPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgUph_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;dgUph_Interharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblHarmonicsVolPh.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;miHarmCurAmpere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolPh.Name" xml:space="preserve">
+    <value>lblHarmonicsVolPh</value>
+  </data>
+  <data name="&gt;&gt;dgPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentsVoltages.Parent" xml:space="preserve">
+    <value>tabCurrentsAndVoltages</value>
+  </data>
+  <data name="lblAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabCurrentsAndVoltages.Name" xml:space="preserve">
+    <value>tabCurrentsAndVoltages</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicI.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dgVolLinHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicAngles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_I_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgHarmonicPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgUph_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabInterHarmUlin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPowers.Name" xml:space="preserve">
+    <value>lblPowers</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolPh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgI_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lbl_U_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;cmsDoc2.Name" xml:space="preserve">
+    <value>cmsDoc2</value>
+  </data>
+  <data name="lblHarmonicsVolLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="dgPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;lblPowers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;dgUlin_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmUlin</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentsVoltages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPQP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicI.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltagePh.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="tabInterHarmUlin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="lblPQP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgVolLinHarmonics.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;miAddColumnToGraphRight.Name" xml:space="preserve">
+    <value>miAddColumnToGraphRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_AVG_Caption.Name" xml:space="preserve">
+    <value>lbl_AVG_Caption</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmI.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="lblHarmonicsCur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPQP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="miAddColumnToGraphRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="tabPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dgPhAngles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicPowers.Parent" xml:space="preserve">
+    <value>tabHarmonicPowers</value>
+  </data>
+  <data name="dgPQP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="&gt;&gt;dgUlin_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicPowers.Parent" xml:space="preserve">
+    <value>tabHarmonicPowers</value>
+  </data>
+  <data name="dgHarmonicAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.Text" xml:space="preserve">
+    <value>Voltage Ph Harmonics</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentsAndVoltages.Parent" xml:space="preserve">
+    <value>tabCurrentsAndVoltages</value>
+  </data>
+  <data name="tabHarmonicAngles.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabCurrentsAndVoltages.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="lblPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicAngles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabCurrentsAndVoltages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgUlin_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgI_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPQP.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="dgVolPhHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUlin.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltagePh.Name" xml:space="preserve">
+    <value>tabHarmonicVoltagePh</value>
+  </data>
+  <data name="lbl_AVG_Caption.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;miHarmCurAmpere.Name" xml:space="preserve">
+    <value>miHarmCurAmpere</value>
+  </data>
+  <data name="tabHarmonicI.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="dgVolLinHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="miSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="lblAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgPhAngles.Parent" xml:space="preserve">
+    <value>tabAngles</value>
+  </data>
+  <data name="&gt;&gt;tabCurrentsAndVoltages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miHarmCurAmpere.Text" xml:space="preserve">
+    <value>Show Harmonic Current in Ampere</value>
+  </data>
+  <data name="dgHarmonicPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="miSortDesc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cgAAEnIBXmVb4wAAAYRJREFUOE+dkUtLAlEYhl37A/wHrVoEGa3MamEREbZMqRatBCkltARrEhwqiUyk
+        EiKRAqELWplkGiEZuIkwuhEucpJqlTcKjcLemFPhYsbSHjiL877f95yBEbAErE74aDvCS2vwTTngVg3i
+        fGsTpOTCzX3jZhLmszm4FL2wdrSWW2bhdvlMhoQRhwtUXQ0ug3vVCVgeLm5gb+/Cum7ot2UW/n5VY8ZC
+        mwQvqScykEokyom4eXTVg7lmKc68G6TMZzPYNeoqE6SYO8xK6jHWUIttkxGeUS1oaSO8lKHyL6gSfkH6
+        +Q3ykQjSucJfL/D3kyvXkKkDcPti/xP0myJQGPYhG1jkHaAoCn6/n+0QCoWg1+tLc7F4Bp3aIJjHLMTd
+        FhydcH8hwzBk+ed8379QW6LoM4ZgWQ6jSWGDasLDEbCIRCKyLBQKS32x+AH58AFSuVcSHp8yEMuncXuf
+        5kiSySQRxOPxUjc0E4VEOY+dwysUXt/RorQRQY/GyRGw0DTNm/8TgeAT3HLnD6f1MSYAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgUph_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmsDoc2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 214</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="&gt;&gt;tabAngles.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;dgPQP.Parent" xml:space="preserve">
+    <value>tabPQP</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltagePh.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblHarmonicsVolPh.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPQP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblAngles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgI_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabInterHarmUph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgPQP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgVolPhHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltageLin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolLin.Name" xml:space="preserve">
+    <value>lblHarmonicsVolLin</value>
+  </data>
+  <data name="&gt;&gt;lbl_Ulin_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 569</value>
+  </data>
+  <data name="lblHarmonicsVolPh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="dgHarmonicPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentHarmonics.Name" xml:space="preserve">
+    <value>dgCurrentHarmonics</value>
+  </data>
+  <data name="&gt;&gt;tabPowers.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="tabPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="lbl_I_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dgPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="tabHarmonicI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgUlin_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="miAddColumnToGraphRight.Text" xml:space="preserve">
+    <value>Add column to timeplot (right Y axis)</value>
+  </data>
+  <data name="tabPowers.Text" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="lbl_U_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_AVG_Caption.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="miHarmPowersWatt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="tabPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblHarmonicsVolLin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentsVoltages.Name" xml:space="preserve">
+    <value>dgCurrentsVoltages</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUph.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ttAVG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_U_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblPQP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="dgVolPhHarmonics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;dgUph_Interharm.Name" xml:space="preserve">
+    <value>dgUph_Interharm</value>
+  </data>
+  <data name="dgPhAngles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabPowers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPQP.Name" xml:space="preserve">
+    <value>lblPQP</value>
+  </data>
+  <data name="tabInterHarmUph.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgCurrentHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicAngles.Name" xml:space="preserve">
+    <value>lblHarmonicAngles</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="dgVolLinHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="tabHarmonicPowers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentHarmonics.Parent" xml:space="preserve">
+    <value>tabHarmonicI</value>
+  </data>
+  <data name="miHarmCurPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolPh.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUlin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabInterHarmUlin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltageLin.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="dgVolPhHarmonics.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgCurrentsVoltages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHarmonicsVolPh.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabHarmonicI.Text" xml:space="preserve">
+    <value>Current Harmonics</value>
+  </data>
+  <data name="&gt;&gt;dgPowers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicPowers.Name" xml:space="preserve">
+    <value>tabHarmonicPowers</value>
+  </data>
+  <data name="tabAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lbl_AVG_Caption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dgVolLinHarmonics.Name" xml:space="preserve">
+    <value>dgVolLinHarmonics</value>
+  </data>
+  <data name="lblHarmonicAngles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;miSort.Name" xml:space="preserve">
+    <value>miSort</value>
+  </data>
+  <data name="tabInterHarmI.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabHarmonicAngles.Text" xml:space="preserve">
+    <value>Harmonic Angles</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgCurrentsVoltages.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="miHarmPowersWatt.Text" xml:space="preserve">
+    <value>Show Harmonic Powers in Watt</value>
+  </data>
+  <data name="lblHarmonicsVolLin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsVolLin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_U_Interharm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.Text" xml:space="preserve">
+    <value>Voltage and Current</value>
+  </data>
+  <data name="miAddColumnToGraphRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cgAAEnIBXmVb4wAAAq9JREFUOE+V0mlIE3AYx3FfJBlRIXZoSURJ5VHo0gKPIrvMrFQ6wPCgaWSZguug
+        0nnNI7VzFhV2SYVCKCY0MyVzmmkeUXl1qEkulTm3Mlu2+U1nOAJ70Q9+/HlePB/4w2Pyv4kUZ/GkuoU/
+        4+SpLZORlrFrotK40IkFl61CLt4u5HFV87+R80lB6PVqdLoefmrrSYzx+Qsoed7C2eyC0fcfSGZKAFev
+        h1NUJKHhRR5xcV601FRyRyTk7mgzg30pL23jak7B5EBqmh/DX2sZVpdTJ7+CROxDnjiKkc5WkBcRZG1G
+        Y2MvCeduTg6kSLaiVRai7b3Hy7JYzgVtJ/f4AV6niGgQR7DPypSmDqURkFUrOJKlIPxCF8L0DyTHb2Co
+        W8r3T8nUyoSk79nE8LUkfkhPUyMKMgCdrRoj4Lb/EX1qPR19I1Q065HEuDL4UcS3tlCq87dwxteDwYxo
+        NEkHkYdtJ9DKjJ72QSNg738fzwOFBMdXEn2pgaQTAjRv/dG82khV7gpSvV3oPxVIX7Q/ZXtcCbOczcBn
+        rRFYtiOHlHwtsblDhEiqSYy2RV23ioGaZVTmzCPZ04Hu8M10hbhR7LXcAPzo/WUEFnheISpbQ9hlFduO
+        PiM+chGqKkv65bOQ3zJF4raE9r1OvN+5lIdu8wyATjViBMzXZLL7TA/bEhSsFpYQF26JsnwKyqcmVGSb
+        kOg8n1Yva5o855AvmE7k3MWgZhxYvyuCaY7JuB/rxC5AxkIHb8Rh5hPLAic7ElZa8MZ9Bg9WTjU03sID
+        Xb9+HFjrdwhbbykbbUINrbpRh9RXwGGBEwH267gnKSbLxpmT1i6I5joaWj9TwYDiu/ELY/edJ3tBac07
+        6tt6DEfS3q3mi/Ibqq9ahrS/0OlHGItOp0elGeR+UYURGMsY8v8V8hsqmxQc3KLSyAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="tabInterHarmUph.Text" xml:space="preserve">
+    <value>Uph Interharmonics</value>
+  </data>
+  <data name="tabInterHarmUph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblHarmonicPowers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_I_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUlin.Name" xml:space="preserve">
+    <value>tabInterHarmUlin</value>
+  </data>
+  <data name="&gt;&gt;dgVolLinHarmonics.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabHarmonicAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lbl_I_Interharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miHarmPowersPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHarmonicAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dgI_Interharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicPowers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_U_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmUph</value>
+  </data>
+  <data name="tabHarmonicI.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHarmonicPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Ulin_Interharm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicI.Name" xml:space="preserve">
+    <value>tabHarmonicI</value>
+  </data>
+  <data name="lblHarmonicPowers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;dgPhAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmsDoc2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="miSort.Text" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="dgUlin_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabHarmonicPowers.Text" xml:space="preserve">
+    <value>Harmonic Powers</value>
+  </data>
+  <data name="dgHarmonicAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="tabInterHarmUlin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lblHarmonicAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="tabHarmonicPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgPQP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPQP.Parent" xml:space="preserve">
+    <value>tabPQP</value>
+  </data>
+  <data name="&gt;&gt;dgVolLinHarmonics.Parent" xml:space="preserve">
+    <value>tabHarmonicVoltageLin</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmDocAVGMain</value>
+  </data>
+  <data name="lbl_AVG_Caption.Text" xml:space="preserve">
+    <value>Common information in future</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsCur.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgUph_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabInterHarmI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_U_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabInterHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="dgHarmonicPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;tabPowers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabInterHarmI.Text" xml:space="preserve">
+    <value>Current Interharmonics</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUph.Name" xml:space="preserve">
+    <value>tabInterHarmUph</value>
+  </data>
+  <data name="&gt;&gt;dgUlin_Interharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgHarmonicPowers.Name" xml:space="preserve">
+    <value>dgHarmonicPowers</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabHarmonicVoltageLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lbl_I_Interharm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHarmonicsVolLin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbl_AVG_Caption.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_U_Interharm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dgUlin_Interharm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgPhAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgPhAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHarmonicsCur.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_AVG_Caption.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgVolPhHarmonics.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_AVG_Caption.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_I_Interharm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 543</value>
+  </data>
+  <data name="tabAngles.Text" xml:space="preserve">
+    <value>Ph. angles</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicPowers.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="miHarmCurAmpere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="tabAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="tabInterHarmI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabInterHarmUph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="&gt;&gt;tabPQP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmUph.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="lblPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="tabHarmonicAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPQP.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblHarmonicsVolPh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgHarmonicAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="tabAngles.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Text" xml:space="preserve">
+    <value>Add column to timeplot (left Y axis)</value>
+  </data>
+  <data name="&gt;&gt;miSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="&gt;&gt;tabAngles.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPQP.Text" xml:space="preserve">
+    <value>PQP</value>
+  </data>
+  <data name="miSort.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Ulin_Interharm.Name" xml:space="preserve">
+    <value>lbl_Ulin_Interharm</value>
+  </data>
+  <data name="dgI_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAngles.Parent" xml:space="preserve">
+    <value>tabAngles</value>
+  </data>
+  <data name="dgUlin_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="&gt;&gt;miAddColumnToGraphLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgVolLinHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_I_Interharm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 598</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicPowers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPowers.Name" xml:space="preserve">
+    <value>tabPowers</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentsAndVoltages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPQP.Name" xml:space="preserve">
+    <value>tabPQP</value>
+  </data>
+  <data name="dgPowers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabHarmonicPowers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicsCur.Parent" xml:space="preserve">
+    <value>tabHarmonicI</value>
+  </data>
+  <data name="tabInterHarmI.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;tabInterHarmI.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dgCurrentsVoltages.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgCurrentsVoltages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="tabHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="dgHarmonicPowers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHarmonicsVolLin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_AVG_Caption.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 6, 7, 6</value>
+  </data>
+  <data name="&gt;&gt;dgPowers.Name" xml:space="preserve">
+    <value>dgPowers</value>
+  </data>
+  <data name="&gt;&gt;tabPQP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabHarmonicPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgUph_Interharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHarmonicAngles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;miHarmPowersWatt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ttAVG.Name" xml:space="preserve">
+    <value>ttAVG</value>
+  </data>
+  <data name="lblPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgPowers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="miHarmPowersPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 22</value>
+  </data>
+  <data name="&gt;&gt;miSeparator.Name" xml:space="preserve">
+    <value>miSeparator</value>
+  </data>
+  <data name="dgUph_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="lblHarmonicsCur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="dgCurrentsVoltages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;dgCurrentHarmonics.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgUlin_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 518</value>
+  </data>
+  <data name="&gt;&gt;miAddColumnToGraphLeft.Name" xml:space="preserve">
+    <value>miAddColumnToGraphLeft</value>
+  </data>
+  <data name="tabHarmonicPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgPowers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="tabAngles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;dgPowers.Parent" xml:space="preserve">
+    <value>tabPowers</value>
+  </data>
+  <data name="miSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="dgVolPhHarmonics.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AVG_Caption.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;miSortDesc.Name" xml:space="preserve">
+    <value>miSortDesc</value>
+  </data>
+  <data name="&gt;&gt;miHarmPowersPercent.Name" xml:space="preserve">
+    <value>miHarmPowersPercent</value>
+  </data>
+  <data name="tabInterHarmUph.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dgCurrentHarmonics.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblHarmonicPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblHarmonicAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="dgVolLinHarmonics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lbl_I_Interharm.Parent" xml:space="preserve">
+    <value>tabInterHarmI</value>
+  </data>
+  <data name="dgCurrentsVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 523</value>
+  </data>
+  <data name="tabHarmonicI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 544</value>
+  </data>
+  <data name="tabInterHarmI.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tabHarmonicVoltageLin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_AVG_Caption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miHarmCurPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPowers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_U_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 20</value>
+  </data>
+  <data name="miSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 6</value>
+  </data>
+  <data name="&gt;&gt;dgPQP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="miSortDesc.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="dgPhAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="cmsDoc2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <metadata name="ttAVG.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>96, 0</value>
+  </metadata>
+</root>

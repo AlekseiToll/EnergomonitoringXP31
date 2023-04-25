@@ -1,0 +1,4021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chbAutoTimeWarn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="chbAutoTimeWarn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbAutoTimeWarn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chbAutoTimeWarn.Text" xml:space="preserve">
+    <value>Don't warn that auotmatic time synchronization is disabled</value>
+  </data>
+  <data name="&gt;&gt;chbAutoTimeWarn.Name" xml:space="preserve">
+    <value>chbAutoTimeWarn</value>
+  </data>
+  <data name="&gt;&gt;chbAutoTimeWarn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAutoTimeWarn.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;chbAutoTimeWarn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 272</value>
+  </data>
+  <data name="gbTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 90</value>
+  </data>
+  <data name="gbTime.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="gbTime.Text" xml:space="preserve">
+    <value>Time Synchronization</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Name" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chbNewSoftware.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbNewSoftware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 49</value>
+  </data>
+  <data name="chbNewSoftware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="chbNewSoftware.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="chbNewSoftware.Text" xml:space="preserve">
+    <value>Check new software version</value>
+  </data>
+  <data name="&gt;&gt;chbNewSoftware.Name" xml:space="preserve">
+    <value>chbNewSoftware</value>
+  </data>
+  <data name="&gt;&gt;chbNewSoftware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbNewSoftware.Parent" xml:space="preserve">
+    <value>gbNewFirmware</value>
+  </data>
+  <data name="&gt;&gt;chbNewSoftware.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chbNewFirmware.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbNewFirmware.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbNewFirmware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="chbNewFirmware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 17</value>
+  </data>
+  <data name="chbNewFirmware.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="chbNewFirmware.Text" xml:space="preserve">
+    <value>Check new firmware for ET-PQP-A</value>
+  </data>
+  <data name="&gt;&gt;chbNewFirmware.Name" xml:space="preserve">
+    <value>chbNewFirmware</value>
+  </data>
+  <data name="&gt;&gt;chbNewFirmware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbNewFirmware.Parent" xml:space="preserve">
+    <value>gbNewFirmware</value>
+  </data>
+  <data name="&gt;&gt;chbNewFirmware.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbNewFirmware.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 256</value>
+  </data>
+  <data name="gbNewFirmware.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 106</value>
+  </data>
+  <data name="gbNewFirmware.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="gbNewFirmware.Text" xml:space="preserve">
+    <value>New version</value>
+  </data>
+  <data name="&gt;&gt;gbNewFirmware.Name" xml:space="preserve">
+    <value>gbNewFirmware</value>
+  </data>
+  <data name="&gt;&gt;gbNewFirmware.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNewFirmware.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbNewFirmware.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbTooltipOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTooltipOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTooltipOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 73</value>
+  </data>
+  <data name="rbTooltipOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="rbTooltipOff.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbTooltipOff.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOff.Name" xml:space="preserve">
+    <value>rbTooltipOff</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOff.Parent" xml:space="preserve">
+    <value>gbAvgTooltip</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOff.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbTooltipOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTooltipOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 50</value>
+  </data>
+  <data name="rbTooltipOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="rbTooltipOn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbTooltipOn.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOn.Name" xml:space="preserve">
+    <value>rbTooltipOn</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOn.Parent" xml:space="preserve">
+    <value>gbAvgTooltip</value>
+  </data>
+  <data name="&gt;&gt;rbTooltipOn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 29</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ToolTips for AVG Param Tables</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gbAvgTooltip</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbAvgTooltip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 169</value>
+  </data>
+  <data name="gbAvgTooltip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 110</value>
+  </data>
+  <data name="gbAvgTooltip.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="gbAvgTooltip.Text" xml:space="preserve">
+    <value>ToolTips</value>
+  </data>
+  <data name="&gt;&gt;gbAvgTooltip.Name" xml:space="preserve">
+    <value>gbAvgTooltip</value>
+  </data>
+  <data name="&gt;&gt;gbAvgTooltip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAvgTooltip.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbAvgTooltip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetAvgParams.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetAvgParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 27</value>
+  </data>
+  <data name="btnSetAvgParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="btnSetAvgParams.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSetAvgParams.Text" xml:space="preserve">
+    <value>Set Default AVG Params</value>
+  </data>
+  <data name="&gt;&gt;btnSetAvgParams.Name" xml:space="preserve">
+    <value>btnSetAvgParams</value>
+  </data>
+  <data name="&gt;&gt;btnSetAvgParams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetAvgParams.Parent" xml:space="preserve">
+    <value>gbAVGParams</value>
+  </data>
+  <data name="&gt;&gt;btnSetAvgParams.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbAVGParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 285</value>
+  </data>
+  <data name="gbAVGParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 77</value>
+  </data>
+  <data name="gbAVGParams.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gbAVGParams.Text" xml:space="preserve">
+    <value>For ET-PQP only</value>
+  </data>
+  <data name="&gt;&gt;gbAVGParams.Name" xml:space="preserve">
+    <value>gbAVGParams</value>
+  </data>
+  <data name="&gt;&gt;gbAVGParams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAVGParams.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbAVGParams.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbEtPQP_A.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEtPQP_A.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEtPQP_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 92</value>
+  </data>
+  <data name="rbEtPQP_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="rbEtPQP_A.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbEtPQP_A.Text" xml:space="preserve">
+    <value>ET-PQP-A</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP_A.Name" xml:space="preserve">
+    <value>rbEtPQP_A</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP_A.Parent" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP_A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbEm31k.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEm31k.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEm31k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 115</value>
+  </data>
+  <data name="rbEm31k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="rbEm31k.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbEm31k.Text" xml:space="preserve">
+    <value>EM-3.1K</value>
+  </data>
+  <data name="&gt;&gt;rbEm31k.Name" xml:space="preserve">
+    <value>rbEm31k</value>
+  </data>
+  <data name="&gt;&gt;rbEm31k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEm31k.Parent" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;rbEm31k.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbEtPQP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEtPQP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEtPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 69</value>
+  </data>
+  <data name="rbEtPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="rbEtPQP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbEtPQP.Text" xml:space="preserve">
+    <value>ET-PQP</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP.Name" xml:space="preserve">
+    <value>rbEtPQP</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP.Parent" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;rbEtPQP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbEm32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEm32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEm32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 46</value>
+  </data>
+  <data name="rbEm32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="rbEm32.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbEm32.Text" xml:space="preserve">
+    <value>EM-32</value>
+  </data>
+  <data name="&gt;&gt;rbEm32.Name" xml:space="preserve">
+    <value>rbEm32</value>
+  </data>
+  <data name="&gt;&gt;rbEm32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEm32.Parent" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;rbEm32.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbEm33t.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEm33t.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEm33t.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 23</value>
+  </data>
+  <data name="rbEm33t.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="rbEm33t.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbEm33t.Text" xml:space="preserve">
+    <value>EM-3.3T</value>
+  </data>
+  <data name="&gt;&gt;rbEm33t.Name" xml:space="preserve">
+    <value>rbEm33t</value>
+  </data>
+  <data name="&gt;&gt;rbEm33t.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEm33t.Parent" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;rbEm33t.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gbDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 12</value>
+  </data>
+  <data name="gbDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 145</value>
+  </data>
+  <data name="gbDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gbDevice.Text" xml:space="preserve">
+    <value>Current Device</value>
+  </data>
+  <data name="&gt;&gt;gbDevice.Name" xml:space="preserve">
+    <value>gbDevice</value>
+  </data>
+  <data name="&gt;&gt;gbDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbDevice.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbDevice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chbOptimizeInsert.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbOptimizeInsert.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbOptimizeInsert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 71</value>
+  </data>
+  <data name="chbOptimizeInsert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="chbOptimizeInsert.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chbOptimizeInsert.Text" xml:space="preserve">
+    <value>Use the optimised data insertion</value>
+  </data>
+  <data name="&gt;&gt;chbOptimizeInsert.Name" xml:space="preserve">
+    <value>chbOptimizeInsert</value>
+  </data>
+  <data name="&gt;&gt;chbOptimizeInsert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbOptimizeInsert.Parent" xml:space="preserve">
+    <value>gbServerDB</value>
+  </data>
+  <data name="&gt;&gt;chbOptimizeInsert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbServerDB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 32</value>
+  </data>
+  <data name="cbServerDB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 21</value>
+  </data>
+  <data name="cbServerDB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbServerDB.Name" xml:space="preserve">
+    <value>cbServerDB</value>
+  </data>
+  <data name="&gt;&gt;cbServerDB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbServerDB.Parent" xml:space="preserve">
+    <value>gbServerDB</value>
+  </data>
+  <data name="&gt;&gt;cbServerDB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbServerDB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 137</value>
+  </data>
+  <data name="gbServerDB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 99</value>
+  </data>
+  <data name="gbServerDB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbServerDB.Text" xml:space="preserve">
+    <value>Current Database Server</value>
+  </data>
+  <data name="&gt;&gt;gbServerDB.Name" xml:space="preserve">
+    <value>gbServerDB</value>
+  </data>
+  <data name="&gt;&gt;gbServerDB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbServerDB.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbServerDB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblAvgGraphsBrushExample.Text" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="&gt;&gt;lblAvgGraphsBrushExample.Name" xml:space="preserve">
+    <value>lblAvgGraphsBrushExample</value>
+  </data>
+  <data name="&gt;&gt;lblAvgGraphsBrushExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAvgGraphsBrushExample.Parent" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;lblAvgGraphsBrushExample.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlAvgBrushExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 42</value>
+  </data>
+  <data name="pnlAvgBrushExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 56</value>
+  </data>
+  <data name="pnlAvgBrushExample.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushExample.Name" xml:space="preserve">
+    <value>pnlAvgBrushExample</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushExample.Parent" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushExample.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlAvgBrushColor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 73</value>
+  </data>
+  <data name="pnlAvgBrushColor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="pnlAvgBrushColor2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor2.Name" xml:space="preserve">
+    <value>pnlAvgBrushColor2</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor2.Parent" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlAvgBrushColor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="pnlAvgBrushColor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 25</value>
+  </data>
+  <data name="pnlAvgBrushColor1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor1.Name" xml:space="preserve">
+    <value>pnlAvgBrushColor1</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor1.Parent" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;pnlAvgBrushColor1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkAvgBrushGradient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkAvgBrushGradient.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAvgBrushGradient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="chkAvgBrushGradient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="chkAvgBrushGradient.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAvgBrushGradient.Text" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="&gt;&gt;chkAvgBrushGradient.Name" xml:space="preserve">
+    <value>chkAvgBrushGradient</value>
+  </data>
+  <data name="&gt;&gt;chkAvgBrushGradient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAvgBrushGradient.Parent" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;chkAvgBrushGradient.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gbAvgColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 12</value>
+  </data>
+  <data name="gbAvgColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 110</value>
+  </data>
+  <data name="gbAvgColors.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gbAvgColors.Text" xml:space="preserve">
+    <value>Color schematics (AVG):</value>
+  </data>
+  <data name="&gt;&gt;gbAvgColors.Name" xml:space="preserve">
+    <value>gbAvgColors</value>
+  </data>
+  <data name="&gt;&gt;gbAvgColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbAvgColors.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbAvgColors.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rbKW.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbKW.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbKW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 65</value>
+  </data>
+  <data name="rbKW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="rbKW.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbKW.Text" xml:space="preserve">
+    <value>kW kvar kVA</value>
+  </data>
+  <data name="&gt;&gt;rbKW.Name" xml:space="preserve">
+    <value>rbKW</value>
+  </data>
+  <data name="&gt;&gt;rbKW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbKW.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbKW.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbW.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbW.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="rbW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="rbW.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbW.Text" xml:space="preserve">
+    <value>W var VA</value>
+  </data>
+  <data name="&gt;&gt;rbW.Name" xml:space="preserve">
+    <value>rbW</value>
+  </data>
+  <data name="&gt;&gt;rbW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbW.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbW.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbKV.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbKV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbKV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 42</value>
+  </data>
+  <data name="rbKV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="rbKV.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbKV.Text" xml:space="preserve">
+    <value>kV</value>
+  </data>
+  <data name="&gt;&gt;rbKV.Name" xml:space="preserve">
+    <value>rbKV</value>
+  </data>
+  <data name="&gt;&gt;rbKV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbKV.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbKV.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbKA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbKA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbKA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 19</value>
+  </data>
+  <data name="rbKA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 17</value>
+  </data>
+  <data name="rbKA.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbKA.Text" xml:space="preserve">
+    <value>kA</value>
+  </data>
+  <data name="&gt;&gt;rbKA.Name" xml:space="preserve">
+    <value>rbKA</value>
+  </data>
+  <data name="&gt;&gt;rbKA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbKA.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbKA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbV.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="rbV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="rbV.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbV.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="&gt;&gt;rbV.Name" xml:space="preserve">
+    <value>rbV</value>
+  </data>
+  <data name="&gt;&gt;rbV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbV.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbV.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="rbA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="rbA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbA.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;rbA.Name" xml:space="preserve">
+    <value>rbA</value>
+  </data>
+  <data name="&gt;&gt;rbA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbA.Parent" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;rbA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbRatios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 169</value>
+  </data>
+  <data name="gbRatios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 91</value>
+  </data>
+  <data name="gbRatios.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gbRatios.Text" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="&gt;&gt;gbRatios.Name" xml:space="preserve">
+    <value>gbRatios</value>
+  </data>
+  <data name="&gt;&gt;gbRatios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbRatios.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbRatios.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbLanguage.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="cmbLanguage.Items1" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="cmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cmbLanguage.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Name" xml:space="preserve">
+    <value>cmbLanguage</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.Parent" xml:space="preserve">
+    <value>gbLanguage</value>
+  </data>
+  <data name="&gt;&gt;cmbLanguage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="gbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 51</value>
+  </data>
+  <data name="gbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gbLanguage.Text" xml:space="preserve">
+    <value>Interface language:</value>
+  </data>
+  <data name="&gt;&gt;gbLanguage.Name" xml:space="preserve">
+    <value>gbLanguage</value>
+  </data>
+  <data name="&gt;&gt;gbLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbLanguage.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbLanguage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbFloatSigns.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbFloatSigns.Items1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbFloatSigns.Items2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbFloatSigns.Items3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbFloatSigns.Items4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbFloatSigns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cmbFloatSigns.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmbFloatSigns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbFloatSigns.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbFloatSigns.Name" xml:space="preserve">
+    <value>cmbFloatSigns</value>
+  </data>
+  <data name="&gt;&gt;cmbFloatSigns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFloatSigns.Parent" xml:space="preserve">
+    <value>gbDecimalType</value>
+  </data>
+  <data name="&gt;&gt;cmbFloatSigns.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtFloatFormatExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="txtFloatFormatExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="txtFloatFormatExample.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <metadata name="toolTipHost.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtFloatFormatExample.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;txtFloatFormatExample.Name" xml:space="preserve">
+    <value>txtFloatFormatExample</value>
+  </data>
+  <data name="&gt;&gt;txtFloatFormatExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFloatFormatExample.Parent" xml:space="preserve">
+    <value>gbDecimalType</value>
+  </data>
+  <data name="&gt;&gt;txtFloatFormatExample.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbDecimalType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 79</value>
+  </data>
+  <data name="gbDecimalType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 78</value>
+  </data>
+  <data name="gbDecimalType.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbDecimalType.Text" xml:space="preserve">
+    <value>Significant decimal type:</value>
+  </data>
+  <data name="&gt;&gt;gbDecimalType.Name" xml:space="preserve">
+    <value>gbDecimalType</value>
+  </data>
+  <data name="&gt;&gt;gbDecimalType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbDecimalType.Parent" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;gbDecimalType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabCommon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabCommon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 395</value>
+  </data>
+  <data name="tabCommon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabCommon.Text" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="&gt;&gt;tabCommon.Name" xml:space="preserve">
+    <value>tabCommon</value>
+  </data>
+  <data name="&gt;&gt;tabCommon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCommon.Parent" xml:space="preserve">
+    <value>tcOptions</value>
+  </data>
+  <data name="&gt;&gt;tabCommon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSpeedModem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSpeedModem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSpeedModem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 282</value>
+  </data>
+  <data name="labelSpeedModem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelSpeedModem.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelSpeedModem.Text" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="&gt;&gt;labelSpeedModem.Name" xml:space="preserve">
+    <value>labelSpeedModem</value>
+  </data>
+  <data name="&gt;&gt;labelSpeedModem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpeedModem.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;labelSpeedModem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Items" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Items1" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Items2" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Items3" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 279</value>
+  </data>
+  <data name="cmbSerialSpeedModem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialSpeedModem.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeedModem.Name" xml:space="preserve">
+    <value>cmbSerialSpeedModem</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeedModem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeedModem.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeedModem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPortModem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPortModem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPortModem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 255</value>
+  </data>
+  <data name="labelPortModem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="labelPortModem.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelPortModem.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;labelPortModem.Name" xml:space="preserve">
+    <value>labelPortModem</value>
+  </data>
+  <data name="&gt;&gt;labelPortModem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPortModem.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;labelPortModem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbSerialPortModem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 252</value>
+  </data>
+  <data name="cmbSerialPortModem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialPortModem.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortModem.Name" xml:space="preserve">
+    <value>cmbSerialPortModem</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortModem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortModem.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortModem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nudAttempts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 278</value>
+  </data>
+  <data name="nudAttempts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="nudAttempts.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;nudAttempts.Name" xml:space="preserve">
+    <value>nudAttempts</value>
+  </data>
+  <data name="&gt;&gt;nudAttempts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudAttempts.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;nudAttempts.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelAttempts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAttempts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAttempts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 259</value>
+  </data>
+  <data name="labelAttempts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="labelAttempts.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelAttempts.Text" xml:space="preserve">
+    <value>Attempts number:</value>
+  </data>
+  <data name="&gt;&gt;labelAttempts.Name" xml:space="preserve">
+    <value>labelAttempts</value>
+  </data>
+  <data name="&gt;&gt;labelAttempts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAttempts.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;labelAttempts.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="colActive.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colActive.HeaderText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="colActive.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colAuto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAuto.HeaderText" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="colAuto.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colPhone.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colPhone.HeaderText" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <metadata name="colSerial.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colSerial.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="colSerial.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colTime.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <metadata name="colComment.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colComment.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <metadata name="colDevType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colDevType.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="colDevType.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvPhoneNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgvPhoneNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 240</value>
+  </data>
+  <data name="dgvPhoneNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvPhoneNumbers.Name" xml:space="preserve">
+    <value>dgvPhoneNumbers</value>
+  </data>
+  <data name="&gt;&gt;dgvPhoneNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPhoneNumbers.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;dgvPhoneNumbers.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 276</value>
+  </data>
+  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+    <value>btnRemove</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 276</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabGSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabGSM.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabGSM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 310</value>
+  </data>
+  <data name="tabGSM.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabGSM.Text" xml:space="preserve">
+    <value>GSM modem</value>
+  </data>
+  <data name="&gt;&gt;tabGSM.Name" xml:space="preserve">
+    <value>tabGSM</value>
+  </data>
+  <data name="&gt;&gt;tabGSM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGSM.Parent" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tabGSM.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRemoveGPRS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveGPRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 276</value>
+  </data>
+  <data name="btnRemoveGPRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemoveGPRS.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnRemoveGPRS.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveGPRS.Name" xml:space="preserve">
+    <value>btnRemoveGPRS</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveGPRS.Parent" xml:space="preserve">
+    <value>tabGPRS</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveGPRS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddGPRS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddGPRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 276</value>
+  </data>
+  <data name="btnAddGPRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAddGPRS.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnAddGPRS.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAddGPRS.Name" xml:space="preserve">
+    <value>btnAddGPRS</value>
+  </data>
+  <data name="&gt;&gt;btnAddGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddGPRS.Parent" xml:space="preserve">
+    <value>tabGPRS</value>
+  </data>
+  <data name="&gt;&gt;btnAddGPRS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="colActiveGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colActiveGPRS.HeaderText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="colActiveGPRS.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colAutoGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAutoGPRS.HeaderText" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="colAutoGPRS.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colIPAddressGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colIPAddressGPRS.HeaderText" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="colIPAddressGPRS.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="colPortGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colPortGPRS.HeaderText" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="colPortGPRS.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <metadata name="colSerialGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colSerialGPRS.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="colSerialGPRS.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colStartGPRS.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="colStartGPRS.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <metadata name="colCommentGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colCommentGPRS.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <metadata name="colDevTypeGPRS.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colDevTypeGPRS.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="colDevTypeGPRS.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvGPRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgvGPRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 253</value>
+  </data>
+  <data name="dgvGPRS.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dgvGPRS.Name" xml:space="preserve">
+    <value>dgvGPRS</value>
+  </data>
+  <data name="&gt;&gt;dgvGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvGPRS.Parent" xml:space="preserve">
+    <value>tabGPRS</value>
+  </data>
+  <data name="&gt;&gt;dgvGPRS.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabGPRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabGPRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 310</value>
+  </data>
+  <data name="tabGPRS.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabGPRS.Text" xml:space="preserve">
+    <value>GPRS modem</value>
+  </data>
+  <data name="&gt;&gt;tabGPRS.Name" xml:space="preserve">
+    <value>tabGPRS</value>
+  </data>
+  <data name="&gt;&gt;tabGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGPRS.Parent" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tabGPRS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRemoveE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 276</value>
+  </data>
+  <data name="btnRemoveE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemoveE.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnRemoveE.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveE.Name" xml:space="preserve">
+    <value>btnRemoveE</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveE.Parent" xml:space="preserve">
+    <value>tabEthernet</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 276</value>
+  </data>
+  <data name="btnAddE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAddE.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAddE.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAddE.Name" xml:space="preserve">
+    <value>btnAddE</value>
+  </data>
+  <data name="&gt;&gt;btnAddE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddE.Parent" xml:space="preserve">
+    <value>tabEthernet</value>
+  </data>
+  <data name="&gt;&gt;btnAddE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="colActiveE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colActiveE.HeaderText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="colActiveE.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colAutoE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAutoE.HeaderText" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="colAutoE.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colIPAddress.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colIPAddress.HeaderText" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="colIPAddress.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="colPort.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colPort.HeaderText" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="colPort.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <metadata name="colSerialE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colSerialE.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="colSerialE.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colStartE.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="colStartE.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <metadata name="colCommentE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colCommentE.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <metadata name="colDevTypeE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colDevTypeE.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="colDevTypeE.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvEthernet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgvEthernet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 253</value>
+  </data>
+  <data name="dgvEthernet.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvEthernet.Name" xml:space="preserve">
+    <value>dgvEthernet</value>
+  </data>
+  <data name="&gt;&gt;dgvEthernet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvEthernet.Parent" xml:space="preserve">
+    <value>tabEthernet</value>
+  </data>
+  <data name="&gt;&gt;dgvEthernet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabEthernet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabEthernet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 310</value>
+  </data>
+  <data name="tabEthernet.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabEthernet.Text" xml:space="preserve">
+    <value>Ethernet</value>
+  </data>
+  <data name="&gt;&gt;tabEthernet.Name" xml:space="preserve">
+    <value>tabEthernet</value>
+  </data>
+  <data name="&gt;&gt;tabEthernet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabEthernet.Parent" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tabEthernet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelSpeed485.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSpeed485.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSpeed485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 282</value>
+  </data>
+  <data name="labelSpeed485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelSpeed485.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelSpeed485.Text" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed485.Name" xml:space="preserve">
+    <value>labelSpeed485</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed485.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items1" xml:space="preserve">
+    <value>57600</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items2" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items3" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items4" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items5" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items6" xml:space="preserve">
+    <value>2400</value>
+  </data>
+  <data name="cmbSerialSpeed485.Items7" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="cmbSerialSpeed485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 279</value>
+  </data>
+  <data name="cmbSerialSpeed485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialSpeed485.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeed485.Name" xml:space="preserve">
+    <value>cmbSerialSpeed485</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeed485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeed485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialSpeed485.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPort485.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPort485.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPort485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 255</value>
+  </data>
+  <data name="labelPort485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="labelPort485.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelPort485.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;labelPort485.Name" xml:space="preserve">
+    <value>labelPort485</value>
+  </data>
+  <data name="&gt;&gt;labelPort485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPort485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;labelPort485.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbSerialPort485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 252</value>
+  </data>
+  <data name="cmbSerialPort485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialPort485.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort485.Name" xml:space="preserve">
+    <value>cmbSerialPort485</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort485.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRemove485.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemove485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 276</value>
+  </data>
+  <data name="btnRemove485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemove485.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnRemove485.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnRemove485.Name" xml:space="preserve">
+    <value>btnRemove485</value>
+  </data>
+  <data name="&gt;&gt;btnRemove485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemove485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;btnRemove485.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnAdd485.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAdd485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 276</value>
+  </data>
+  <data name="btnAdd485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAdd485.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnAdd485.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd485.Name" xml:space="preserve">
+    <value>btnAdd485</value>
+  </data>
+  <data name="&gt;&gt;btnAdd485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;btnAdd485.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="colActive485.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colActive485.HeaderText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="colActive485.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colAuto485.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colAuto485.HeaderText" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="colAuto485.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="colSerial485.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colSerial485.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="colSerial485.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colStart485.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="colStart485.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <metadata name="colComment485.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colComment485.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <metadata name="colDevType485.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colDevType485.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="colDevType485.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="dgv485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 240</value>
+  </data>
+  <data name="dgv485.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dgv485.Name" xml:space="preserve">
+    <value>dgv485</value>
+  </data>
+  <data name="&gt;&gt;dgv485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv485.Parent" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;dgv485.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabRs485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabRs485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 310</value>
+  </data>
+  <data name="tabRs485.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabRs485.Text" xml:space="preserve">
+    <value>RS-485</value>
+  </data>
+  <data name="&gt;&gt;tabRs485.Name" xml:space="preserve">
+    <value>tabRs485</value>
+  </data>
+  <data name="&gt;&gt;tabRs485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabRs485.Parent" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tabRs485.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 276</value>
+  </data>
+  <data name="btnConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Name" xml:space="preserve">
+    <value>btnConnect</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;btnConnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCurWiifiPofile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCurWiifiPofile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCurWiifiPofile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 214</value>
+  </data>
+  <data name="labelCurWiifiPofile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="labelCurWiifiPofile.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelCurWiifiPofile.Text" xml:space="preserve">
+    <value>Current Wi-Fi Profile:</value>
+  </data>
+  <data name="&gt;&gt;labelCurWiifiPofile.Name" xml:space="preserve">
+    <value>labelCurWiifiPofile</value>
+  </data>
+  <data name="&gt;&gt;labelCurWiifiPofile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCurWiifiPofile.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;labelCurWiifiPofile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbCurWifiProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 239</value>
+  </data>
+  <data name="tbCurWifiProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="tbCurWifiProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbCurWifiProfile.Name" xml:space="preserve">
+    <value>tbCurWifiProfile</value>
+  </data>
+  <data name="&gt;&gt;tbCurWifiProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCurWifiProfile.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;tbCurWifiProfile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelWifiPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWifiPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 214</value>
+  </data>
+  <data name="labelWifiPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="labelWifiPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelWifiPassword.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;labelWifiPassword.Name" xml:space="preserve">
+    <value>labelWifiPassword</value>
+  </data>
+  <data name="&gt;&gt;labelWifiPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelWifiPassword.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;labelWifiPassword.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbWifiPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 239</value>
+  </data>
+  <data name="tbWifiPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="tbWifiPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbWifiPassword.Name" xml:space="preserve">
+    <value>tbWifiPassword</value>
+  </data>
+  <data name="&gt;&gt;tbWifiPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWifiPassword.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;tbWifiPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 152</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 23</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Get List of Wi-Fi Profiles</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>gbConnections</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colWifiName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colWifiName.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="colWifiSignal.Text" xml:space="preserve">
+    <value>Signal</value>
+  </data>
+  <data name="colWifiSignal.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lvConnections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lvConnections.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 127</value>
+  </data>
+  <data name="lvConnections.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvConnections.Name" xml:space="preserve">
+    <value>lvConnections</value>
+  </data>
+  <data name="&gt;&gt;lvConnections.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvConnections.Parent" xml:space="preserve">
+    <value>gbConnections</value>
+  </data>
+  <data name="&gt;&gt;lvConnections.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbConnections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 20</value>
+  </data>
+  <data name="gbConnections.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 180</value>
+  </data>
+  <data name="gbConnections.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbConnections.Text" xml:space="preserve">
+    <value>Available Connections</value>
+  </data>
+  <data name="&gt;&gt;gbConnections.Name" xml:space="preserve">
+    <value>gbConnections</value>
+  </data>
+  <data name="&gt;&gt;gbConnections.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbConnections.Parent" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;gbConnections.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabWifi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabWifi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 310</value>
+  </data>
+  <data name="tabWifi.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabWifi.Text" xml:space="preserve">
+    <value>Wi-Fi</value>
+  </data>
+  <data name="&gt;&gt;tabWifi.Name" xml:space="preserve">
+    <value>tabWifi</value>
+  </data>
+  <data name="&gt;&gt;tabWifi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabWifi.Parent" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tabWifi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tcConnections.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 12</value>
+  </data>
+  <data name="tcConnections.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 336</value>
+  </data>
+  <data name="tcConnections.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tcConnections.Name" xml:space="preserve">
+    <value>tcConnections</value>
+  </data>
+  <data name="&gt;&gt;tcConnections.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcConnections.Parent" xml:space="preserve">
+    <value>tabSerialPort</value>
+  </data>
+  <data name="&gt;&gt;tcConnections.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="progressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="progressBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSelectSerialPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectSerialPort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSelectSerialPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="lblSelectSerialPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="lblSelectSerialPort.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblSelectSerialPort.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPort.Name" xml:space="preserve">
+    <value>lblSelectSerialPort</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPort.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSelectSerialPortSpeed.Text" xml:space="preserve">
+    <value>Speed (bps):</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPortSpeed.Name" xml:space="preserve">
+    <value>lblSelectSerialPortSpeed</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPortSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPortSpeed.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;lblSelectSerialPortSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnDetect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnDetect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDetect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 115</value>
+  </data>
+  <data name="btnDetect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
+  </data>
+  <data name="btnDetect.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnDetect.Text" xml:space="preserve">
+    <value>Autodetection</value>
+  </data>
+  <data name="btnDetect.ToolTip" xml:space="preserve">
+    <value>Trying to find device searching all possible serial ports on all speeds</value>
+  </data>
+  <data name="&gt;&gt;btnDetect.Name" xml:space="preserve">
+    <value>btnDetect</value>
+  </data>
+  <data name="&gt;&gt;btnDetect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDetect.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;btnDetect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbSerialPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="cmbSerialPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialPort.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort.Name" xml:space="preserve">
+    <value>cmbSerialPort</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items" xml:space="preserve">
+    <value>3000000</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items1" xml:space="preserve">
+    <value>460800</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items2" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items3" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items4" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items5" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items6" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Items7" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 82</value>
+  </data>
+  <data name="cmbSerialPortSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="cmbSerialPortSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortSpeed.Name" xml:space="preserve">
+    <value>cmbSerialPortSpeed</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortSpeed.Parent" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;cmbSerialPortSpeed.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbxSerial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 201</value>
+  </data>
+  <data name="gbxSerial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 179</value>
+  </data>
+  <data name="gbxSerial.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gbxSerial.Text" xml:space="preserve">
+    <value>COM port settings</value>
+  </data>
+  <data name="&gt;&gt;gbxSerial.Name" xml:space="preserve">
+    <value>gbxSerial</value>
+  </data>
+  <data name="&gt;&gt;gbxSerial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxSerial.Parent" xml:space="preserve">
+    <value>tabSerialPort</value>
+  </data>
+  <data name="&gt;&gt;gbxSerial.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbWifi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbWifi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbWifi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 157</value>
+  </data>
+  <data name="rbWifi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="rbWifi.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbWifi.Text" xml:space="preserve">
+    <value>Wi-Fi</value>
+  </data>
+  <data name="&gt;&gt;rbWifi.Name" xml:space="preserve">
+    <value>rbWifi</value>
+  </data>
+  <data name="&gt;&gt;rbWifi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbWifi.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbWifi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtnModemGPRS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnModemGPRS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtnModemGPRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="rbtnModemGPRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="rbtnModemGPRS.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbtnModemGPRS.Text" xml:space="preserve">
+    <value>GPRS modem</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGPRS.Name" xml:space="preserve">
+    <value>rbtnModemGPRS</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGPRS.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGPRS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbRs485.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbRs485.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbRs485.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 134</value>
+  </data>
+  <data name="rbRs485.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="rbRs485.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbRs485.Text" xml:space="preserve">
+    <value>RS-485</value>
+  </data>
+  <data name="&gt;&gt;rbRs485.Name" xml:space="preserve">
+    <value>rbRs485</value>
+  </data>
+  <data name="&gt;&gt;rbRs485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbRs485.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbRs485.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbEthernet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEthernet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbEthernet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
+  </data>
+  <data name="rbEthernet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="rbEthernet.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbEthernet.Text" xml:space="preserve">
+    <value>Ethernet</value>
+  </data>
+  <data name="&gt;&gt;rbEthernet.Name" xml:space="preserve">
+    <value>rbEthernet</value>
+  </data>
+  <data name="&gt;&gt;rbEthernet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEthernet.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbEthernet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbtnModemGSM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnModemGSM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtnModemGSM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="rbtnModemGSM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="rbtnModemGSM.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbtnModemGSM.Text" xml:space="preserve">
+    <value>GSM modem</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGSM.Name" xml:space="preserve">
+    <value>rbtnModemGSM</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGSM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGSM.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbtnModemGSM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbtnUSB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnUSB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtnUSB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="rbtnUSB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="rbtnUSB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtnUSB.Text" xml:space="preserve">
+    <value>Universal Serial Bus (USB)</value>
+  </data>
+  <data name="&gt;&gt;rbtnUSB.Name" xml:space="preserve">
+    <value>rbtnUSB</value>
+  </data>
+  <data name="&gt;&gt;rbtnUSB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnUSB.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbtnUSB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbtnCOM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnCOM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtnCOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="rbtnCOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="rbtnCOM.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtnCOM.Text" xml:space="preserve">
+    <value>Serial port (COM)</value>
+  </data>
+  <data name="&gt;&gt;rbtnCOM.Name" xml:space="preserve">
+    <value>rbtnCOM</value>
+  </data>
+  <data name="&gt;&gt;rbtnCOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnCOM.Parent" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;rbtnCOM.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbxInterface.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="gbxInterface.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 183</value>
+  </data>
+  <data name="gbxInterface.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gbxInterface.Text" xml:space="preserve">
+    <value>I/O Interface</value>
+  </data>
+  <data name="&gt;&gt;gbxInterface.Name" xml:space="preserve">
+    <value>gbxInterface</value>
+  </data>
+  <data name="&gt;&gt;gbxInterface.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxInterface.Parent" xml:space="preserve">
+    <value>tabSerialPort</value>
+  </data>
+  <data name="&gt;&gt;gbxInterface.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabSerialPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSerialPort.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSerialPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 395</value>
+  </data>
+  <data name="tabSerialPort.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabSerialPort.Text" xml:space="preserve">
+    <value>I/O Interface</value>
+  </data>
+  <data name="&gt;&gt;tabSerialPort.Name" xml:space="preserve">
+    <value>tabSerialPort</value>
+  </data>
+  <data name="&gt;&gt;tabSerialPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSerialPort.Parent" xml:space="preserve">
+    <value>tcOptions</value>
+  </data>
+  <data name="&gt;&gt;tabSerialPort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBoxAvailable.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listBoxAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 31</value>
+  </data>
+  <data name="listBoxAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 238</value>
+  </data>
+  <data name="listBoxAvailable.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;listBoxAvailable.Name" xml:space="preserve">
+    <value>listBoxAvailable</value>
+  </data>
+  <data name="&gt;&gt;listBoxAvailable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBoxAvailable.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;listBoxAvailable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelLicDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLicDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLicDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 3</value>
+  </data>
+  <data name="labelLicDevices.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="labelLicDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 18</value>
+  </data>
+  <data name="labelLicDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelLicDevices.Text" xml:space="preserve">
+    <value>Licenced devices available:</value>
+  </data>
+  <data name="&gt;&gt;labelLicDevices.Name" xml:space="preserve">
+    <value>labelLicDevices</value>
+  </data>
+  <data name="&gt;&gt;labelLicDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLicDevices.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;labelLicDevices.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBoxInstalled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 31</value>
+  </data>
+  <data name="listBoxInstalled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 238</value>
+  </data>
+  <data name="listBoxInstalled.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;listBoxInstalled.Name" xml:space="preserve">
+    <value>listBoxInstalled</value>
+  </data>
+  <data name="&gt;&gt;listBoxInstalled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBoxInstalled.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;listBoxInstalled.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblInstalledDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInstalledDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInstalledDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 3</value>
+  </data>
+  <data name="lblInstalledDevices.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="lblInstalledDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="lblInstalledDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblInstalledDevices.Text" xml:space="preserve">
+    <value>Installed devices:</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledDevices.Name" xml:space="preserve">
+    <value>lblInstalledDevices</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledDevices.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;lblInstalledDevices.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDropLicence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDropLicence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 275</value>
+  </data>
+  <data name="btnDropLicence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDropLicence.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnDropLicence.Text" xml:space="preserve">
+    <value>Drop licence</value>
+  </data>
+  <data name="&gt;&gt;btnDropLicence.Name" xml:space="preserve">
+    <value>btnDropLicence</value>
+  </data>
+  <data name="&gt;&gt;btnDropLicence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDropLicence.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;btnDropLicence.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnAddLicence.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAddLicence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddLicence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 275</value>
+  </data>
+  <data name="btnAddLicence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="btnAddLicence.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnAddLicence.Text" xml:space="preserve">
+    <value>Add licences</value>
+  </data>
+  <data name="&gt;&gt;btnAddLicence.Name" xml:space="preserve">
+    <value>btnAddLicence</value>
+  </data>
+  <data name="&gt;&gt;btnAddLicence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddLicence.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;btnAddLicence.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnOpenLicenseFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOpenLicenseFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 275</value>
+  </data>
+  <data name="btnOpenLicenseFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 23</value>
+  </data>
+  <data name="btnOpenLicenseFile.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnOpenLicenseFile.Text" xml:space="preserve">
+    <value>Open licence file</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLicenseFile.Name" xml:space="preserve">
+    <value>btnOpenLicenseFile</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLicenseFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLicenseFile.Parent" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLicenseFile.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabDeviceManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabDeviceManager.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabDeviceManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 395</value>
+  </data>
+  <data name="tabDeviceManager.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabDeviceManager.Text" xml:space="preserve">
+    <value>Device manager</value>
+  </data>
+  <data name="&gt;&gt;tabDeviceManager.Name" xml:space="preserve">
+    <value>tabDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;tabDeviceManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabDeviceManager.Parent" xml:space="preserve">
+    <value>tcOptions</value>
+  </data>
+  <data name="&gt;&gt;tabDeviceManager.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tcOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 421</value>
+  </data>
+  <data name="tcOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcOptions.Name" xml:space="preserve">
+    <value>tcOptions</value>
+  </data>
+  <data name="&gt;&gt;tcOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 427</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 427</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnApply.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 427</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="dlgOpenLicence.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <data name="dlgOpenLicence.Filter" xml:space="preserve">
+    <value>Licence files|*.licence|All files|*.*</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="calendarColumn1.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="calendarColumn2.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="calendarColumn2.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="calendarColumn3.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="calendarColumn3.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="calendarColumn4.HeaderText" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="calendarColumn4.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>782, 462</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAMDAAAAEACACoDgAAZgAAACAgAAABAAgAqAgAAA4PAAAQEAAAAQAIAGgFAAC2FwAAMDAAAAEA
+        IACoJQAAHh0AACAgAAABACAAqBAAAMZCAAAQEAAAAQAgAGgEAABuUwAAKAAAADAAAABgAAAAAQAIAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNZ2cA0WtrANRubgDWcHAA2XNzANt1dQDdd3cA4Hp6AOJ8
+        fADlf38A54GBAOmDgwDshoYA5oSDAO6IiADJc3MA8IqKAPKMjADriYgA9Y+PAPeRkQD5k5MA2YCAAMt4
+        eAD8lpYA/piYAM17ewD/mpoA/5ycAP+engDzlpYA/6CgAKlqagD/oqIA5pKSAI9cXAD/paUA0IeHAP+n
+        pwD/qakAmGVlAP+rqwD/rq4AxYaGAP+wsADnn58ArHd3AP+ysgD/tLQA6KSkAP+2tgD9tbQA+7SzAH5a
+        WgD/uLgAs4KCAKZ5eQD/u7sAq35+AP+9vQCYcXEA/7+/AP/BwQCziYkA/8TEAP/GxgDRoqIAgmVlANys
+        rACKbGwAt5CQAP/KygDEoKAA3ba2ALmamgBnVlYAdGNjAFxUVACwoaEAy7y8AFNNTQCemZkAqKSkAKGe
+        ngBqaWkA03FvANl5dwDlg4EA3H58AOmHhQDriYcA9JKQAPOSkADdj4wAtHVzAOucmQD0pqMA76WiAMCE
+        gwD2trQA56upAPy/vgD7wb8AzHFtANJ6dgDXfnoA24R/AOGHgwDiiYUAzH97APWalgDrlZAA86qmAPSt
+        qgD3sa4AuY2LAPW9ugDmtrQAzq2rAIt2dQB7a2oAloOCAM9+dwDlkIoA752XAOqjnQDzubUAvJWSALCQ
+        jQDajoYA7bu1AOSckwCojIgAxK6rAMiDeADMiX0A0o2CAN6ZjgDXlIkA3ZyQAOKroQDptKsA1pqNAN2l
+        mQC3j4cAwqKbAK+TjQDJq6UAya6pANKVhwDBmY8A0ZmKANSejwDbrJ8Ay6GVALmbkwDGp54Ay5eHAM+b
+        iwDRn48A1aSVALORhgDDn5QAvpuQAL+spgDGlIIAzZ6NANSqnADHppoAxKOYAMGhlgC+oJUAyaqfAMqs
+        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
+        bgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK/T24doAQEBgQAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvr6+vr6+vAAAAAAAAAAAAAAAAAAAAAAAAAAD///wH//8AAP//
+        AAP//wAA//wAA///AAD/8AACD/8AAP/gAAAH/wAA/+AAAAP/AAD/4AAAA/8AAP8AAAAD/wAA/gAAAAP/
+        AAD8AAAAA/8AAPwAAAAH/wAA+AAAAAI/AAD4AAAAAB8AAPgAB4AADwAA/AAP4AAPAAD+AB/wAA8AAP8A
+        P/gADwAA/gA//AAfAADwAH/+AD8AAPAAf/4AfwAA4AB//wA/AADgAH//AA8AAOAAf/8AAwAA4AB//4AD
+        AADgAH//gAMAAPAAf/+AAwAA/gA//4ADAAD/AD//gAMAAP4AH/+ABwAA/AAf/wA/AAD4AA//AD8AAPAA
+        B/4AHwAA+AAD/AAPAAD4AAH4AA8AAPwAAAAADwAA/AAAAAAPAAD+MAAAAA8AAP/wAAAAHwAA//AAAAA/
+        AAD/4AAAAH8AAP/gAAAD/wAA/+AAAAP/AAD/8AAAA/8AAP/4EAAD/wAA//wwAAf/AAD///AAH/8AAP//
+        8Af//wAA///4D///AAAoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH9s
+        bQDRZmcA2W9wANdubwDTbG0A13BxANtzdADfdncA43l6AOV9fgDmfn8A6oKDAO6FhgD3i40A9oyNAPWN
+        jgC6bG0A/JOUAPuTlAD9nZ4A/6GiAP+lpgD/tbYA/7m6AP+6uwD/vb4A/8PEAP/FxgDVa2sA2HFxANVx
+        cADgd3cA2nR0AN54eADie3sA4Xt7AOWAfwDlf38A439+AOmDgwDlgIAA7oaGAOWCgQDjgIAA3Hx8AOyG
+        hgDphIQA8ImJANt+fQDwiooA7YqJAOeGhQDIdHMA9I6OAOuIiAD4kZEA/JSUAPuUlAD3kZEA9pOSAP2Y
+        lwD+mJgA6oyMAP+bmwD/np4A/6GhALh0dAD/paUArG9vAP+npwCfaGgA/6ioAP+srAD+q6sA+qqpAP+u
+        rgCvd3cA/6+vANuWlgDChoYA/rCwAO2kpAD/srIA76moAIVdXQD/tLQA9q2tAP+1tQD/trYAoXNzAI9n
+        ZwD/ubkA1pubAK9/fwD/vLwApXp6AOWrqwDVn58A/8DAAP2+vgCGZWUAfl9fAP/DwwCogIAAtYuLAP3E
+        xAD/x8cAjG1tAHRbWwD/ysoA/83NAJN3dwB5ZGQAiHFxAN25uQCrkJAAdGVlAF5SUgCjkpIAqJmZAGxn
+        ZwBeWloAioWFAIOAgABnZmYAZmVlAFZVVQClpKQAzmxqANJvbQDYdXMA2Hh2AOWGgwDskY4A+52aAPaa
+        lwDqlZIA4JWSAPynpQDRjYsA252cAPazsQD4t7UAyJWUAP2+vQD+wL8A3KqpAPnFwwDgtLMArI2MANF5
+        dADbhH8A44uGAPOWkgDyqqYA+K+sAPmzsADVgXsA3IuFAOqinADuqaMA7rizAPK9uQCIbmwAinx7AG9k
+        YwDgk4sA6JuTAPCzrQCNengA042DAMqGfQDRk4oAt5uXAJqTkgDSkIUAy4yCAOWtpADIpJ4A5rasAJR/
+        ewDFrKcAuqypAN+rngC4kokAxqmiANihkgCXhH8AyZSEANSgkADMmooA1qOUAMKnnwCpmZQAyZiHANGf
+        jgDRoZEAz6KSAMegkgDUq5wA0LSqAKeUjQC+mowAzaueALOWiwDGp5oAyKyhAMqvpACjjYQAyqCNAM6l
+        kgDOqZgAwJ6PAMirngC+pJkAzaeUANCrmADLp5UAwqKSAMamlgCfhnkAs5iLAMClmADEqp0AZGJhAM6p
+        lQDEpJIAyq6eAM6tmQDLrZoAyauZAMeqmQDKrZwAwaaWAMOrnQDJqpYAy6+dAMGmkgDHrJgAwaqZAJKR
+        jwCbm5sAmJiYAJSUlACTk5MAjIyMAIaGhgCEhIQAfX19AGpqagBlZWUAYGBgAFxcXABYWFgAAAAAAAAA
+        AAAAAAAAAAAAAAAA8/P49vMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPN8+fPKrnS8efMAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPO8s5WmzdSUbm619fPzAAAAAAAAAAAAAAAAAAAAAAAA3KNra5PcyGprb3B5vJZ1+gAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ADVDNAAAAAAAAAAAAAAtQCIBGT0sQTgAAAAAAAAPAR8MAQ0WAQY7AAAAAAA5EAEBAQEBAQEIRDw5AAAF
+        Cw0BAQEgAQEBAwgEMAAAAQEBASkAAAAAAQEBASoAACQBASUAAAAAAAABASE+Nx4OAQQ6AAAAAAAACQEN
+        E0MBAQERPwAAAAAAAB4BAQEzHh4BAkUyAAAAAAABAREmAAAjAQEcQjMAAAAnAQEVMQAAAQEBARovQi4Y
+        AQEBASgAABceDwEBAQEBAQEHGwEAAAAAABIBAQEBAQEBCjYAAAAAAAAXAR4dARQrAQEAAAAAAAAAAAAA
+        FwEBAAAAAAAAAP4/ALrwB1lY4AdYWMABjqmAAVkXg8FYaIfgcH4H4AAAB+AAzwPhVlOBwVNTgAEAAIAD
+        uJzgB1NX4A9Rcfx/AAAoAAAAMAAAAGAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAkAAAAPAAAAFQAAABAAAAADAAAAKgAAAGAAAACLAAAArAAAAKEAAACUAAAAfwAAAF0AAAAYAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMAAAAQAAAAJwAAAEwAAABxAAAAiwAAAG5ZRkJDhHFlr5Z8bOTnubT72a6u882kpO6xjo7lhWpq1hkU
+        FKYAAAA9AAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAADQAAADEdGRd3ZFRLxKODfeHjtLL2v5eX6gAAAKebeXLMzq+d/8Ogi///ysr//8rK///K
+        yv//ysr//8rK/1JBQcYAAABbAAAADAAAAAkAAAAPAAAAEwAAABMAAAAEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAKOS0qaZF3bNjTq57/87+7///Hx///x8f//8fH/2JMTNGlhn3uza2b/8mk
+        kf//x8f//8fH///Hx///x8f//8fH/5Z1ddoAAABrAAAAHwAAAEsAAABwAAAAiAAAAH0AAAA9AAAADQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjfnd7xKWU98Ofiv//xsb//8bG///Gxv//xsb//8bG/+ay
+        svfFn5X/y6uX/9Cnl///xsb//8bG///Gxv//xsb//8bG/6N+fuAAAACLemdfoJJ6bNy6lInx2qio8j0v
+        L8gAAACdAAAAVAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0jIXRz7Ce/8Sijf/vubT//8TE///E
+        xP//xMT//8TE///ExP/rvbb/yaiU/9ytof//xMT//8TE///ExP//xMT//8TE/82enu5XREDMy6yb/86n
+        lv/7wb///8TE///ExP9yV1fXAAAApwAAAGsAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAADQAAABKSZ2V80rWk/8em
+        kv/brKD//8HB///Bwf//wcH//8HB///Bwf//wcH//L++///Bwf//wcH//8HB///Bwf//wcH//8HB/+au
+        rvfMppr/yaWS//O5tf//wcH//8HB///Bwf//wcH/sIWF5wAAAKMAAAAwAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAABDAAAAZwAA
+        AH8kGBiIyamb/8url//Joo///7+///+/v///v7///7+///+/v///v7///7+///+/v///v7///7+///+/
+        v///v7///7+///+/v///v7//97q4//+/v///v7///7+///+/v///v7///7+//1xFRbIAAAAcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXNc
+        VoOIc2bUrYh87M6Zme1QOzvLoH938M6vnf/DoYz/87ay//+9vf//vb3//729//+9vf//vb3//729//+9
+        vf//vb3//729//+9vf//vb3//729//+9vf//vb3//729//+9vf//vb3//729//+9vf//vb3/9LW1+gAA
+        AHEAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABfFlXa82unv/Io5D/97a0//+7u///u7v/56up/9Wyo//Io4//97a0//+7u///u7v//7u7//+7
+        u///u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//+7
+        u///u7v/tISE4QAAAEUAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABYOjocuZiM68mplf/gqp///7i4//+4uP//uLj//7i4//+4uP/3tLL//7i4//+4
+        uP//uLj//7i4//+4uP//uLj//7i4//+4uP//uLj//7i4//+4uP//uLj//7i4//+4uP//uLj//7i4//+4
+        uP//uLj//7i4//+4uP//uLj/aUxMwwAAAC0AAAADAAAACQAAAA8AAAAVAAAABwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGWbmqPz7Gg/8eijv/7tLP//7a2//+2tv//trb//7a2//+2
+        tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2tv//trb//7a2//+2
+        tv//trb//7a2//+2tv//trb//7a2//+2tv//trb/AAAAtQAAAGgAAAA6AAAATgAAAHEAAACCAAAASAAA
+        AAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFWVhO+m5DxyqmW/9immP//tLT//7S0//+0
+        tP//tLT//7S0//+0tP//tLT//7S0//+0tP//tLT//7S0//+0tP//tLT//bW0/++1r//jsqf/1qqb/9uq
+        nf/kq6L/97Gu//+0tP//tLT//7S0//+0tP//tLT//7S0//+0tP//tLT/oXJy4yMeG75rUUzKsH584eej
+        o/ZjRUXPAAAAiwAAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJlmZiDMrZ7wzK2a/8ei
+        jv/zrqr//7Ky//+ysv//srL//7Ky//+ysv//srL//7Ky//+ysv//srL//7Ky//+ysv/Mj4+ghF1dHwAA
+        AAGZZmYwuZSLcsGekuDLrJv/yKeT/9KklP/zrqr//7Ky//+ysv//srL//7Ky//+ysv//srL//7Ky//ew
+        rf//srL//7Ky//+ysv/moaH3AAAArQAAAFEAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACkdXJgyaib/8urmP/HoY3/86yo//+wsP//sLD//7Cw//+wsP//sLD//7Cw//+wsP//sLD/9amp+XpU
+        VGQAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAACug31gw6CU8M2um//Fo47/36ab//+wsP//sLD//7Cw//+w
+        sP//sLD//7Cw//+wsP//sLD//7Cw//+wsP//sLD/c09P1QAAAIwAAAAbAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAApHVyYMinmf/Lq5j/xqCM//Oqpv//rq7//66u//+urv//rq7//66u//+u
+        rv//rq7/YEJCfwAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmWZmELiSidDPsZ//xqWQ/9ej
+        lf//rq7//66u//+urv//rq7//66u//+urv//rq7//66u//+urv//rq7/5pyc9wAAAKcAAAA0AAAABgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAB5hsaWfPsaH/yqqW/8Weiv//q6v//6ur//+r
+        q///q6v//6ur//+rq/+gbGzMAAAAKAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJlm
+        ZhC4konQz7Gf/8Wjj//fpJn//6ur//+rq///q6v//6ur//+rq///q6v//6ur//+rq///q6v//6ur/2JC
+        QqcAAAAtAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAArAAAARQAAAFu0kojty6uY/9Cg
+        kP//qan//6mp//+pqf//qan//6mp//SiovokGBhxAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACZZmYgxKKW8M2um//DoYv/76Wg//+pqf//qan//6mp//+pqf//qan//6mp//+p
+        qf//qan/7p6e75BfX1UAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDEpJYNQQjnAmGRk15Zi
+        Ytnoo5//8qei//emo///p6f//6en//+np///p6f//6en/6dtbdsAAAA3AAAABAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApHVyYM+xov/JqZX/zJ+N//+np///p6f//6en//+n
+        p///p6f//6en//+np//nl5flTTIyNQAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvZyRt82t
+        m//Cnon//6Wl//+lpf//paX//6Wl//+lpf//paX//6Wl//+lpf//paX//6Wl/0QsLLQAAAAcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALKJguDPsJ7/xKKN/+ui
+        m///paX//6Wl//+lpf//paX//6Wl/7R0dOEsHBxdAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAt4+H/8ysmf/Jn4z//6Ki//+iov//oqL//6Ki//+iov//oqL//6Ki//+iov//oqL//6Ki/wAA
+        AI8AAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKR1
+        cmDPsaH/yaiU/9Sej///oqL//6Ki//+iov//oqL//6Ki/2RAQMwAAABtAAAAIgAAAA0AAAAEAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAt4+H/8urmP/Rn4///6Cg//+goP//oKD//6Cg//+goP//oKD//6Cg//+g
+        oP//oKD/2omJ8gAAAIUAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADAnZLwzK2a/8Kfif//oKD//6Cg//+goP//oKD//6Cg/6FlZeMAAACyAAAAkQAA
+        AGcAAAA3AAAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAt4+H/8urmP/Rn4///56e//+env//np7//56e//+e
+        nv//np7//56e//+env//np7/zoCA7QAAAIgAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxioOzz7Gf/8Sijf/vnZf//56e//+env//np7//56e//+e
+        nv/mj4/3oWRk4j8nJ8MAAACqAAAAiQAAABYAAAAAAAAAAAAAAAAAAAAAt4+H/8ysmf/Bnoj//5yc//+c
+        nP//nJz//5yc//+cnP//nJz//5yc//+cnP//nJz/zH197wAAAJsAAAAYAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACleXWD0bSi/8alkP/jm5L//5yc//+c
+        nP//nJz//5yc//+cnP//nJz//5yc//+cnP/zlZX7AAAApgAAABgAAAAAAAAAAAAAAAAAAAAAuZOK782u
+        nP/Eoo3/5JyT//Oalv//mpr//5qa//+amv//mpr//5qa//+amv//mpr/85KS+wAAAKcAAAAlAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSYWFU07al/8em
+        kv/fmo///5qa//+amv//mpr//5qa//+amv//mpr//5qa//+amv//mpr/AAAApwAAABgAAAAAAAAAAAAA
+        AAAAAAAAmWZmILCIgXLFpJiyyaiY/8qql//NopD/3ZyQ//eZlv/+mJj//piY//6YmP/+mJj//piY/xcO
+        DrQAAABGAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACQYGBE07em/8imkv/fmo///piY//6YmP/+mJj//piY//6YmP/+mJj//piY//6YmP/+mJj/AAAApwAA
+        ABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmWZmEKh7d4DIp5n/yqmV/8+bi//8lpb//JaW//yW
+        lv/8lpb//JaW/2I6Os0AAABzAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        gf/ngYH/54GB/+eBgf/ngYH/54GB/+eBgf/ngYH/xW5u85JRUeGHS0varWto7N6OiP/ngYH/54GB/+eB
+        gf/ngYH/54GB/+eBgf/ngYH/54GB/+eBgf/ngYH/54GB/+eBgf/ngYH/54GB/3VBQb4AAAAlAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmWZmMMmqnIKxlINJAAAABgAAAAAAAAAAr4yEmdCy
+        oP/Foo3/3YR//+V/f//lf3//5X9//+V/f//lf3//5X9//+V/f//lf3//5X9//+V/f//lf3//5X9//+V/
+        f//lf3//5X9//+V/f//lf3//5X9//+V/f//lf3//5X9//+V/f//lf3//5X9//+V/f//lf3//23p6+iIT
+        E2oAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAADsY2E2M2tm//Fmof/4nx8/+J8fP/ifHz/4nx8/+J8fP/ifHz/4nx8/+J8fP/ifHz/4nx8/+J8
+        fP/ifHz/4nx8/+J8fP/ifHz/4nx8/+J8fP/ifHz/4nx8/+J8fP/ifHz/2Y2G/8uXh//ZhH7/4nx8/+J8
+        fP/ifHz/lFFRxAAAACcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAB3UFApyaia/8molP/OjYH/4Hp6/+B6ev/genr/4Hp6/+B6ev/genr/4Hp6/+B6
+        ev/genr/4Hp6/+B6ev/genr/4Hp6/+B6ev/genr/4Hp6/+B6ev/genr/4Hp6/+B6ev/genr/wJeN+s6v
+        nf/GpZD/zZGD/9x+e//VdHTqPSEhOgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcdG970bOh/8Wjjv/Xfnr/3Xd3/913d//dd3f/3Xd3/913
+        d//dd3f/3Xd3/913d//dd3f/3Xd3/913d//dd3f/3Xd3/913d//dd3f/3Xd3/913d//dd3f/3Xd3/913
+        d//dd3f/ZTY202tPTLTEopbjw6WTtreWgoipW1sqAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC1kIfUza2b/8WZhv/bdXX/23V1/9t1
+        df/bdXX/23V1/9t1df/Yenj/zol+/9l3dv/bdXX/23V1/9t1df/bdXX/23V1/9t1df/bdXX/23V1/9t1
+        df/bdXX/23V1/9t1df/bdXX/olZW6wAAAKEAAAAlAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCn5T/zKyZ/8Sd
+        if/Uenb/2XNz/9lzc//Zc3P/2XNz/9lzc//TqJr/yKeT/8uKfv/Zc3P/2XNz/9lzc//Zc3P/2XNz/9lz
+        c//RjYP/zId9/9lzc//Zc3P/2XNz/9lzc//Zc3P/2XNz/xQKCrQAAABCAAAABwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACkdXJgyaib/8ysmf/Fnor/z353/9ZwcP/WcHD/1nBw/5FSUr/Fo5b/yqmW/8aSgf/WcHD/1nBw/9Zw
+        cP/WcHD/1nBw/9Z9ev/Nrpv/w6GL/9B6df/WcHD/1nBw/9ZwcP/WcHD/1nBw/1ovL74AAABJAAAACgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAroN+MMKglODOr53/xaOP/8mIfP/TcW//sVxcvgAAAB/Cn5T/y6yZ/8SY
+        hf/Ubm7/1G5u/9Rubv/Ubm7/1G5u/8lxcP/QsqL/yqmW/8WVg//Ubm7/1G5u/9Rubv/Ubm7/1G5u/5lP
+        T5sAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAGa2KgMvOrZn/7bix///Fxv//w8P//8PE/+e3
+        rv/qt6///8PE///Dw///x8f/wpOS8pl+cfDitKf//8PE/+21tflxVlbWAwICmgAAAC4AAAAFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADh0ZFlcmHBuJZEpIvMGmkv7crqH//8LC///A
+        wP//wMD//8HB///AwP//wMD//8DA///AwP/+wL//77iy//2+vf//wMD//8DA//2+vv5QPDypAAAAJQAA
+        AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASIbGWIq41+5tqioPKqfHzpxKWU/NSq
+        mv/+u7r//7y9//+8vP//vLz//7y8//+8vP//vLz//7y8//+8vf//vb7//729//+8vP//vLz/5Kio9Tgq
+        KoMAAAATAAAABQAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAelVUP8Skkv7lraT//7m6//+6
+        u//4t7X/9bWx//+5uf//ubn//7m5//+5uf//ubr//7m6//+6u///ubr//7m5//+5uf//ubn//7m5//+5
+        uf+vf3/hAAAAcgAAACwAAAA2AAAAPQAAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAGwjIK+0auZ//my
+        r///trf//7W1//+2tv//trb//7W1//+1tf//trb//rS0//axsP/wtK7/8LGr//izsP//trf//7W2//+1
+        tf//tbX//7W1/5xvb+EUEA+wUTs5rmxLS8EIBgaeAAAAQwAAAAcAAAAAAAAAAAAAAAAAAAAAl2NkBsCd
+        kNnPq5j/8a2n//+ztP//srL//7Ky//+ysv//srL//7Ky//esrPrGioqYxZGOTLePh2XBnZDDzqiY/96r
+        nv/4r6z//7Kz//+ysv//srL/9aqq+9mZmPTvqKf7/rCw/1U7O8sAAAB7AAAAFgAAAAAAAAAAAAAAAAAA
+        AACVX2EBoXNwRcGgkuvNqJX/8aql//+vr///rq7//66u//+urv/soaH3bUtLcwAAAA4AAAAAAAAAAAAA
+        AACsg3xYxKaW5M2mlP/uqaP//6+w//+urv//rq7//66v//+vr///rq7/x4iI7QAAAJkAAAApAAAABAAA
+        AAAAAAAAAAAAAAAAAAEAAAAXbVFPXL+llO3PpZP/+aqo//+srP//rKz//qur/4teXrYAAAAcAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC5lIs8xaaW6M2nlP/0qKX//6yt//+srP//rKz//6ys//+srP/6qan8Vzo6hAAA
+        ABYAAAABAAAAAAAAAAAAAAAATEE7GEExLYZJLzC0tI2D8+KonP/8p6X//6io//+oqP/Zj4/vAAAAXgAA
+        AAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwhX9hx6qY/tWjlP/+p6f//6io//+oqP//qKj//6io/8mE
+        hMZAKiokAAAAAQAAAAAAAAAAAAAAAAAAAAC9oJCzz56P+P+np///pqb//6Wm//+lpf//paX//6Wl/5Nf
+        X9QAAAA9AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJZiYwK5k4rAyKqV/+uimv//pab//6Wl//+l
+        pf+haWnaBgQEWQAAABYAAAAIAAAAAAAAAAAAAAAAAAAAAMKikv/WopP//6Gh//+hof//oaH//6Gh//+h
+        of//oaH/TDExvwAAADUAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ9xb1PLrpv/16CS//+h
+        ov//oaH//6Gh/2I9PdIAAACaAAAAbAAAAEUAAAAIAAAAAAAAAAAAAAAAwJ6P/9ihkv//np7//56e//+e
+        nv//np7//56e//+env9FKyu9AAAAOgAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAondzHcOj
+        lerNpJH//Z2e//+env//np7/6ZCQ+KVmZuNoQEDNAAAAlwAAABgAAAAAAAAAAAAAAADEo5T10qKR//ud
+        mv//mpr//5qb//+bm///m5v//5ub/0YqKsEAAABSAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACldnMQuJSJzM6plf/2mpf//5ub//+bm///m5v//5ub//+bm/8AAACnAAAAGAAAAAAAAAAAAAAAAL6Z
+        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
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;colActive.Name" xml:space="preserve">
+    <value>colActive</value>
+  </data>
+  <data name="&gt;&gt;colActive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAuto.Name" xml:space="preserve">
+    <value>colAuto</value>
+  </data>
+  <data name="&gt;&gt;colAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colPhone.Name" xml:space="preserve">
+    <value>colPhone</value>
+  </data>
+  <data name="&gt;&gt;colPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSerial.Name" xml:space="preserve">
+    <value>colSerial</value>
+  </data>
+  <data name="&gt;&gt;colSerial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colTime.Name" xml:space="preserve">
+    <value>colTime</value>
+  </data>
+  <data name="&gt;&gt;colTime.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colComment.Name" xml:space="preserve">
+    <value>colComment</value>
+  </data>
+  <data name="&gt;&gt;colComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDevType.Name" xml:space="preserve">
+    <value>colDevType</value>
+  </data>
+  <data name="&gt;&gt;colDevType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colActiveGPRS.Name" xml:space="preserve">
+    <value>colActiveGPRS</value>
+  </data>
+  <data name="&gt;&gt;colActiveGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAutoGPRS.Name" xml:space="preserve">
+    <value>colAutoGPRS</value>
+  </data>
+  <data name="&gt;&gt;colAutoGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colIPAddressGPRS.Name" xml:space="preserve">
+    <value>colIPAddressGPRS</value>
+  </data>
+  <data name="&gt;&gt;colIPAddressGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colPortGPRS.Name" xml:space="preserve">
+    <value>colPortGPRS</value>
+  </data>
+  <data name="&gt;&gt;colPortGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSerialGPRS.Name" xml:space="preserve">
+    <value>colSerialGPRS</value>
+  </data>
+  <data name="&gt;&gt;colSerialGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colStartGPRS.Name" xml:space="preserve">
+    <value>colStartGPRS</value>
+  </data>
+  <data name="&gt;&gt;colStartGPRS.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colCommentGPRS.Name" xml:space="preserve">
+    <value>colCommentGPRS</value>
+  </data>
+  <data name="&gt;&gt;colCommentGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDevTypeGPRS.Name" xml:space="preserve">
+    <value>colDevTypeGPRS</value>
+  </data>
+  <data name="&gt;&gt;colDevTypeGPRS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colActiveE.Name" xml:space="preserve">
+    <value>colActiveE</value>
+  </data>
+  <data name="&gt;&gt;colActiveE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAutoE.Name" xml:space="preserve">
+    <value>colAutoE</value>
+  </data>
+  <data name="&gt;&gt;colAutoE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colIPAddress.Name" xml:space="preserve">
+    <value>colIPAddress</value>
+  </data>
+  <data name="&gt;&gt;colIPAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colPort.Name" xml:space="preserve">
+    <value>colPort</value>
+  </data>
+  <data name="&gt;&gt;colPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSerialE.Name" xml:space="preserve">
+    <value>colSerialE</value>
+  </data>
+  <data name="&gt;&gt;colSerialE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colStartE.Name" xml:space="preserve">
+    <value>colStartE</value>
+  </data>
+  <data name="&gt;&gt;colStartE.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colCommentE.Name" xml:space="preserve">
+    <value>colCommentE</value>
+  </data>
+  <data name="&gt;&gt;colCommentE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDevTypeE.Name" xml:space="preserve">
+    <value>colDevTypeE</value>
+  </data>
+  <data name="&gt;&gt;colDevTypeE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colActive485.Name" xml:space="preserve">
+    <value>colActive485</value>
+  </data>
+  <data name="&gt;&gt;colActive485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAuto485.Name" xml:space="preserve">
+    <value>colAuto485</value>
+  </data>
+  <data name="&gt;&gt;colAuto485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colSerial485.Name" xml:space="preserve">
+    <value>colSerial485</value>
+  </data>
+  <data name="&gt;&gt;colSerial485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colStart485.Name" xml:space="preserve">
+    <value>colStart485</value>
+  </data>
+  <data name="&gt;&gt;colStart485.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;colComment485.Name" xml:space="preserve">
+    <value>colComment485</value>
+  </data>
+  <data name="&gt;&gt;colComment485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDevType485.Name" xml:space="preserve">
+    <value>colDevType485</value>
+  </data>
+  <data name="&gt;&gt;colDevType485.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colWifiName.Name" xml:space="preserve">
+    <value>colWifiName</value>
+  </data>
+  <data name="&gt;&gt;colWifiName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colWifiSignal.Name" xml:space="preserve">
+    <value>colWifiSignal</value>
+  </data>
+  <data name="&gt;&gt;colWifiSignal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipHost.Name" xml:space="preserve">
+    <value>toolTipHost</value>
+  </data>
+  <data name="&gt;&gt;toolTipHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dlgOpenLicence.Name" xml:space="preserve">
+    <value>dlgOpenLicence</value>
+  </data>
+  <data name="&gt;&gt;dlgOpenLicence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn1.Name" xml:space="preserve">
+    <value>calendarColumn1</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn1.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn2.Name" xml:space="preserve">
+    <value>calendarColumn2</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn2.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn3.Name" xml:space="preserve">
+    <value>calendarColumn3</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn3.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn13</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn14</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn16</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn4.Name" xml:space="preserve">
+    <value>calendarColumn4</value>
+  </data>
+  <data name="&gt;&gt;calendarColumn4.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.CalendarColumn, EmWorkNet, Version=7.1.4.260, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn17</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn18</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

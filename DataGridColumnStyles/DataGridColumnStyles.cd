@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnAnyColor">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnAnyColor.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnCellFormula">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnCellFormula.cs</FileName>
+      <HashCode>AAAAAAIAAAAAAAAAgABAAAAAABAAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnGroupCaption">
+    <Position X="7" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnGroupCaption.cs</FileName>
+      <HashCode>AAABAAAAAgAAAAAAAAAgAAAAAAAAAIAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnHeaderFormula">
+    <Position X="7" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnHeaderFormula.cs</FileName>
+      <HashCode>AAAAQEAAAAAAAAAAAAAEYQAAAAAAAAAAQAAAAAAIAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnOneColor">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnOneColor.cs</FileName>
+      <HashCode>AAAAAAAAQAAgAAAAAAAAAAAAAAABAAACAAAAAABIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EnergomonitoringXP.DataGridColumnStyles.DataGridColumnTimespan">
+    <Position X="0.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>DataGridColumnTimespan.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="str_f" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="str_f_a" xml:space="preserve">
+    <value>Frequency, phase А</value>
+  </data>
+  <data name="str_f_b" xml:space="preserve">
+    <value>Frequency, phase B</value>
+  </data>
+  <data name="str_f_c" xml:space="preserve">
+    <value>Frequency, phase C</value>
+  </data>
+  <data name="str_f_ab" xml:space="preserve">
+    <value>Frequency, line АB</value>
+  </data>
+  <data name="str_f_bc" xml:space="preserve">
+    <value>Frequency, line BC</value>
+  </data>
+  <data name="str_f_ca" xml:space="preserve">
+    <value>Frequency, line CA</value>
+  </data>
+  <data name="str_u_a" xml:space="preserve">
+    <value>Phase voltage, phase A</value>
+  </data>
+  <data name="str_u_b" xml:space="preserve">
+    <value>Phase voltage, phase B</value>
+  </data>
+  <data name="str_u_c" xml:space="preserve">
+    <value>Phase voltage, phase C</value>
+  </data>
+  <data name="str_u_a_const" xml:space="preserve">
+    <value>Phase voltage, phase A, constant component</value>
+  </data>
+  <data name="str_u_b_const" xml:space="preserve">
+    <value>Phase voltage, phase B, constant component</value>
+  </data>
+  <data name="str_u_c_const" xml:space="preserve">
+    <value>Phase voltage, phase C, constant component</value>
+  </data>
+  <data name="str_u_ab_const" xml:space="preserve">
+    <value>Line voltage, line AB, constant component</value>
+  </data>
+  <data name="str_u_bc_const" xml:space="preserve">
+    <value>Line voltage, line BC, constant component</value>
+  </data>
+  <data name="str_u_ca_const" xml:space="preserve">
+    <value>Line voltage, line CA, constant component</value>
+  </data>
+  <data name="str_u1_a" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase A</value>
+  </data>
+  <data name="str_u1_b" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase B</value>
+  </data>
+  <data name="str_u1_c" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase C</value>
+  </data>
+  <data name="str_u_a_1harm" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase A</value>
+  </data>
+  <data name="str_u_b_1harm" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase B</value>
+  </data>
+  <data name="str_u_c_1harm" xml:space="preserve">
+    <value>Phase voltage of 1st harmonic, phase C</value>
+  </data>
+  <data name="str_u_ab_1harm" xml:space="preserve">
+    <value>Line voltage of 1st harmonic, line AB</value>
+  </data>
+  <data name="str_u_bc_1harm" xml:space="preserve">
+    <value>Line voltage of 1st harmonic, line BC</value>
+  </data>
+  <data name="str_u_ca_1harm" xml:space="preserve">
+    <value>Line voltage of 1st harmonic, line CA</value>
+  </data>
+  <data name="str_u_ab" xml:space="preserve">
+    <value>Line voltage AB</value>
+  </data>
+  <data name="str_u_bc" xml:space="preserve">
+    <value>Line voltage BC</value>
+  </data>
+  <data name="str_u_ca" xml:space="preserve">
+    <value>Line voltage CA</value>
+  </data>
+  <data name="str_u1_ab" xml:space="preserve">
+    <value>1st harmonic of line voltage AB</value>
+  </data>
+  <data name="str_u1_bc" xml:space="preserve">
+    <value>1st harmonic of line voltage BC</value>
+  </data>
+  <data name="str_u1_ca" xml:space="preserve">
+    <value>1st harmonic of line voltage CA</value>
+  </data>
+  <data name="str_u0_a" xml:space="preserve">
+    <value>Phase voltage of 0th harmonic, phase A</value>
+  </data>
+  <data name="str_u0_b" xml:space="preserve">
+    <value>Phase voltage of 0th harmonic, phase B</value>
+  </data>
+  <data name="str_u0_c" xml:space="preserve">
+    <value>Phase voltage of 0th harmonic, phase C</value>
+  </data>
+  <data name="str_u0_ab" xml:space="preserve">
+    <value>Line voltage of 0th harmonic, AB</value>
+  </data>
+  <data name="str_u0_bc" xml:space="preserve">
+    <value>Line voltage of 0th harmonic, BC</value>
+  </data>
+  <data name="str_u0_ca" xml:space="preserve">
+    <value>Line voltage of 0th harmonic, CA</value>
+  </data>
+  <data name="str_u_hp_a" xml:space="preserve">
+    <value>Average-rectified voltage, phase A</value>
+  </data>
+  <data name="str_u_hp_b" xml:space="preserve">
+    <value>Average-rectified voltage, phase B</value>
+  </data>
+  <data name="str_u_hp_c" xml:space="preserve">
+    <value>Average-rectified voltage, phase C</value>
+  </data>
+  <data name="str_u_a_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, phase A</value>
+  </data>
+  <data name="str_u_b_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, phase B</value>
+  </data>
+  <data name="str_u_c_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, phase C</value>
+  </data>
+  <data name="str_u_ab_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, line AB</value>
+  </data>
+  <data name="str_u_bc_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, line BC</value>
+  </data>
+  <data name="str_u_ca_avdirect" xml:space="preserve">
+    <value>Average-rectified voltage, line CA</value>
+  </data>
+  <data name="str_u_1" xml:space="preserve">
+    <value>Positive sequence voltage</value>
+  </data>
+  <data name="str_u_2" xml:space="preserve">
+    <value>Negative sequence voltage</value>
+  </data>
+  <data name="str_u_0" xml:space="preserve">
+    <value>Zero sequence voltage</value>
+  </data>
+  <data name="str_i_a" xml:space="preserve">
+    <value>RMS of phase A current</value>
+  </data>
+  <data name="str_i_b" xml:space="preserve">
+    <value>RMS of phase B current</value>
+  </data>
+  <data name="str_i_c" xml:space="preserve">
+    <value>RMS of phase C current</value>
+  </data>
+  <data name="str_i_a_const" xml:space="preserve">
+    <value>RMS of phase A current, constant component</value>
+  </data>
+  <data name="str_i_b_const" xml:space="preserve">
+    <value>RMS of phase B current, constant component</value>
+  </data>
+  <data name="str_i_c_const" xml:space="preserve">
+    <value>RMS of phase C current, constant component</value>
+  </data>
+  <data name="str_i_n_const" xml:space="preserve">
+    <value>Midpoint wire current, constant component</value>
+  </data>
+  <data name="str_i_a_avdirect" xml:space="preserve">
+    <value>Average-rectified RMS of phase A current</value>
+  </data>
+  <data name="str_i_b_avdirect" xml:space="preserve">
+    <value>Average-rectified RMS of phase B current</value>
+  </data>
+  <data name="str_i_c_avdirect" xml:space="preserve">
+    <value>Average-rectified RMS of phase C current</value>
+  </data>
+  <data name="str_i_n_avdirect" xml:space="preserve">
+    <value>Average-rectified midpoint wire current</value>
+  </data>
+  <data name="str_i1_a" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase A</value>
+  </data>
+  <data name="str_i1_b" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase B</value>
+  </data>
+  <data name="str_i1_c" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase C</value>
+  </data>
+  <data name="str_i_a_1harm" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase A</value>
+  </data>
+  <data name="str_i_b_1harm" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase B</value>
+  </data>
+  <data name="str_i_c_1harm" xml:space="preserve">
+    <value>RMS of 1st current harmonic, phase C</value>
+  </data>
+  <data name="str_i_n_1harm" xml:space="preserve">
+    <value>RMS of 1st harmonic of midpoint wire current</value>
+  </data>
+  <data name="str_i_1" xml:space="preserve">
+    <value>Positive sequence current</value>
+  </data>
+  <data name="str_i_2" xml:space="preserve">
+    <value>Negative sequence current</value>
+  </data>
+  <data name="str_i_0" xml:space="preserve">
+    <value>Zero sequence current</value>
+  </data>
+  <data name="str_p_sum" xml:space="preserve">
+    <value>Total active power</value>
+  </data>
+  <data name="str_p_a" xml:space="preserve">
+    <value>Active power, phase A</value>
+  </data>
+  <data name="str_p_ab" xml:space="preserve">
+    <value>Active power, AB</value>
+  </data>
+  <data name="str_p_b" xml:space="preserve">
+    <value>Active power, phase B</value>
+  </data>
+  <data name="str_p_cb" xml:space="preserve">
+    <value>Active power, CB</value>
+  </data>
+  <data name="str_p_c" xml:space="preserve">
+    <value>Active power, phase C</value>
+  </data>
+  <data name="str_s_sum" xml:space="preserve">
+    <value>Total apparent power</value>
+  </data>
+  <data name="str_s_12sum" xml:space="preserve">
+    <value>Total apparent power</value>
+  </data>
+  <data name="str_s_a" xml:space="preserve">
+    <value>Apparent power, phase A</value>
+  </data>
+  <data name="str_s_b" xml:space="preserve">
+    <value>Apparent power, phase B</value>
+  </data>
+  <data name="str_s_c" xml:space="preserve">
+    <value>Apparent power, phase C</value>
+  </data>
+  <data name="str_q_sum_geom" xml:space="preserve">
+    <value>Total reactive power (geom. method)</value>
+  </data>
+  <data name="str_q_a_geom" xml:space="preserve">
+    <value>Reactive power, phase A (geom. method)</value>
+  </data>
+  <data name="str_q_b_geom" xml:space="preserve">
+    <value>Reactive power, phase B (geom. method)</value>
+  </data>
+  <data name="str_q_c_geom" xml:space="preserve">
+    <value>Reactive power, phase C (geom. method)</value>
+  </data>
+  <data name="str_q_sum" xml:space="preserve">
+    <value>Total reactive power</value>
+  </data>
+  <data name="str_q_12sum" xml:space="preserve">
+    <value>Total reactive power</value>
+  </data>
+  <data name="str_q_a" xml:space="preserve">
+    <value>Reactive power, phase A</value>
+  </data>
+  <data name="str_q_b" xml:space="preserve">
+    <value>Reactive power, phase B</value>
+  </data>
+  <data name="str_q_c" xml:space="preserve">
+    <value>Reactive power, phase C</value>
+  </data>
+  <data name="str_kp_sum" xml:space="preserve">
+    <value>Total power factor</value>
+  </data>
+  <data name="str_kp_a" xml:space="preserve">
+    <value>Power factor, phase A</value>
+  </data>
+  <data name="str_kp_b" xml:space="preserve">
+    <value>Power factor, phase B</value>
+  </data>
+  <data name="str_kp_c" xml:space="preserve">
+    <value>Power factor, phase C</value>
+  </data>
+  <data name="str_kp_abc" xml:space="preserve">
+    <value>Total power factor</value>
+  </data>
+  <data name="str_kp_12" xml:space="preserve">
+    <value>Total power factor</value>
+  </data>
+  <data name="str_angle_ua_ub" xml:space="preserve">
+    <value>Angle between phase voltages UA and UB</value>
+  </data>
+  <data name="str_angle_ub_uc" xml:space="preserve">
+    <value>Angle between phase voltages UB and UC</value>
+  </data>
+  <data name="str_angle_uc_ua" xml:space="preserve">
+    <value>Angle between phase voltages UC and UA</value>
+  </data>
+  <data name="str_angle_ua_ia" xml:space="preserve">
+    <value>Angle between phase voltage UA and current IA</value>
+  </data>
+  <data name="str_angle_ub_ib" xml:space="preserve">
+    <value>Angle between phase voltage UB and current IB</value>
+  </data>
+  <data name="str_angle_uc_ic" xml:space="preserve">
+    <value>Angle between phase voltage UC and current IC</value>
+  </data>
+  <data name="str_angle_uab_ucb" xml:space="preserve">
+    <value>Angle between line voltages AB and CB</value>
+  </data>
+  <data name="str_angle_uab_ia" xml:space="preserve">
+    <value>Angle between line voltage AB and current IA</value>
+  </data>
+  <data name="str_angle_ucb_ic" xml:space="preserve">
+    <value>Angle between line voltage CB and current IC</value>
+  </data>
+  <data name="str_an_u1_a_u1_b" xml:space="preserve">
+    <value>Angle between 1st voltage harmonics, phases A and B</value>
+  </data>
+  <data name="str_an_u1_b_u1_c" xml:space="preserve">
+    <value>Angle between 1st voltage harmonics, phases B and C</value>
+  </data>
+  <data name="str_an_u1_c_u1_a" xml:space="preserve">
+    <value>Angle between 1st voltage harmonics, phases C and A</value>
+  </data>
+  <data name="str_an_u1_a_i1_a" xml:space="preserve">
+    <value>Angle between 1st voltage and 1st current harmonics, phases A</value>
+  </data>
+  <data name="str_an_u1_b_i1_b" xml:space="preserve">
+    <value>Angle between 1st voltage and 1st current harmonics, phases B</value>
+  </data>
+  <data name="str_an_u1_c_i1_c" xml:space="preserve">
+    <value>Angle between 1st voltage and 1st current harmonics, phases C</value>
+  </data>
+  <data name="str_an_u_0_i_0" xml:space="preserve">
+    <value>Angle between zero sequence voltage and current</value>
+  </data>
+  <data name="str_an_u_1_i_1" xml:space="preserve">
+    <value>Angle between positive sequence voltage and current</value>
+  </data>
+  <data name="str_an_u_2_i_2" xml:space="preserve">
+    <value>Angle between negative sequence voltage and current</value>
+  </data>
+  <data name="str_angle_p_1" xml:space="preserve">
+    <value>Angle of positive sequence power</value>
+  </data>
+  <data name="str_angle_p_2" xml:space="preserve">
+    <value>Angle of negative sequence power</value>
+  </data>
+  <data name="str_angle_p_0" xml:space="preserve">
+    <value>Angle of zero sequence power</value>
+  </data>
+  <data name="str_p_0" xml:space="preserve">
+    <value>Zero sequence power</value>
+  </data>
+  <data name="str_p_1" xml:space="preserve">
+    <value>Positive sequence power</value>
+  </data>
+  <data name="str_p_2" xml:space="preserve">
+    <value>Negative sequence power</value>
+  </data>
+  <data name="str_d_f" xml:space="preserve">
+    <value>Frequency deviation</value>
+  </data>
+  <data name="str_d_u_y" xml:space="preserve">
+    <value>Voltage deviation</value>
+  </data>
+  <data name="str_d_u_a" xml:space="preserve">
+    <value>Voltage deviation, phase A</value>
+  </data>
+  <data name="str_d_u_ab" xml:space="preserve">
+    <value>Deviation of line voltage UAB</value>
+  </data>
+  <data name="str_d_u_b" xml:space="preserve">
+    <value>Voltage deviation, phase B</value>
+  </data>
+  <data name="str_d_u_bc" xml:space="preserve">
+    <value>Deviation of line voltage UBC</value>
+  </data>
+  <data name="str_d_u_c" xml:space="preserve">
+    <value>Voltage deviation, phase C</value>
+  </data>
+  <data name="str_d_u_ca" xml:space="preserve">
+    <value>Deviation of line voltage UCA</value>
+  </data>
+  <data name="str_rd_u" xml:space="preserve">
+    <value>Voltage deviation [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_a" xml:space="preserve">
+    <value>Deviation of 1st harmonic of phase voltage – phase A [relative]</value>
+  </data>
+  <data name="str_rd_u_1harm_b" xml:space="preserve">
+    <value>Deviation of 1st harmonic of phase voltage – phase B [relative]</value>
+  </data>
+  <data name="str_rd_u_1harm_c" xml:space="preserve">
+    <value>Deviation of 1st harmonic of phase voltage – phase C [relative]</value>
+  </data>
+  <data name="str_rd_u_1harm_ab" xml:space="preserve">
+    <value>Deviation of 1st harmonic of line voltage – line AB [relative]</value>
+  </data>
+  <data name="str_rd_u_1harm_bc" xml:space="preserve">
+    <value>Deviation of 1st harmonic of line voltage – line BC [relative]</value>
+  </data>
+  <data name="str_rd_u_1harm_ca" xml:space="preserve">
+    <value>Deviation of 1st harmonic of line voltage – line CA [relative]</value>
+  </data>
+  <data name="str_d_u_pos_a" xml:space="preserve">
+    <value>Positive voltage deviation - phase A [absolute]</value>
+  </data>
+  <data name="str_d_u_pos_b" xml:space="preserve">
+    <value>Positive voltage deviation - phase B [absolute]</value>
+  </data>
+  <data name="str_d_u_pos_c" xml:space="preserve">
+    <value>Positive voltage deviation - phase C [absolute]</value>
+  </data>
+  <data name="str_d_u_pos_ab" xml:space="preserve">
+    <value>Positive voltage deviation - line AB [absolute]</value>
+  </data>
+  <data name="str_d_u_pos_bc" xml:space="preserve">
+    <value>Positive voltage deviation - line BC [absolute]</value>
+  </data>
+  <data name="str_d_u_pos_ca" xml:space="preserve">
+    <value>Positive voltage deviation - line CA [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_a" xml:space="preserve">
+    <value>Negative voltage deviation - phase A [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_b" xml:space="preserve">
+    <value>Negative voltage deviation - phase B [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_c" xml:space="preserve">
+    <value>Negative voltage deviation - phase C [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_ab" xml:space="preserve">
+    <value>Negative voltage deviation - line AB [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_bc" xml:space="preserve">
+    <value>Negative voltage deviation - line BC [absolute]</value>
+  </data>
+  <data name="str_d_u_neg_ca" xml:space="preserve">
+    <value>Negative voltage deviation - line CA [absolute]</value>
+  </data>
+  <data name="str_rd_u_pos_a" xml:space="preserve">
+    <value>Positive voltage deviation - phase A [relative]</value>
+  </data>
+  <data name="str_rd_u_pos_b" xml:space="preserve">
+    <value>Positive voltage deviation - phase B [relative]</value>
+  </data>
+  <data name="str_rd_u_pos_c" xml:space="preserve">
+    <value>Positive voltage deviation - phase C [relative]</value>
+  </data>
+  <data name="str_rd_u_pos_ab" xml:space="preserve">
+    <value>Positive voltage deviation - line AB [relative]</value>
+  </data>
+  <data name="str_rd_u_pos_bc" xml:space="preserve">
+    <value>Positive voltage deviation - line BC [relative]</value>
+  </data>
+  <data name="str_rd_u_pos_ca" xml:space="preserve">
+    <value>Positive voltage deviation - line CA [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_a" xml:space="preserve">
+    <value>Negative voltage deviation - phase A [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_b" xml:space="preserve">
+    <value>Negative voltage deviation - phase B [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_c" xml:space="preserve">
+    <value>Negative voltage deviation - phase C [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_ab" xml:space="preserve">
+    <value>Negative voltage deviation - line AB [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_bc" xml:space="preserve">
+    <value>Negative voltage deviation - line BC [relative]</value>
+  </data>
+  <data name="str_rd_u_neg_ca" xml:space="preserve">
+    <value>Negative voltage deviation - line CA [relative]</value>
+  </data>
+  <data name="str_k_2u" xml:space="preserve">
+    <value>Negative sequence voltage ratio</value>
+  </data>
+  <data name="str_k_0u" xml:space="preserve">
+    <value>Zero sequence voltage ratio</value>
+  </data>
+  <data name="str_k_ua" xml:space="preserve">
+    <value>Total harmonic distortion of voltage, phase A</value>
+  </data>
+  <data name="str_k_ub" xml:space="preserve">
+    <value>Total harmonic distortion of voltage, phase B</value>
+  </data>
+  <data name="str_k_uc" xml:space="preserve">
+    <value>Total harmonic distortion of voltage, phase C</value>
+  </data>
+  <data name="str_k_uab" xml:space="preserve">
+    <value>Total harmonic distortion of line voltage, AB</value>
+  </data>
+  <data name="str_k_ubc" xml:space="preserve">
+    <value>Total harmonic distortion of line voltage, BC</value>
+  </data>
+  <data name="str_k_uca" xml:space="preserve">
+    <value>Total harmonic distortion of line voltage, CA</value>
+  </data>
+  <data name="str_k_ia" xml:space="preserve">
+    <value>Total harmonic distortion of current, phase A</value>
+  </data>
+  <data name="str_k_ib" xml:space="preserve">
+    <value>Total harmonic distortion of current, phase B</value>
+  </data>
+  <data name="str_k_ic" xml:space="preserve">
+    <value>Total harmonic distortion of current, phase C</value>
+  </data>
+  <data name="str_tangent_p_geom" xml:space="preserve">
+    <value>tg φ (geom. method)</value>
+  </data>
+  <data name="str_tangent_p_shift" xml:space="preserve">
+    <value>tg φ (ph. shift method)</value>
+  </data>
+  <data name="str_tangent_p_cross" xml:space="preserve">
+    <value>tg φ (cross-conn. method)</value>
+  </data>
+  <data name="str_tangent_p_1harm" xml:space="preserve">
+    <value>tg φ (for 1st harmonic)</value>
+  </data>
+  <data name="str_q_sum_shift" xml:space="preserve">
+    <value>Total reactive power (ph. shift method)</value>
+  </data>
+  <data name="str_q_a_shift" xml:space="preserve">
+    <value>Reactive power, phase A (ph. shift method)</value>
+  </data>
+  <data name="str_q_b_shift" xml:space="preserve">
+    <value>Reactive power, phase B (ph. shift method)</value>
+  </data>
+  <data name="str_q_c_shift" xml:space="preserve">
+    <value>Reactive power, phase C (ph. shift method)</value>
+  </data>
+  <data name="str_q_sum_cross" xml:space="preserve">
+    <value>Total reactive power (cross-conn. method)</value>
+  </data>
+  <data name="str_q_a_cross" xml:space="preserve">
+    <value>Reactive power, phase A (cross-conn. method)</value>
+  </data>
+  <data name="str_q_b_cross" xml:space="preserve">
+    <value>Reactive power, phase B (cross-conn. method)</value>
+  </data>
+  <data name="str_q_c_cross" xml:space="preserve">
+    <value>Reactive power, phase C (cross-conn. method)</value>
+  </data>
+  <data name="str_q_sum_1harm" xml:space="preserve">
+    <value>Total reactive power (for 1st harmonic)</value>
+  </data>
+  <data name="str_q_a_1harm" xml:space="preserve">
+    <value>Reactive power, phase A (for 1st harmonic)</value>
+  </data>
+  <data name="str_q_b_1harm" xml:space="preserve">
+    <value>Reactive power, phase B (for 1st harmonic)</value>
+  </data>
+  <data name="str_q_c_1harm" xml:space="preserve">
+    <value>Reactive power, phase C (for 1st harmonic)</value>
+  </data>
+  <data name="str_i_n" xml:space="preserve">
+    <value>Midpoint wire current</value>
+  </data>
+  <data name="str_i1_n" xml:space="preserve">
+    <value>1st harmonic of midpoint wire current</value>
+  </data>
+  <data name="str_k_ux_x" xml:space="preserve">
+    <value>Individual {0} voltage harmonic ratio, phase {1}</value>
+  </data>
+  <data name="str_k_ix_x" xml:space="preserve">
+    <value>Individual {0} current harmonic ratio, phase {1}</value>
+  </data>
+  <data name="str_k_uxx_x" xml:space="preserve">
+    <value>Individual {0} line voltage {1} harmonic ratio</value>
+  </data>
+  <data name="str_i_n_x" xml:space="preserve">
+    <value>Individual {0} midpoint wire current harmonic ratio</value>
+  </data>
+  <data name="str_p_sum_x" xml:space="preserve">
+    <value>Total active power of {0} harmonic</value>
+  </data>
+  <data name="str_p_x_x" xml:space="preserve">
+    <value>Active power of {0} harmonic, phase {1}</value>
+  </data>
+  <data name="str_p_xx_x" xml:space="preserve">
+    <value>Active power of {0} harmonic, {1}</value>
+  </data>
+  <data name="str_an_u_x_1_i_x_1" xml:space="preserve">
+    <value>Angle between voltage and current of {0} harmonic</value>
+  </data>
+  <data name="str_p1_3phase" xml:space="preserve">
+    <value>Active power P1</value>
+  </data>
+  <data name="str_p2_3phase" xml:space="preserve">
+    <value>Active power P2</value>
+  </data>
+  <data name="str_if_record_marked" xml:space="preserve">
+    <value>If record was marked</value>
+  </data>
+  <data name="str_summ_for_order_more_1_a" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_b" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_c" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_ab" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_bc" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_ca" xml:space="preserve">
+    <value>Total value for harmonious subgroups of order &gt; 1</value>
+  </data>
+  <data name="str_order_value_x_x" xml:space="preserve">
+    <value>Total value for order {0}, phase {1}</value>
+  </data>
+  <data name="str_order_value_x_n" xml:space="preserve">
+    <value>Total value for order {0}, midpoint wire current</value>
+  </data>
+  <data name="str_order_value_x_xx" xml:space="preserve">
+    <value>Total value for order {0}, line {1}</value>
+  </data>
+  <data name="str_summ_coeff_a" xml:space="preserve">
+    <value>Total coefficient, phase А</value>
+  </data>
+  <data name="str_summ_coeff_b" xml:space="preserve">
+    <value>Total coefficient, phase В</value>
+  </data>
+  <data name="str_summ_coeff_c" xml:space="preserve">
+    <value>Total coefficient, phase С</value>
+  </data>
+  <data name="str_summ_coeff_ab" xml:space="preserve">
+    <value>Total coefficient, line АB</value>
+  </data>
+  <data name="str_summ_coeff_bc" xml:space="preserve">
+    <value>Total coefficient, line ВC</value>
+  </data>
+  <data name="str_summ_coeff_ca" xml:space="preserve">
+    <value>Total coefficient, line СA</value>
+  </data>
+  <data name="str_order_coeff_x_x" xml:space="preserve">
+    <value>Coefficient for order {0}, phase {1}</value>
+  </data>
+  <data name="str_order_coeff_x_n" xml:space="preserve">
+    <value>Coefficient for order {0}, midpoint wire current</value>
+  </data>
+  <data name="str_order_coeff_x_xx" xml:space="preserve">
+    <value>Coefficient for order {0}, line {1}</value>
+  </data>
+  <data name="str_pharm_p_x_x" xml:space="preserve">
+    <value>Harmonics power, active component (order {0}), phase {1}</value>
+  </data>
+  <data name="str_pharm_q_x_x" xml:space="preserve">
+    <value>Harmonics power, reactive component (order {0}), phase {1}</value>
+  </data>
+  <data name="str_pharm_angle_x_x" xml:space="preserve">
+    <value>Harmonics power, angle (order {0}), phase {1}</value>
+  </data>
+  <data name="str_pharm_p_sum_x" xml:space="preserve">
+    <value>Harmonics power, active component (order {0}), total</value>
+  </data>
+  <data name="str_pharm_q_sum_x" xml:space="preserve">
+    <value>Harmonics power, reactive component (order {0}), total</value>
+  </data>
+  <data name="str_pharm_angle_sum_x" xml:space="preserve">
+    <value>Harmonics power, angle (order {0}), total</value>
+  </data>
+  <data name="str_pharm_p_1_x" xml:space="preserve">
+    <value>Harmonics power, active component (order {0}), component 1</value>
+  </data>
+  <data name="str_pharm_q_1_x" xml:space="preserve">
+    <value>Harmonics power, reactive component (order {0}), component 1</value>
+  </data>
+  <data name="str_pharm_angle_1_x" xml:space="preserve">
+    <value>Harmonics power, angle (order {0}), component 1</value>
+  </data>
+  <data name="str_pharm_p_2_x" xml:space="preserve">
+    <value>Harmonics power, active component (order {0}), component 2</value>
+  </data>
+  <data name="str_pharm_q_2_x" xml:space="preserve">
+    <value>Harmonics power, reactive component (order {0}), component 2</value>
+  </data>
+  <data name="str_pharm_angle_2_x" xml:space="preserve">
+    <value>Harmonics power, angle (order {0}), component 2</value>
+  </data>
+  <data name="str_avg_square_a" xml:space="preserve">
+    <value>RMS of subharmonic group, phase А</value>
+  </data>
+  <data name="str_avg_square_b" xml:space="preserve">
+    <value>RMS of subharmonic group, phase В</value>
+  </data>
+  <data name="str_avg_square_c" xml:space="preserve">
+    <value>RMS of subharmonic group, phase С</value>
+  </data>
+  <data name="str_avg_square_ab" xml:space="preserve">
+    <value>RMS of subharmonic group, line А</value>
+  </data>
+  <data name="str_avg_square_bc" xml:space="preserve">
+    <value>RMS of subharmonic group, line В</value>
+  </data>
+  <data name="str_avg_square_ca" xml:space="preserve">
+    <value>RMS of subharmonic group, line С</value>
+  </data>
+  <data name="str_avg_square_n" xml:space="preserve">
+    <value>RMS of subharmonic group, midpoint wire current</value>
+  </data>
+  <data name="avg_square_order_x_x" xml:space="preserve">
+    <value>RMS of interharmonic groups of order {0}</value>
+  </data>
+</root>

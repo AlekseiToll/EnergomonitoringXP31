@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="zedGraph.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="zedGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="zedGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 242</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="zedGraph.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;zedGraph.Name" xml:space="preserve">
+    <value>zedGraph</value>
+  </data>
+  <data name="&gt;&gt;zedGraph.Type" xml:space="preserve">
+    <value>ZedGraph.ZedGraphControl, ZedGraph, Version=4.2.3.36439, Culture=neutral, PublicKeyToken=02a83cbd123fcd60</value>
+  </data>
+  <data name="&gt;&gt;zedGraph.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;zedGraph.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnColorUcneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 170</value>
+  </data>
+  <data name="btnColorUcneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUcneg.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcneg.Name" xml:space="preserve">
+    <value>btnColorUcneg</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcneg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnColorUbneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 104</value>
+  </data>
+  <data name="btnColorUbneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUbneg.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbneg.Name" xml:space="preserve">
+    <value>btnColorUbneg</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbneg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnColorUaneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 38</value>
+  </data>
+  <data name="btnColorUaneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUaneg.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUaneg.Name" xml:space="preserve">
+    <value>btnColorUaneg</value>
+  </data>
+  <data name="&gt;&gt;btnColorUaneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUaneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUaneg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnColorUcpos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 137</value>
+  </data>
+  <data name="btnColorUcpos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUcpos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcpos.Name" xml:space="preserve">
+    <value>btnColorUcpos</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcpos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUcpos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnColorUbpos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btnColorUbpos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUbpos.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbpos.Name" xml:space="preserve">
+    <value>btnColorUbpos</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbpos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUbpos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnColorUapos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 5</value>
+  </data>
+  <data name="btnColorUapos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="btnColorUapos.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnColorUapos.Name" xml:space="preserve">
+    <value>btnColorUapos</value>
+  </data>
+  <data name="&gt;&gt;btnColorUapos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColorUapos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnColorUapos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chbUCneg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUCneg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUCneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 174</value>
+  </data>
+  <data name="chbUCneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="chbUCneg.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="chbUCneg.Text" xml:space="preserve">
+    <value>U c-</value>
+  </data>
+  <data name="&gt;&gt;chbUCneg.Name" xml:space="preserve">
+    <value>chbUCneg</value>
+  </data>
+  <data name="&gt;&gt;chbUCneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUCneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUCneg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chbUBneg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUBneg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUBneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 108</value>
+  </data>
+  <data name="chbUBneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="chbUBneg.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="chbUBneg.Text" xml:space="preserve">
+    <value>U b-</value>
+  </data>
+  <data name="&gt;&gt;chbUBneg.Name" xml:space="preserve">
+    <value>chbUBneg</value>
+  </data>
+  <data name="&gt;&gt;chbUBneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUBneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUBneg.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chbUAneg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUAneg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUAneg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 42</value>
+  </data>
+  <data name="chbUAneg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="chbUAneg.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="chbUAneg.Text" xml:space="preserve">
+    <value>U a-</value>
+  </data>
+  <data name="&gt;&gt;chbUAneg.Name" xml:space="preserve">
+    <value>chbUAneg</value>
+  </data>
+  <data name="&gt;&gt;chbUAneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUAneg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUAneg.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chbUCpos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUCpos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUCpos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 141</value>
+  </data>
+  <data name="chbUCpos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbUCpos.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="chbUCpos.Text" xml:space="preserve">
+    <value>U c+</value>
+  </data>
+  <data name="&gt;&gt;chbUCpos.Name" xml:space="preserve">
+    <value>chbUCpos</value>
+  </data>
+  <data name="&gt;&gt;chbUCpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUCpos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUCpos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chbUBpos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUBpos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUBpos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 75</value>
+  </data>
+  <data name="chbUBpos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbUBpos.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chbUBpos.Text" xml:space="preserve">
+    <value>U b+</value>
+  </data>
+  <data name="&gt;&gt;chbUBpos.Name" xml:space="preserve">
+    <value>chbUBpos</value>
+  </data>
+  <data name="&gt;&gt;chbUBpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUBpos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUBpos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chbUApos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUApos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbUApos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 9</value>
+  </data>
+  <data name="chbUApos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbUApos.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chbUApos.Text" xml:space="preserve">
+    <value>U a+</value>
+  </data>
+  <data name="&gt;&gt;chbUApos.Name" xml:space="preserve">
+    <value>chbUApos</value>
+  </data>
+  <data name="&gt;&gt;chbUApos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUApos.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;chbUApos.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 242</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>861, 242</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>743</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="zedToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="tsYGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADvSURBVDhPY2CgJsibff8/ReaRbQBIIwhnz7j3P2P67f/p
+        U278T5l49X9i36X/sV3n/ke0nv4f0njyf0Dt0f8+lQf/e5Tu/e9SuB3hWpCmDCRNMZ3n/0e0gzQdB2o6
+        DNbkBtJUsP2/Xe7W/zaZG/9bpq3D9C7IZorCAORsigwA+ZkiA0ABRpEBoNCmyICQ5uPkGRDfc+U/OOrA
+        8Y2IOo/S3cD43vnfIXvrf+vMTf/NU9f9N01a9d8wfsV/g+ilCMsQmvaDE4kTSBM0vs2B8W2StBqsSS96
+        2X+dqMX/tSIWgjGGd0E2UhQGIOdSZAA5mgGAlafrBmeMoAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsYGridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsYGridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsYGridLine.Text" xml:space="preserve">
+    <value>Show Y grid lines</value>
+  </data>
+  <data name="tsYMinorGridLine.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsYMinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD6SURBVDhPY2CgJsibff8/ReaRbQBIIwhnz7j3P2P67f/p
+        U278T5l49X9i36X/sV3n/ke0nv4f0njyf0Dt0f8+lQf/e5Tu/e9SuB3TtVlTb1PmBZDNZIUByNkZSM6O
+        6Tz/P6Id5OzjQGcfBjvbDeTsgu3/7XK3/rfJ3PjfMm0dpmUgP5PlApgmUICRZUB8z5X/YGeDQxvhbI/S
+        3cDQ3vnfIXvrf+vMTf/NU9f9N01a9d8wfsV/g+ilmJaFNB8nzwUwZwcBA4wsLyCcvR+cSJxAzoaGtjkw
+        tE2SVoOdrRe97L9O1OL/WhELwRjDMpCfyXIBTBMowCgygBzNALnMp+VBIKRdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsYMinorGridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsYMinorGridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsYMinorGridLine.Text" xml:space="preserve">
+    <value>Show Y minor grid lines</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tsXGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVDhPrdMxCwFxHMbxez2SMiiDTAbDDdINl0ikLkQZ
+        DDcYJItBKUqZJCVlMBhkuCRJyqCUUryUh+cFPF3J1Wd7+v6X3xnGP7/65A1STat9Bsk3/QKp1hEkA9Xx
+        C6QGprsHyUBl9ASpQbK5A8mAM3yA1CDR2IJkoDS4g9QgXtuAZKDQv4HUIFZeg2Qg17uC1CDqrEAyYHcv
+        IDWIFJcgGbA6J5AahPMLkAykWweQGoSyc5AMmK73PRRPDoKZGUgG/A4lYE9BMuB3KL6BX/7sD8URjPMJ
+        omxgAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsXGridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsXGridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsXGridLine.Text" xml:space="preserve">
+    <value>Show X grid lines</value>
+  </data>
+  <data name="tsXMinorGridLine.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsXMinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD1SURBVDhPY2CgJsibff8/zLys6bfh7Pi+S3B2SONJOBvD
+        bmQD0ibfhCuM6TwPZwfUHsVtQPaMe3DJlIlX4eyI1tNwtk/lQdwGZE1FODsR2dnNx+GaPEp34zYgfcoN
+        rM4OrD0CF3cp3InbABRnt2N3tl3uVtwGoDi7EbuzbTI34jYgtuscUmgfhrOdkJxtkb4WtwG4QtshG+Fs
+        06RVuA0IQQptt9K9cIXIzjaMX4HbgKBahLORQ9sybR1ck17MUtwG+FTuh0s6IIW2SdJquLhO1GLcBiAn
+        EptsRGgbxS+Ha9KKWIjbAGRnW6QiQhvZ2XgNICdnAwAi1IzxoVImKQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsXMinorGridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsXMinorGridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsXMinorGridLine.Text" xml:space="preserve">
+    <value>Show X minor grid line</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tsY2GridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADuSURBVDhPY2CgNwhpPPmfIjsDao9iGpA3+/5/EM6ece9/
+        xvTb/9On3PifMvHq/8S+S/9ju879j2g9/R9kM0izT+XB/x6le/+7FG5HGATSlIGkKabz/P+IdpCm40BN
+        h8Ga3ECaCrb/t8vd+t8mc+N/y7R15HnFpXAneRphAQdyAUWBCHI+RQZYpK+lzADTpFWUGWAYvwLTgPie
+        K//BUQeOb0TUeZTuBsb3zv8O2Vv/W2du+m+euu4/yAUgQwyilyIMQmjaD04kTiBN0Pg2B8a3SdJqsCa9
+        6GX/daIW/9eKWAjGZAUm2RphtlFsALqzAXWcpDuLIty5AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsY2GridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsY2GridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsY2GridLine.Text" xml:space="preserve">
+    <value>Show Y2 (right) grid lines</value>
+  </data>
+  <data name="tsY2MinorGridLine.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsY2MinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhPY2CgNwhpPPmfIjsDao9iGpA3+/5/EM6ece9/
+        xvTb/9On3PifMvHq/8S+S/9ju879j2g9/R9kM0izT+XB/x6le/+7FG4nzyUepbvJ0wjzt0vhTkwDQM7O
+        QHJ2TOf5/xHtIGcfBzr7MNjZbiBnF2z/b5e79b9N5sb/lmnryHMJSDNFsWCRvhbTgPieK//BzgaHNsLZ
+        oAAD+dkhe+t/68xN/81T1/03TVr13zB+xX+D6KXkuQSkmSIv6MVgsRnh7P3gROIEcjY0tM2BoW2StBrs
+        bL3oZf91ohb/14pYCMZkuYRsjTDbKDYA3dkAyUGkQUagLS4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsY2MinorGridLine.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsY2MinorGridLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tsY2MinorGridLine.Text" xml:space="preserve">
+    <value>Show Y2 (right) minor grid lines</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="zedToolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="zedToolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>861, 25</value>
+  </data>
+  <data name="zedToolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="zedToolStrip.Text" xml:space="preserve">
+    <value>zedToolStrip</value>
+  </data>
+  <data name="&gt;&gt;zedToolStrip.Name" xml:space="preserve">
+    <value>zedToolStrip</value>
+  </data>
+  <data name="&gt;&gt;zedToolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zedToolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;zedToolStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="dlgColor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 0</value>
+  </metadata>
+  <data name="chbMakeNegativeGraphs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbMakeNegativeGraphs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 5</value>
+  </data>
+  <data name="chbMakeNegativeGraphs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 17</value>
+  </data>
+  <data name="chbMakeNegativeGraphs.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chbMakeNegativeGraphs.Text" xml:space="preserve">
+    <value>Paint Negative Graphs</value>
+  </data>
+  <data name="&gt;&gt;chbMakeNegativeGraphs.Name" xml:space="preserve">
+    <value>chbMakeNegativeGraphs</value>
+  </data>
+  <data name="&gt;&gt;chbMakeNegativeGraphs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbMakeNegativeGraphs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbMakeNegativeGraphs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>861, 267</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AABjSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/wAA
+        AAAAAAAAno6B/8Kzpv/08e7//fz8///////+/fz/+/j2//jy7v/z7Of/8OXe/+zf1f/o2c3/2sm8/8i3
+        qf9jSTX/AAAAAJ6Ogf/08e7/hTAJ/0osHv9KLB7/zMO//wtifv8BN0v/GzM7/7OimP8NKID/BRlb/wUZ
+        W/8FGVv/yLep/2NJNf+ejoH//fz8/4UwCf/gdTz/t1oq/0osHv8RZX7/AL/s/wCcwv8qMTL/Ey6B/w08
+        0/8HLqz/By6s/wUZW/9jSTX/no6B//////+MNxH/6IlV/+aBS/+6Yzb/GGl//wTA7P8Av+z/AJzC/xo0
+        gv8cSNj/FULV/wsyrv8FGVv/AAAAAJ6Ogf/+/fz/lkIb//Gcb//ulWX/wXRL/yBugP8Yxe7/D8Pt/wWf
+        w/8jO4T/MVfe/yZP2/8XO7L/BRlb/wAAAACejoH/+/j2/6JOJ//4rob/9qh9/8eEYP8pcoL/M8zw/yfJ
+        7/8XosT/LEKF/0Zp5f87YOL/KEi4/wUZW/8AAAAAno6B//jy7v+mUiv/sWZC/8SAX//OknL/MneD/1LU
+        8f9E0PH/LajF/zVKh/9deu3/UnLq/zpWvf8FGVv/AAAAAJ6Ogf/z7Of/tmI7//3w6v/+6t///dbC/zp8
+        hP9z3fT/ZNnz/0eux/89UIn/cov0/2iD8f9NZcP/BRlb/wAAAACejoH/8OXe/+bHt//mlG3/4pBp/9yK
+        Y/9DgIX/k+X2/4Xh9f9jt8r/RVaK/4OZ+v97k/f/XnPJ/wUZW/8AAAAAno6B/+zf1f/u4tr/Y0k1/wAA
+        AAAAAAAASYSG/7Hs+P+l6fj/fb3L/01ejv9mdqj/c4bS/2x+zv8FGVv/AAAAAJ6Ogf/o2c3/6tzS/2NJ
+        Nf8AAAAAAAAAAFGIh//K8vr/wPD6/5bDzP9MfoT/b36p/9jg/v+zw///CBxe/wAAAACvopj/18i8/+bW
+        yv9jSTX/AAAAAAAAAABUi4j/aZqY/4Szs/+pyM7/SH9//wAAAABjc6H/Y3Ok/1BfjP8AAAAA1sa6/6+c
+        jf/Xxrr/Y0k1/wAAAAAAAAAAVIuI//D9/f/o/Pz/zfj5/0h/f/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADWxbn/saCR/2NJNf8AAAAAAAAAAAAAAABUi4j/VIuI/1SLiP9Ui4j/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANfHu/+Ufm7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAMAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAwBAAAMAQAADBEAAAwf
+        AACOHwAAz/8AAA==
+</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>Timeplots</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Timeplots (Voltage deviation)</value>
+  </data>
+  <data name="&gt;&gt;tsYGridLine.Name" xml:space="preserve">
+    <value>tsYGridLine</value>
+  </data>
+  <data name="&gt;&gt;tsYGridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsYMinorGridLine.Name" xml:space="preserve">
+    <value>tsYMinorGridLine</value>
+  </data>
+  <data name="&gt;&gt;tsYMinorGridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsXGridLine.Name" xml:space="preserve">
+    <value>tsXGridLine</value>
+  </data>
+  <data name="&gt;&gt;tsXGridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsXMinorGridLine.Name" xml:space="preserve">
+    <value>tsXMinorGridLine</value>
+  </data>
+  <data name="&gt;&gt;tsXMinorGridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsY2GridLine.Name" xml:space="preserve">
+    <value>tsY2GridLine</value>
+  </data>
+  <data name="&gt;&gt;tsY2GridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsY2MinorGridLine.Name" xml:space="preserve">
+    <value>tsY2MinorGridLine</value>
+  </data>
+  <data name="&gt;&gt;tsY2MinorGridLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dlgColor.Name" xml:space="preserve">
+    <value>dlgColor</value>
+  </data>
+  <data name="&gt;&gt;dlgColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmDocPQPUValGraphBottom_PQP_A</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>EnergomonitoringXP.DockContentGraphMethods, EmWorkNet, Version=7.1.4.261, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

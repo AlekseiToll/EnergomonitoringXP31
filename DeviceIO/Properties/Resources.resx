@@ -1,0 +1,93 @@
+05 13:49:03: VMX|BigCOWDisk_OpenFromParent: COWDisk is Big capable
+Apr 05 13:49:03: VMX|COWDisk_OpenFromP(Windows XP Professional.vmdk) flags 0x0= diskNum=0
+Apr 05 13:49:03: VMX|FILEIO: Requesting unbuffered IO for file Windows XP Professional.vmdk
+Apr 05 13:49:03: VMX|FILEIO: Volume Sector Size for Windows XP Professional.vmdk is 512
+Apr 05 13:49:03: UI|VMX(UI): changing state 0 from 1870 to 1871, nesting 0
+Apr 05 13:49:03: VMX|COWDISK: Disk Windows XP Professional.vmdk Granularity = 128
+Apr 05 13:49:03: VMX|COWDISK: Open: Windows XP Professional.vmdk has Generation number 2062458745.
+Apr 05 13:49:03: VMX|COWDisk_OpenFromP(Windows XP Professional-02.vmdk) flags 0x0= diskNum=1
+Apr 05 13:49:03: VMX|FILEIO: Requesting unbuffered IO for file Windows XP Professional-02.vmdk
+Apr 05 13:49:03: VMX|FILEIO: Volume Sector Size for Windows XP Professional-02.vmdk is 512
+Apr 05 13:49:03: VMX|COWDISK: Disk Windows XP Professional-02.vmdk Granularity = 128
+Apr 05 13:49:03: VMX|COWDISK: Open: Windows XP Professional-02.vmdk has Generation number 2062458745.
+Apr 05 13:49:03: VMX|COWDisk_OpenFromP(Windows XP Professional-03.vmdk) flags 0x0= diskNum=2
+Apr 05 13:49:03: VMX|FILEIO: Requesting unbuffered IO for file Windows XP Professional-03.vmdk
+Apr 05 13:49:03: VMX|FILEIO: Volume Sector Size for Windows XP Professional-03.vmdk is 512
+Apr 05 13:49:03: VMX|COWDISK: Disk Windows XP Professional-03.vmdk Granularity = 128
+Apr 05 13:49:03: VMX|COWDISK: Open: Windows XP Professional-03.vmdk has Generation number 2062458745.
+Apr 05 13:49:03: VMX|Initialized readahaead: Threshold 8
+Apr 05 13:49:03: VMX|BigCOWDisk_Close: closing 3 disks of BigCowDisk Windows XP Professional.vmdk
+Apr 05 13:49:03: VMX|HOST Windows version 5.1, build 2600, platform 2, "Service Pack 2", SMP
+Apr 05 13:49:03: VMX|DICT --- USER PREFERENCES
+Apr 05 13:49:03: VMX|DICT        prefvmx.mru.config = D:\WM_NET\Windows XP Professional\Windows XP Professional.vmx;
+Apr 05 13:49:03: VMX|DICT           hint.guestos.xp = FALSE
+Apr 05 13:49:03: VMX|DICT hint.cpuid.unknownfeature = FALSE
+Apr 05 13:49:03: VMX|DICT   hint.gui.powerOffButton = FALSE
+Apr 05 13:49:03: VMX|DICT     hint.tools.toolsImage = FALSE
+Apr 05 13:49:03: VMX|DICT  hint.tools.toolsReminder = FALSE
+Apr 05 13:49:03: VMX|DICT hint.gui.powerResetButton = FALSE
+Apr 05 13:49:03: VMX|DICT      pref.guiNbUsedVmList = 8
+Apr 05 13:49:03: VMX|DICT pref.guiNbSuspendedVmList = 8
+Apr 05 13:49:03: VMX|DICT       pref.grabOnKeyPress = FALSE
+Apr 05 13:49:03: VMX|DICT     pref.grabOnMouseClick = TRUE
+Apr 05 13:49:03: VMX|DICT           pref.motionGrab = TRUE
+Apr 05 13:49:03: VMX|DICT            pref.autoRaise = FALSE
+Apr 05 13:49:03: VMX|DICT  pref.motionUngrabBarrier = 1
+Apr 05 13:49:03: VMX|DICT   pref.hideCursorOnUngrab = TRUE
+Apr 05 13:49:03: VMX|DICT  pref.motionScrollBarrier = 100000
+Apr 05 13:49:03: VMX|DICT   pref.exchangeSelections = TRUE
+Apr 05 13:49:03: VMX|DICT       pref.hotkey.control = TRUE
+Apr 05 13:49:03: VMX|DICT         pref.hotkey.shift = FALSE
+Apr 05 13:49:03: VMX|DICT           pref.hotkey.alt = TRUE
+Apr 05 13:49:03: VMX|DICT prefvmx.useRecommendedLockedMemSize = FALSE
+Apr 05 13:49:03: VMX|DICT  prefvmx.allVMMemoryLimit = 512
+Apr 05 13:49:03: VMX|DICT  prefvmx.priority.grabbed = normal
+Apr 05 13:49:03: VMX|DICT prefvmx.priority.ungrabbed = normal
+Apr 05 13:49:03: VMX|DICT     prefvmx.defaultVMPath = 
+Apr 05 13:49:03: VMX|DICT hint.usb.generic.stopDevice = FALSE
+Apr 05 13:49:03: VMX|DICT --- USER DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- HOST DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- SITE DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- COMMAND LINE
+Apr 05 13:49:03: VMX|DICT             gui.available = TRUE
+Apr 05 13:49:03: VMX|DICT --- CONFIGURATION
+Apr 05 13:49:03: VMX|DICT            config.version = 6
+Apr 05 13:49:03: VMX|DICT         virtualHW.version = 2
+Apr 05 13:49:03: VMX|DICT               displayName = Windows XP Professional
+Apr 05 13:49:03: VMX|DICT                      draw = gdi
+Apr 05 13:49:03: VMX|DICT                   guestOS = winXPPro
+Apr 05 13:49:03: VMX|DICT            ide0:0.present = TRUE
+Apr 05 13:49:03: VMX|DICT           ide0:0.fileName = Windows XP Professional.vmdk
+Apr 05 13:49:03: VMX|DICT            ide1:0.present = TRUE
+Apr 05 13:49:03: VMX|DICT         ide1:0.deviceType = cdrom-image
+Apr 05 13:49:03: VMX|DICT           ide1:0.fileName = X:\install\CreateBootableCD\pebuilder312\pebuilder.iso
+Apr 05 13:49:03: VMX|DICT                   memsize = 256
+Apr 05 13:49:03: VMX|DICT         ethernet0.present = TRUE
+Apr 05 13:49:03: VMX|DICT  ethernet0.connectionType = nat
+Apr 05 13:49:03: VMX|DICT --- USER DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- HOST DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- SITE DEFAULTS
+Apr 05 13:49:03: VMX|DICT --- GLOBAL SETTINGS
+Apr 05 13:49:03: VMX|MStat: Creating Stat vm.uptime
+Apr 05 13:49:03: VMX|GuestOSId = 0x5010 
+Apr 05 13:49:03: VMX|Msg_Hint: msg.guestos.xp (not shown)
+Apr 05 13:49:03: VMX|VMX: changing state 1 from 1873 to 1873
+Apr 05 13:49:03: UI|VMX(UI): changing state 1 from 1873 to 1873, nesting 0
+Apr 05 13:49:03: VMX|License: Unable to enumerate keys in the registry
+Apr 05 13:49:03: VMX|License: Unable to enumerate keys in the registry
+Apr 05 13:49:03: VMX|LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.3.0' 
+Apr 05 13:49:03: VMX|minReservedMemInMB=32 maxReservedMemInMB=888 defaultReservedMemInMB=888
+Apr 05 13:49:03: VMX|totOverheadInMB=16
+Apr 05 13:49:03: VMX|PHYSMEM: TryAddRegion 0
+Apr 05 13:49:03: VMX|PHYSMEM: TryAddRegion 1
+Apr 05 13:49:03: VMX|PHYSMEM: TryAddRegion 2
+Apr 05 13:49:03: VMX|APIC: Local APIC at 0xfee00000
+Apr 05 13:49:03: VMX|APIC: IO APIC at 0xfec00000
+Apr 05 13:49:03: VMX|Mhz estimate 2992
+Apr 05 13:49:03: VMX|MHZEstimate 2992
+Apr 05 13:49:03: VMX|Unknown CPUID Feature 0x80000000 
+Apr 05 13:49:03: VMX|Msg_Hint: msg.cpuid.unknownfeature (not shown)
+Apr 05 13:49:03: VMX|Disk: Open(Windows XP Professional.vmdk) flags=0x0=.
+Apr 05 13:49:03: VMX|BigCOWDisk_OpenFromParent: Big Cow Disk Windows XP Professional.vmdk
+Apr 05 13:49:03: VMX|BigCOWDisk_OpenFromParent: COWDisk is Big capable
+Apr 05 13:49:0

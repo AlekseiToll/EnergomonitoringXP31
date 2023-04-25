@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="miSort.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVDhPnZLNSwJBHIY9+wf4H3TqEGR0sq+DRUTYMaU6
+        dAoii9AKrC1oqSQyiUqIIhKEPtBqk8qNkAy8RBh9EXvITapTukphUtRbDonIqJgvzGHeZ+aZ32FkqURe
+        P6AZ8CESe8dflSvZ+cTaLdTdB3BwgeIEHWM+aIcOoe5c/L8gIEho6vNAfI5C2WLGyVkwn4Rm3WY/2k08
+        zMteVGmt6Bp1Fi74+vqGpv8I4ViCgNNzEUrNFO4fI7kkmb1+2g+Vbh67xzd4T3yiVmclgtbelcIERYQW
+        HFhWwLFz8C6tg5u0wdHVg8vtrcIn4EbGSRmPxrCqbYOlsS7fmDSLSxIpfbZVMGUluPbsU4cYhoHb7U72
+        4HkeRqMx88zT1R3mGpqxYdDTL/xGFEVyObX+9unYe8exUK/CW/iFgHCQ/kwKhYJclsvlmcxvd2K2phoX
+        rk0C4lEJeyYDJQiFQkQgCEKahcUHzKjKMVxRip0xE5yDfWCrK+FihihBMizLZu2LjEz2A8QS5w8vLdeI
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="miSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miSort.Text" xml:space="preserve">
+    <value>Сортировать</value>
+  </data>
+  <data name="miSortDesc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGESURBVDhPnZFLSwJRGIZd+wP8B61aBBmtzGphERG2TKkW
+        rQQpJbQEaxIcKolMpBIikQKhC1qZZBohGbiJMLoRLnKSapU3Co3C3phT4WLG0h44i/O+3/ecgRGwBKxO
+        +Gg7wktr8E054FYN4nxrE6Tkws1942YS5rM5uBS9sHa0lltm4Xb5TIaEEYcLVF0NLoN71QlYHi5uYG/v
+        wrpu6LdlFv5+VWPGQpsEL6knMpBKJMqJuHl01YO5ZinOvBukzGcz2DXqKhOkmDvMSuox1lCLbZMRnlEt
+        aGkjvJSh8i+oEn5B+vkN8pEI0rnCXy/w95Mr15CpA3D7Yv8T9JsiUBj2IRtY5B2gKAp+v5/tEAqFoNfr
+        S3OxeAad2iCYxyzE3RYcnXB/IcMwZPnnfN+/UFui6DOGYFkOo0lhg2rCwxGwiEQisiwUCkt9sfgB+fAB
+        UrlXEh6fMhDLp3F7n+ZIkskkEcTj8VI3NBOFRDmPncMrFF7f0aK0EUGPxskRsNA0zZv/E4HgE9xy5w+n
+        9TEmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="miSortDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miSortDesc.Text" xml:space="preserve">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="miSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 6</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPnZJpSJRRFIYnSCpEQiK0lAiCNDNJzQTH/tjm
+        kmVSBkUqTkpCKWgLVI7buJtUmlhIi5QohGIDWaZojjpqKmG5ZmqCZjLajJpN5vjUN6XyVX/qhRfu5d73
+        4XDOkSzoubqLCHkOv67/pmf1nVy/V4aLl2wRoG5UkppxRORfT2JVNHRyNb+UioYuEUAIGAxa5uZG+apv
+        JTbW8++AvIJSKhu7aO4c+QOQdzscpVJBW2OxEdDVVMf9aBkPfjgzyO/n3/isO7T2jNLeNyYCpKQeZnay
+        mVltDS2qXBTyAxTLI5kf7AaVkkDrlUuAjgENvUMTIkCywgu9pgz9x4e8rIohK9CXogthtCdH0yY/w4l1
+        JkuA/mEt5eoRzuaMEH5tCFl6H0lxu5kZzubz+ySay2WkB+xl9lYiX7Iv0xQdKAZ80EwhDXnCmNbAwNg8
+        tZ0GFFfcmH4XzVTPKdQl+0nz28V0RhS6xNOoQn3FgIlJPVv9C/EIKyMoro6oG20kXnRC98Yf3as91Bdt
+        I8XbhfFLJxmL8qcqwE0MmNF/w+ZgAcklemKKZghWqEmI2oK2xZlPTTbUFViQ5GHPcPg+hoKlPPW0FQPm
+        DPNYeeQSma8j9OYEPudeEBexkYl6S8ZVq1HdNUEh3UT/MUfeHtrMY6mFGCDI3DWTo2mj+MSPsFNWQWy4
+        JZqa5WiqJdTmS0jYsZ5uT2s6PNZS4mT6WwVzBlZtT8L9/CB2x8vZYO+NPNR8MezkaEe8wxpeu5vxyGGF
+        0QLAOHZjE3XTRoAQFFytakEeYoqP6zKkzlbkFSiJszUzhhZcXN64BChU1hohQiWChJ4IjRWmI4xY2BNh
+        2YSNrWzqXQoLEg7/Y2NYIpF8B8ukIfJEi/m4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miAddColumnToGraphLeft.Text" xml:space="preserve">
+    <value>Добавить на график (левая Y ось)</value>
+  </data>
+  <data name="miAddColumnToGraphRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKvSURBVDhPldJpSBNwGMdxXyQZUSF2aElESeVR6NICjyK7
+        zKxUOsDwoGlkmYLroNJ5zSO1cxYVdkmFQigmNDMlc5ppHlF5dahJLpU5tzJbtvlNZzgCe9EPfvx5Xjwf
+        +MNj8r+JFGfxpLqFP+PkqS2TkZaxa6LSuNCJBZetQi7eLuRxVfO/kfNJQej1anS6Hn5q60mM8fkLKHne
+        wtnsgtH3H0hmSgBXr4dTVCSh4UUecXFetNRUckck5O5oM4N9KS9t42pOweRAapofw19rGVaXUye/gkTs
+        Q544ipHOVpAXEWRtRmNjLwnnbk4OpEi2olUWou29x8uyWM4FbSf3+AFep4hoEEewz8qUpg6lEZBVKziS
+        pSD8QhfC9A8kx29gqFvK90/J1MqEpO/ZxPC1JH5IT1MjCjIAna0aI+C2/xF9aj0dfSNUNOuRxLgy+FHE
+        t7ZQqvO3cMbXg8GMaDRJB5GHbSfQyoye9kEjYO9/H88DhQTHVxJ9qYGkEwI0b/3RvNpIVe4KUr1d6D8V
+        SF+0P2V7XAmznM3AZ60RWLYjh5R8LbG5Q4RIqkmMtkVdt4qBmmVU5swj2dOB7vDNdIW4Uey13AD86P1l
+        BBZ4XiEqW0PYZRXbjj4jPnIRqipL+uWzkN8yReK2hPa9TrzfuZSHbvMMgE41YgTM12Sy+0wP2xIUrBaW
+        EBduibJ8CsqnJlRkm5DoPJ9WL2uaPOeQL5hO5NzFoGYcWL8rgmmOybgf68QuQMZCB2/EYeYTywInOxJW
+        WvDGfQYPVk41NN7CA12/fhxY63cIW28pG21CDa26UYfUV8BhgRMB9uu4Jykmy8aZk9YuiOY6Glo/U8GA
+        4rvxC2P3nSd7QWnNO+rbegxH0t6t5ovyG6qvWoa0v9DpRxiLTqdHpRnkflGFERjLGPL/FfIbKpsUHNyi
+        0sgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="miAddColumnToGraphRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miAddColumnToGraphRight.Text" xml:space="preserve">
+    <value>Добавить на график (правая Y ось)</value>
+  </data>
+  <data name="miSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 6</value>
+  </data>
+  <data name="miHarmPowersPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miHarmPowersPercent.Text" xml:space="preserve">
+    <value>Отображать мощности гармоник в процентах</value>
+  </data>
+  <data name="miHarmPowersWatt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miHarmPowersWatt.Text" xml:space="preserve">
+    <value>Отображать мощности гармоник в ваттах</value>
+  </data>
+  <data name="miHarmCurPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miHarmCurPercent.Text" xml:space="preserve">
+    <value>Отображать гармоники тока в процентах</value>
+  </data>
+  <data name="miHarmCurAmpere.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
+  <data name="miHarmCurAmpere.Text" xml:space="preserve">
+    <value>Отображать гармоники тока в амперах</value>
+  </data>
+  <data name="cmsDoc2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 192</value>
+  </data>
+  <data name="dgCurrentsVoltages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgCurrentsVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblCurrentsAndVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabCurrentsAndVoltages.Text" xml:space="preserve">
+    <value>Напряжения и токи</value>
+  </data>
+  <data name="dgPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabPowers.Text" xml:space="preserve">
+    <value>Мощности</value>
+  </data>
+  <data name="dgPhAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgPhAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabAngles.Text" xml:space="preserve">
+    <value>Углы</value>
+  </data>
+  <data name="dgPQP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabPQP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabPQP.Text" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+  <data name="dgCurrentHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgCurrentHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblHarmonicsCur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabHarmonicI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabHarmonicI.Text" xml:space="preserve">
+    <value>Гармоники тока</value>
+  </data>
+  <data name="dgVolPhHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgVolPhHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblHarmonicsVolPh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabHarmonicVoltagePh.Text" xml:space="preserve">
+    <value>Гармоники фаз. напряжения</value>
+  </data>
+  <data name="dgVolLinHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgVolLinHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblHarmonicsVolLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabHarmonicVoltageLin.Text" xml:space="preserve">
+    <value>Гармоники лин. напряжения</value>
+  </data>
+  <data name="dgHarmonicPowers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabHarmonicPowers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabHarmonicPowers.Text" xml:space="preserve">
+    <value>Мощности гармоник</value>
+  </data>
+  <data name="dgHarmonicAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lblHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabHarmonicAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabHarmonicAngles.Text" xml:space="preserve">
+    <value>Углы гармоник</value>
+  </data>
+  <data name="dgI_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgI_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lbl_I_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabInterHarmI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabInterHarmI.Text" xml:space="preserve">
+    <value>Интергармоники тока</value>
+  </data>
+  <data name="dgUph_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgUph_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lbl_U_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabInterHarmUph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabInterHarmUph.Text" xml:space="preserve">
+    <value>Интергармоники Uф</value>
+  </data>
+  <data name="dgUlin_Interharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="dgUlin_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 421</value>
+  </data>
+  <data name="lbl_Ulin_Interharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 16</value>
+  </data>
+  <data name="tabInterHarmUlin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 437</value>
+  </data>
+  <data name="tabInterHarmUlin.Text" xml:space="preserve">
+    <value>Интергармоники Uлин</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 23</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>779, 463</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_AVG_Caption.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="lbl_AVG_Caption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="lbl_AVG_Caption.Text" xml:space="preserve">
+    <value>Общая информация (в будущем)</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>779, 486</value>
+  </data>
+</root>

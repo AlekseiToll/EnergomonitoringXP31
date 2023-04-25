@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="name.device.em32.full" xml:space="preserve">
+    <value>Энергомонитор 3.2</value>
+  </data>
+  <data name="name.device.em33.full" xml:space="preserve">
+    <value>Энергомонитор 3.3</value>
+  </data>
+  <data name="name.device.em32.short" xml:space="preserve">
+    <value>ЭМ-3.2</value>
+  </data>
+  <data name="name.device.em33.short" xml:space="preserve">
+    <value>ЭМ-3.3</value>
+  </data>
+  <data name="name_con_scheme_Ph3W4_full" xml:space="preserve">
+    <value>Три фазы, четыре провода</value>
+  </data>
+  <data name="name_con_scheme_Ph3W3_full" xml:space="preserve">
+    <value>Три фазы, три провода (3-элементная)</value>
+  </data>
+  <data name="name_con_scheme_Ph1W2_full" xml:space="preserve">
+    <value>Одна фаза, два провода</value>
+  </data>
+  <data name="name_con_scheme_Ph3W3_B_calc_full" xml:space="preserve">
+    <value>Три фазы, три провода (2-элементная)</value>
+  </data>
+  <data name="name_con_scheme_Ph3W4_B_calc_full" xml:space="preserve">
+    <value>Три фазы, четыре провода</value>
+  </data>
+	<data name="name_con_scheme_Ph3W4_short" xml:space="preserve">
+    <value>3ф 4пр</value>
+  </data>
+	<data name="name_con_scheme_Ph3W3_short" xml:space="preserve">
+    <value>3ф 3пр (3-элем.)</value>
+  </data>
+	<data name="name_con_scheme_Ph1W2_short" xml:space="preserve">
+    <value>1ф 2пр</value>
+  </data>
+	<data name="name_con_scheme_Ph3W3_B_calc_short" xml:space="preserve">
+    <value>3ф 3пр (2-элем.)</value>
+  </data>
+	<data name="name_con_scheme_Ph3W4_B_calc_short" xml:space="preserve">
+    <value>3ф 4пр</value>
+  </data>
+  <data name="name_column_measures_result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="name_columns_measures_number" xml:space="preserve">
+    <value>Кол-во измерений</value>
+  </data>
+  <data name="name_columns_parameter" xml:space="preserve">
+    <value>Параметр</value>
+  </data>
+  <data name="name_columns_standard_value" xml:space="preserve">
+    <value>Нормативное значение</value>
+  </data>
+  <data name="name_columns_time" xml:space="preserve">
+    <value>чч:мм:сс</value>
+  </data>
+  <data name="name_measure_type_avg_full" xml:space="preserve">
+    <value>Усредненные значения</value>
+  </data>
+  <data name="name_measure_type_avg_short" xml:space="preserve">
+    <value>Усредненные значения</value>
+  </data>
+  <data name="name_measure_type_dns_full" xml:space="preserve">
+    <value>Провалы и перенапряжения</value>
+  </data>
+  <data name="name_measure_type_events_full" xml:space="preserve">
+    <value>Случайные события</value>
+  </data>
+  <data name="name_measure_type_dns_short" xml:space="preserve">
+    <value>Провалы и перенапряжения</value>
+  </data>
+  <data name="name_measure_type_pke_full" xml:space="preserve">
+    <value>Показатели качества энергии</value>
+  </data>
+  <data name="name.measure_type.pke.short" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+  <data name="name.params.npl.full" xml:space="preserve">
+    <value>Нормально допустимый предел</value>
+  </data>
+  <data name="name.params.npl.short" xml:space="preserve">
+    <value>НДП</value>
+  </data>
+  <data name="name.params.npv.full" xml:space="preserve">
+    <value>Нормально допустимое значение</value>
+  </data>
+  <data name="name.params.npv.short" xml:space="preserve">
+    <value>НДЗ</value>
+  </data>
+  <data name="name.params.upl.full" xml:space="preserve">
+    <value>Предельно допустимый предел</value>
+  </data>
+  <data name="name.params.upl.short" xml:space="preserve">
+    <value>ПДП</value>
+  </data>
+  <data name="name_params_upv_full" xml:space="preserve">
+    <value>Предельно допустимое значение</value>
+  </data>
+  <data name="name_params_upv_short" xml:space="preserve">
+    <value>ПДЗ</value>
+  </data>
+  <data name="name_submeasure_avg_angles" xml:space="preserve">
+    <value>Углы и мощности гармоник</value>
+  </data>
+  <data name="name_submeasure_avg_harmonics" xml:space="preserve">
+    <value>Гармоники</value>
+  </data>
+  <data name="name_submeasure_avg_main" xml:space="preserve">
+    <value>Основные показатели</value>
+  </data>
+  <data name="name_avg_time_3sec_full" xml:space="preserve">
+    <value>3 секунды</value>
+  </data>
+	<data name="name_avg_time_3sec_new_full" xml:space="preserve">
+    <value>3 секунды (150/180 периодов)</value>
+  </data>
+  <data name="name_avg_time_1min_full" xml:space="preserve">
+    <value>1 минута</value>
+  </data>
+  <data name="name_avg_time_10min_full" xml:space="preserve">
+    <value>10 минут</value>
+  </data>
+  <data name="name_avg_time_2hour_full" xml:space="preserve">
+    <value>2 часа</value>
+  </data>
+  <data name="name_avg_time_30min_full" xml:space="preserve">
+    <value>30 минут</value>
+  </data>
+  <data name="msg_file_read_error_caption" xml:space="preserve">
+    <value>Ошибка чтения</value>
+  </data>
+  <data name="msg_file_read_error_text" xml:space="preserve">
+    <value>Невозможно прочитать данные из файла "{0}". Попробуйте другой файл.</value>
+  </data>
+  <data name="name.columns.between_npl_and_upl" xml:space="preserve">
+    <value>между НДП и ПДП</value>
+  </data>
+  <data name="name_columns_num_all" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="name_columns_num_synchro" xml:space="preserve">
+    <value>Синхр.</value>
+  </data>
+  <data name="name_columns_num_nsynchro" xml:space="preserve">
+    <value>Не синхр.</value>
+  </data>
+  <data name="name_columns_marked" xml:space="preserve">
+    <value>Маркиров.</value>
+  </data>
+  <data name="name_columns_not_marked" xml:space="preserve">
+    <value>Не маркир.</value>
+  </data>
+  <data name="name_columns_in_npl" xml:space="preserve">
+    <value>в НДП</value>
+  </data>
+  <data name="name_columns_out_of_upl" xml:space="preserve">
+    <value>за ПДП</value>
+  </data>
+  <data name="name.columns.result.calc.npl.minus" xml:space="preserve">
+    <value>Нижнее значение</value>
+  </data>
+  <data name="name.columns.result.calc.npl.plus" xml:space="preserve">
+    <value>Верхнее значение</value>
+  </data>
+  <data name="name.columns.result.calc.upl.minus" xml:space="preserve">
+    <value>Наименьшее значение</value>
+  </data>
+  <data name="name.columns.result.calc.upl.plus" xml:space="preserve">
+    <value>Наибольшее значение</value>
+  </data>
+  <data name="name.columns.result.real.npl.minus" xml:space="preserve">
+    <value>НДП нижнее</value>
+  </data>
+  <data name="name.columns.result.real.npl.plus" xml:space="preserve">
+    <value>НДП верхнее</value>
+  </data>
+  <data name="name.columns.result.real.upl.minus" xml:space="preserve">
+    <value>ПДП нижнее</value>
+  </data>
+  <data name="name.columns.result.real.upl.plus" xml:space="preserve">
+    <value>ПДП верхнее</value>
+  </data>
+  <data name="name_columns_res_real_npl_minus_syn" xml:space="preserve">
+    <value>НДП- синх</value>
+  </data>
+  <data name="name_columns_res_real_npl_plus_syn" xml:space="preserve">
+    <value>НДП+ синх</value>
+  </data>
+  <data name="name_columns_res_real_upl_minus_syn" xml:space="preserve">
+    <value>ПДП- синх</value>
+  </data>
+  <data name="name_columns_res_real_upl_plus_syn" xml:space="preserve">
+    <value>ПДП+ синх</value>
+  </data>
+  <data name="name_columns_res_real_npl_minus_iso" xml:space="preserve">
+    <value>НДП- изол</value>
+  </data>
+  <data name="name_columns_res_real_npl_plus_iso" xml:space="preserve">
+    <value>НДП+ изол</value>
+  </data>
+  <data name="name_columns_res_real_upl_minus_iso" xml:space="preserve">
+    <value>ПДП- изол</value>
+  </data>
+  <data name="name_columns_res_real_upl_plus_iso" xml:space="preserve">
+    <value>ПДП+ изол</value>
+  </data>
+  <data name="name_params_swell" xml:space="preserve">
+    <value>Перенапряжение</value>
+  </data>
+	<data name="name_params_interrupt" xml:space="preserve">
+    <value>Прерывание</value>
+  </data>
+  <data name="name_params_dip" xml:space="preserve">
+    <value>Провал</value>
+  </data>
+  <data name="msg_device_connect_error_caption" xml:space="preserve">
+    <value>Ошибка подключения</value>
+  </data>
+  <data name="msg_device_connect_error_text" xml:space="preserve">
+    <value>Невозможно установить соединение с устройством.
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="msg_invalid_interface_text" xml:space="preserve">
+    <value>Устройство {0} не поддерживает интерфейс {1}.</value>
+  </data>
+  <data name="msg_device_devinfo_error_text" xml:space="preserve">
+    <value>Ошибка при чтении системной информации из прибора.
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="msg_device_connect_em33t_error_text" xml:space="preserve">
+    <value>Невозможно установить соединение с устройством Em-33T. Для других устройств эта функция не реализована! 
+Интерфейс: {0} (параметры интерфейса: {1}{2}).</value>
+  </data>
+  <data name="msg_device_incorrect_interface_error_text" xml:space="preserve">
+    <value>Эта функция не реализована для интерфейсов Ethernet и GPRS Modem!</value>
+  </data>
+  <data name="msg_device_const_saved_text" xml:space="preserve">
+    <value>Уставки успешно сохранены</value>
+  </data>
+  <data name="msg_device_const_saved_em33t_text" xml:space="preserve">
+    <value>Уставки успешно сохранены. Изменения вступят в силу только после перезагрузки Энергомонитора.</value>
+  </data>
+  <data name="msg_device_input_error_caption" xml:space="preserve">
+    <value>Ошибка входных данных</value>
+  </data>
+  <data name="msg_device_input_error" xml:space="preserve">
+    <value>Некоторые из введенных значений неверны. Пожалуйста, исправьте ошибки и повторите попытку</value>
+  </data>
+  <data name="msg_device_nom_times_saved" xml:space="preserve">
+    <value>Номинальные значения и времена успешно сохранены</value>
+  </data>
+  <data name="msg_device_objnames_saved" xml:space="preserve">
+    <value>Имена объектов успешно сохранены</value>
+  </data>
+  <data name="msg_device_objnames_em33t_saved" xml:space="preserve">
+    <value>Имена объектов успешно сохранены. Изменения вступят в силу только после перезагрузки Энергомонитора.</value>
+  </data>
+  <data name="msg_device_read_error_caption" xml:space="preserve">
+    <value>Ошибка ввода/вывода</value>
+  </data>
+  <data name="msg_device_read_error" xml:space="preserve">
+    <value>Произошла ошибка ввода вывода во время передачи данных</value>
+  </data>
+  <data name="msg_invalid_device_function_text" xml:space="preserve">
+    <value>Эта функция не реализована для прибора {0}</value>
+  </data>
+  <data name="msg_device_saved_caption" xml:space="preserve">
+    <value>Обновление данных прибора</value>
+  </data>
+  <data name="msg_db_insert_error_caption" xml:space="preserve">
+    <value>Сбой операции сохранения данных в БД</value>
+  </data>
+  <data name="msg_db_insert_error_text" xml:space="preserve">
+    <value>Во время втавки данных в базу данных PostgresSQL произошла ошибка (таблица: "{0}")</value>
+  </data>
+  <data name="avg_angles" xml:space="preserve">
+    <value>Углы</value>
+  </data>
+  <data name="avg_currents_and_voltages" xml:space="preserve">
+    <value>Токи и напряжения</value>
+  </data>
+  <data name="avg_harmonic_angles" xml:space="preserve">
+    <value>Углы гармоник</value>
+  </data>
+  <data name="avg_harmonic_powers" xml:space="preserve">
+    <value>Мощности гармоник</value>
+  </data>
+  <data name="avg_interharmonics_current" xml:space="preserve">
+    <value>Интергармоники тока</value>
+  </data>
+	<data name="avg_interharmonics_ph_voltage" xml:space="preserve">
+    <value>Интергармоники фаз. напряжения</value>
+  </data>
+	<data name="avg_interharmonics_lin_voltage" xml:space="preserve">
+    <value>Интергармоники лин. напряжения</value>
+  </data>
+  <data name="avg_harmonics" xml:space="preserve">
+    <value>Гармоники</value>
+  </data>
+  <data name="avg_harmonics_current" xml:space="preserve">
+    <value>Гармоники тока</value>
+  </data>
+  <data name="avg_harmonics_ph_voltage" xml:space="preserve">
+    <value>Гармоники фаз. напряжения</value>
+  </data>
+  <data name="avg_harmonics_lin_voltage" xml:space="preserve">
+    <value>Гармоники лин. напряжения</value>
+  </data>
+  <data name="avg_powers" xml:space="preserve">
+    <value>Мощности</value>
+  </data>
+  <data name="avg_pqp" xml:space="preserve">
+    <value>ПКЭ</value>
+  </data>
+  <data name="name_measure_type_pqp_dips" xml:space="preserve">
+    <value>Провалы</value>
+  </data>
+  <data name="name_measure_type_pqp_overs" xml:space="preserve">
+    <value>Перенапряжения</value>
+  </data>
+  <data name="name_measure_type_pqp_dips_lin" xml:space="preserve">
+    <value>Провалы линейные</value>
+  </data>
+  <data name="name_measure_type_pqp_overs_lin" xml:space="preserve">
+    <value>Перенапряжения линейные</value>
+  </data>
+  <data name="name_measure_type_pqp_interharm" xml:space="preserve">
+    <value>Интергармоники</value>
+  </data>
+  <data name="name.measure_type.pqp.frequency_departure" xml:space="preserve">
+    <value>Отклонение частоты</value>
+  </data>
+  <data name="name.measure_type.pqp.frequency_val_departure" xml:space="preserve">
+    <value>df (значения)</value>
+  </data>
+  <data name="name.measure_type.pqp.voltage_deviation" xml:space="preserve">
+    <value>Отклонение напряжения</value>
+  </data>
+  <data name="name.measure_type.pqp.voltage_val_deviation" xml:space="preserve">
+    <value>dU (значения)</value>
+  </data>
+  <data name="name.measure_type.pqp.fliker" xml:space="preserve">
+    <value>Фликер</value>
+  </data>
+  <data name="name.measure_type.pqp.fliker_short" xml:space="preserve">
+    <value>Кратк.доза фликера</value>
+  </data>
+  <data name="name.measure_type.pqp.fliker_long" xml:space="preserve">
+    <value>Длит.доза фликера</value>
+  </data>
+  <data name="name.measure_type.pqp.voltage_nonsinusoidality" xml:space="preserve">
+    <value>Несинусоидальность напряжения</value>
+  </data>
+  <data name="name_measure_type_pqp_voltage_unbalance" xml:space="preserve">
+    <value>Несимметрия напряжений</value>
+  </data>
+  <data name="name_max_deviation_dip" xml:space="preserve">
+    <value>Наибольшее отклонение</value>
+  </data>
+  <data name="name_max_duration_dip" xml:space="preserve">
+    <value>Наибольшая длительность</value>
+  </data>
+  <data name="name_phase" xml:space="preserve">
+    <value>Фаза</value>
+  </data>
+  <data name="name_summ_duration" xml:space="preserve">
+    <value>Общая длительность</value>
+  </data>
+  <data name="name_summ_number" xml:space="preserve">
+    <value>Общее количество</value>
+  </data>
+  <data name="name_event_duration" xml:space="preserve">
+    <value>Длительность события</value>
+  </data>
+  <data name="name_deviation" xml:space="preserve">
+    <value>Отклонение</value>
+  </data>
+  <data name="name_0_01_till_0_05" xml:space="preserve">
+    <value>0,01с&lt;t≤0,05с</value>
+  </data>
+  <data name="name_0_05_till_0_1" xml:space="preserve">
+    <value>0,05с&lt;t≤0,1с</value>
+  </data>
+  <data name="name_0_1_till_0_5" xml:space="preserve">
+    <value>0,1с&lt;t≤0,5с</value>
+  </data>
+  <data name="name_0_5_till_1" xml:space="preserve">
+    <value>0,5с&lt;t≤1с</value>
+  </data>
+  <data name="name_1_till_3" xml:space="preserve">
+    <value>1с&lt;t≤3с</value>
+  </data>
+  <data name="name_3_till_20" xml:space="preserve">
+    <value>3с&lt;t≤20с</value>
+  </data>
+  <data name="name_20_till_60" xml:space="preserve">
+    <value>20с&lt;t≤60с</value>
+  </data>
+  <data name="name_over_60" xml:space="preserve">
+    <value>60с&lt;t≤180с</value>
+  </data>
+  <data name="name_over_180" xml:space="preserve">
+    <value>t&gt;180с</value>
+  </data>
+	<data name="name_0_01_till_0_2" xml:space="preserve">
+    <value>0,01с&lt;t≤0,2с</value>
+  </data>
+	<data name="name_0_2_till_0_5" xml:space="preserve">
+    <value>0,2с&lt;t≤0,5с</value>
+  </data>
+	<data name="name_0_5_till_1" xml:space="preserve">
+    <value>0,5с&lt;t≤1с</value>
+  </data>
+	<data name="name_1_till_5" xml:space="preserve">
+    <value>1с&lt;t≤5с</value>
+  </data>
+	<data name="name_5_till_20" xml:space="preserve">
+    <value>5с&lt;t≤20с</value>
+  </data>
+	<data name="name_20_till_60" xml:space="preserve">
+    <value>20с&lt;t≤60с</value>
+  </data>
+  <data name="name_0_till_0_5" xml:space="preserve">
+    <value>0c&lt;t≤0,5c</value>
+  </data>
+  <data name="name_max_length" xml:space="preserve">
+    <value>Наибольшая продолжит-ть</value>
+  </data>
+  <data name="msg_toolbar_saving_mode_reading" xml:space="preserve">
+    <value>Сохранение. Чтение данных из прибора:</value>
+  </data>
+  <data name="msg_toolbar_saving_current_archive" xml:space="preserve">
+    <value>архив {0} из {1}.</value>
+  </data>
+  <data name="information_caption" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="msg_device_empty_text" xml:space="preserve">
+    <value>В устройстве не сохранено ни одного архива</value>
+  </data>
+  <data name="msg_dns_empty_text" xml:space="preserve">
+    <value>За выбранное время не произошло ни одного события</value>
+  </data>
+  <data name="name_params_current_harmonics" xml:space="preserve">
+    <value>Гармоники тока</value>
+  </data>
+  <data name="name_params_current_harmonics_a" xml:space="preserve">
+    <value>Гармоники тока, А</value>
+  </data>
+  <data name="name_params_current_harmonics_perc" xml:space="preserve">
+    <value>Гармоники тока, %</value>
+  </data>
+  <data name="name_params_voltage_harmonics_ph" xml:space="preserve">
+    <value>Гармоники фаз. напряжения</value>
+  </data>
+  <data name="name_params_voltage_harmonics_lin" xml:space="preserve">
+    <value>Гармоники лин. напряжения</value>
+  </data>
+  <data name="name_columnheaders_avg_time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+	<data name="name_columnheaders_avg_marked" xml:space="preserve">
+    <value>Маркир.</value>
+  </data>
+  <data name="columnheaders_pqp_swell" xml:space="preserve">
+    <value>K_пер U</value>
+  </data>
+  <data name="columnheaders_pqp_dip" xml:space="preserve">
+    <value>δU_П</value>
+  </data>
+  <data name="name.constraint_type.5.full" xml:space="preserve">
+    <value>Пользовательский 1</value>
+  </data>
+  <data name="name.constraint_type.1.full" xml:space="preserve">
+    <value>ГОСТ 13109-97 (0.38 кВ)</value>
+  </data>
+  <data name="name.constraint_type.2.full" xml:space="preserve">
+    <value>ГОСТ 13109-97 (6-20 кВ)</value>
+  </data>
+  <data name="name.constraint_type.3.full" xml:space="preserve">
+    <value>ГОСТ 13109-97 (35 кВ)</value>
+  </data>
+  <data name="name.constraint_type.4.full" xml:space="preserve">
+    <value>ГОСТ 13109-97 (110-330 кВ)</value>
+  </data>
+  <data name="name_constraint_type_pqpa_1_full" xml:space="preserve">
+    <value>ГОСТ 32144-2013 (0.38 кВ)</value>
+  </data>
+  <data name="name_constraint_type_pqpa_2_full" xml:space="preserve">
+    <value>ГОСТ 32144-2013 (6-25 кВ)</value>
+  </data>
+  <data name="name_constraint_type_pqpa_3_full" xml:space="preserve">
+    <value>ГОСТ 32144-2013 (35 кВ)</value>
+  </data>
+  <data name="name_constraint_type_pqpa_4_full" xml:space="preserve">
+    <value>ГОСТ 32144-2013 (110-220 кВ)</value>
+  </data>
+  <data name="name_constraint_type_pqpa_5_full" xml:space="preserve">
+    <value>Пользовательский 1</value>
+  </data>
+  <data name="name_constraint_type_pqpa_6_full" xml:space="preserve">
+    <value>Пользовательский 2</value>
+  </data>
+  <data name="name_peakload_none" xml:space="preserve">
+    <value>отсутствует</value>
+  </data>
+  <data name="name_avg_time_3sec_short" xml:space="preserve">
+    <value>3 сек.</value>
+  </data>
+  <data name="name_avg_time_1min_short" xml:space="preserve">
+    <value>1 мин.</value>
+  </data>
+  <data name="name_avg_time_30min_short" xml:space="preserve">
+    <value>30 мин.</value>
+  </data>
+  <data name="window_prefix_common_pqp" xml:space="preserve">
+    <value>Время: {0} - {1}. Режим наибольших нагрузок: {2}. {3}. {4}</value>
+  </data>
+  <data name="window_prefix_common_pqp_etpqp_a" xml:space="preserve">
+    <value>Время: {0} - {1}. {2}</value>
+  </data>
+  <data name="window_prefix_common_pqp_etpqp_a_ext" xml:space="preserve">
+    <value>Время: {0} - {1}. {3}
+Режим наибольших нагрузок: {2}</value>
+  </data>
+  <data name="window_prefix_common_avg" xml:space="preserve">
+    <value>Время: {0} - {1}. Время усреднения: {2}. 
+КТТ: {3}, КТН: {4}</value>
+  </data>
+  <data name="window_prefix_common_archive" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включения: {3}. Uном.лин.={4}(В), Uном.ф.={5}(В), Fном.={6}(Гц)</value>
+  </data>
+  <data name="window_prefix_common_archive_etpqp_a" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включ-я: {3}. Uном.лин.={4}(В), Uном.ф.={5}(В), Fном.={6}(Гц), Предел U = {7}(В), Предел I = {8}(A). Учет маркирования данных {9}</value>
+  </data>
+  <data name="window_prefix_common_archive_3ph3w" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включения: {3}. Uном.лин.={4}(В), Fном.={5}(Гц)</value>
+  </data>
+  <data name="window_prefix_common_archive_3ph3w_etpqp_a" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включения: {3}. Uном.лин.={4}(В), Fном.={5}(Гц), Предел U = {6}(В), Предел I = {7}(A). Учет маркирования данных {8}</value>
+  </data>
+  <data name="window_prefix_common_archive_etpqp_a_gps" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включения: {3}. Uном.лин.={4}(В), Uном.ф.={5}(В), Fном.={6}(Гц), Предел U = {7}(В), Предел I = {8}(A). Учет маркирования данных {9}. Координаты: {10}, {11}</value>
+  </data>
+  <data name="window_prefix_common_archive_3ph3w_etpqp_a_gps" xml:space="preserve">
+    <value>{0}. Время: {1} - {2}. Схема включения: {3}. Uном.лин.={4}(В), Fном.={5}(Гц), Предел U = {6}(В), Предел I = {7}(A). Учет маркирования данных {8}. Координаты: {9}, {10}</value>
+  </data>
+  <data name="msg_device_autodetect_failed" xml:space="preserve">
+    <value>Устройство не найдено. Проверьте соединение и попытайтесь еще</value>
+  </data>
+  <data name="msg_device_autodetect_ok" xml:space="preserve">
+    <value>Устройство было успешно обнаружено!</value>
+  </data>
+  <data name="caption_device_autodetect" xml:space="preserve">
+    <value>Автоопределение настроек COM порта</value>
+  </data>
+  <data name="msg_not_read_avg_index" xml:space="preserve">
+    <value>Не удалось получить данные для выбранного временного интервала усредненных</value>
+  </data>
+  <data name="msg_options_dev_autodetect_text" xml:space="preserve">
+    <value>Пожалуйста, убедитесь, что устройство подсоединено к последовательному порту и находится в режиме обмена</value>
+  </data>
+  <data name="msg_device_licence_failed_caption" xml:space="preserve">
+    <value>Устройство не зарегистрировано</value>
+  </data>
+  <data name="msg_device_licence_failed_text" xml:space="preserve">
+    <value>Права на работу с данным устройством не подтверждены лицензией.
+Если у вас есть файл лицензии на данное устройство, откройте меню "Настройки"&gt;"Параметры",
+перейдите на вкладку "Менеджер устройств" и зарегистрируйте его.</value>
+  </data>
+  <data name="msg_licences_check_drop_caption" xml:space="preserve">
+    <value>Удаление поддержки устройства</value>
+  </data>
+  <data name="msg_licences_check_drop_text" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить данное устройство
+из списка поддерживаемых? (если вы не имеете файла лицензии,
+это будет необратимая операция!)</value>
+  </data>
+  <data name="unfortunately_caption" xml:space="preserve">
+    <value>К сожалению</value>
+  </data>
+  <data name="msg_db_connect_error_text" xml:space="preserve">
+    <value>Не удалось установить соединения с базой данных {0} по адресу {1}:{2}.
+Пожауйста, проверьте работоспособность СУБД PostgreSQL и попробуйте еще раз.</value>
+  </data>
+  <data name="ok_caption" xml:space="preserve">
+    <value>Поздравления</value>
+  </data>
+  <data name="msg_db_connect_ok" xml:space="preserve">
+    <value>Соединение с СУБД PostgreSQL успешно установлено!
+Вы можете сохранить текущие настройки или попытаться найти другой сервер базы данных</value>
+  </data>
+  <data name="name.hertz.short" xml:space="preserve">
+    <value>Гц</value>
+  </data>
+  <data name="name.dno.labels.limit_line" xml:space="preserve">
+    <value>{0} U ном.</value>
+  </data>
+  <data name="name.dno.labels.nominal_line" xml:space="preserve">
+    <value>U ном.</value>
+  </data>
+  <data name="msg_constraints_input_data_failed_caption" xml:space="preserve">
+    <value>Ошибка ввода данных</value>
+  </data>
+  <data name="msg_constraints_input_data_failed_text" xml:space="preserve">
+    <value>Введенные вами данные не являются корректным дробным числом</value>
+  </data>
+  <data name="name.max_deviation.swell" xml:space="preserve">
+    <value>Наибольшее отклонение</value>
+  </data>
+  <data name="name.max_duration.swell" xml:space="preserve">
+    <value>Наибольшая длительность</value>
+  </data>
+  <data name="name.constraint_type.6.full" xml:space="preserve">
+    <value>Пользовательский 2</value>
+  </data>
+  <data name="name.constraint_type.header_prefix" xml:space="preserve">
+    <value>Тип уставок: </value>
+  </data>
+  <data name="name.fliker_period" xml:space="preserve">
+    <value>Период Фликера: {0} мин.</value>
+  </data>
+  <data name="msg.toolbar.saving_mode_creating_img" xml:space="preserve">
+    <value>Сохранение. Формирование Образа.</value>
+  </data>
+  <data name="msg.toolbar.saving_mode_db_inserting" xml:space="preserve">
+    <value>Сохранение. Вставка данных в БД:</value>
+  </data>
+  <data name="msg_toolbar_exporting" xml:space="preserve">
+    <value>Экспорт Архива в файл Образа</value>
+  </data>
+  <data name="msg_db_options_apply_error_caption" xml:space="preserve">
+    <value>Ошибка сохранения изменений</value>
+  </data>
+  <data name="msg_db_options_apply_error_text" xml:space="preserve">
+    <value>Некоторые из введенных значений некорректны.</value>
+  </data>
+  <data name="tooltip_invalid_float_value" xml:space="preserve">
+    <value>Неверное значение.
+
+Введите верное дробное значение,
+используя соответствующий вашей
+локали разделитель дробной и 
+целой части.</value>
+  </data>
+  <data name="column_header_units_a" xml:space="preserve">
+    <value>, А</value>
+  </data>
+  <data name="column_header_units_grad" xml:space="preserve">
+    <value> ,°</value>
+  </data>
+  <data name="column_header_units_hz" xml:space="preserve">
+    <value>, Гц</value>
+  </data>
+  <data name="column_header_units_ka" xml:space="preserve">
+    <value>, кА</value>
+  </data>
+  <data name="column_header_units_kv" xml:space="preserve">
+    <value>, кВ</value>
+  </data>
+  <data name="column_header_units_kva" xml:space="preserve">
+    <value> , кВА</value>
+  </data>
+  <data name="column_header_units_kvar" xml:space="preserve">
+    <value>, квар</value>
+  </data>
+  <data name="column_header_units_kw" xml:space="preserve">
+    <value>, кВт</value>
+  </data>
+  <data name="column_header_units_v" xml:space="preserve">
+    <value>, В</value>
+  </data>
+  <data name="column_header_units_va" xml:space="preserve">
+    <value>, ВА</value>
+  </data>
+  <data name="column_header_units_var" xml:space="preserve">
+    <value>, вар</value>
+  </data>
+  <data name="column_header_units_w" xml:space="preserve">
+    <value>, Вт</value>
+  </data>
+  <data name="column_header_units_percent" xml:space="preserve">
+    <value>, %</value>
+  </data>
+  <data name="name_params_angles" xml:space="preserve">
+    <value>Углы между гармоническими составляющими тока и напряжения</value>
+  </data>
+  <data name="name_params_i_interharm" xml:space="preserve">
+    <value>Интергармоники тока</value>
+  </data>
+  <data name="name_params_u_ph_interharm" xml:space="preserve">
+    <value>Интергармоники U ф</value>
+  </data>
+  <data name="name_params_u_lin_interharm" xml:space="preserve">
+    <value>Интергармоники U лин</value>
+  </data>
+  <data name="name_params_power_harmonics" xml:space="preserve">
+    <value>Мощности гармоник</value>
+  </data>
+  <data name="name_params_power_harmonics_percent" xml:space="preserve">
+    <value>Мощности гармоник, %</value>
+  </data>
+  <data name="name_params_power_harmonics_watt" xml:space="preserve">
+    <value>Мощности гармоник, Вт</value>
+  </data>
+  <data name="name_peakload_notapplied" xml:space="preserve">
+    <value>. Коэффициенты транформации НЕ ПРИМЕНЕНЫ.</value>
+  </data>
+  <data name="name_phases_phaseA" xml:space="preserve">
+    <value>Фаза A</value>
+  </data>
+  <data name="name_phases_phaseAB" xml:space="preserve">
+    <value>AB</value>
+  </data>
+  <data name="name_phases_phaseB" xml:space="preserve">
+    <value>Фаза B</value>
+  </data>
+  <data name="name_phases_phaseBC" xml:space="preserve">
+    <value>BC</value>
+  </data>
+  <data name="name_phases_phaseC" xml:space="preserve">
+    <value>Фаза C</value>
+  </data>
+  <data name="name_phases_phaseCA" xml:space="preserve">
+    <value>CA</value>
+  </data>
+  <data name="name_bar_caption_in_upl_res" xml:space="preserve">
+    <value>В ПДП (рез.) - {0}</value>
+  </data>
+  <data name="name_measure_type_pqp_nonsinusoidality2" xml:space="preserve">
+    <value>Несинусоидальность напряжения 2</value>
+  </data>
+  <data name="msg_interface_delete_confirmation" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить данный элемент, а также все дочерние элементы?</value>
+  </data>
+  <data name="msg_image_no_pg_servers_caption" xml:space="preserve">
+    <value>Невозможная операция</value>
+  </data>
+  <data name="msg_image_no_pg_servers_text" xml:space="preserve">
+    <value>Отсутствуют Серверы Баз данных для  импорта данных из файла Образа</value>
+  </data>
+  <data name="msg_device_no_active_number" xml:space="preserve">
+    <value>Не выбран номер телефона</value>
+  </data>
+  <data name="msg_device_no_server_selected" xml:space="preserve">
+    <value>Не выбран сервер БД</value>
+  </data>
+  <data name="msg_device_equal_auto_times" xml:space="preserve">
+    <value>Указано несколько автоматических подключений в одно и то же время</value>
+  </data>
+  <data name="msg_device_no_active_ipaddress" xml:space="preserve">
+    <value>Не выбран IP адрес или не указан номер порта</value>
+  </data>
+  <data name="msg_device_no_active_485address" xml:space="preserve">
+    <value>Не выбран адрес устройства</value>
+  </data>
+  <data name="name_frmPgServerAddNew_header_add" xml:space="preserve">
+    <value>Добавить новый Сервер Базы Данных</value>
+  </data>
+  <data name="name_frmPgServerAddNew_header_options" xml:space="preserve">
+    <value>Свойтва Сервера Баз Данных</value>
+  </data>
+  <data name="msg_invalid_duration_text" xml:space="preserve">
+    <value>Длительность превышает сутки и равна "{0}". Возможно это вызвано погрешностью измерений</value>
+  </data>
+  <data name="save_image_as" xml:space="preserve">
+    <value>Сохранить изображение как...</value>
+  </data>
+  <data name="print_image" xml:space="preserve">
+    <value>Печать...</value>
+  </data>
+  <data name="default_zoom" xml:space="preserve">
+    <value>Масштаб по умолчанию</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="cm_copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="name.measure_type.avg.dips_and_swells" xml:space="preserve">
+    <value>Провалы и перенапряжения</value>
+  </data>
+  <data name="msg_invalid_high_limit_text" xml:space="preserve">
+    <value>Вводимая величина должна быть меньше 50,0 по модулю</value>
+  </data>
+  <data name="interface_serial_text" xml:space="preserve">
+    <value>Интерфейс ввода/вывода: {0} порт, {1}</value>
+  </data>
+  <data name="interface_USB_text" xml:space="preserve">
+    <value>Интерфейс ввода/вывода: USB</value>
+  </data>
+  <data name="interface_modem_text" xml:space="preserve">
+    <value>Интерфейс ввода/вывода: GSM Модем</value>
+  </data>
+  <data name="interface_ethernet_text" xml:space="preserve">
+    <value>Интерфейс ввода/вывода: Ethernet</value>
+  </data>
+  <data name="interface_gprs_text" xml:space="preserve">
+    <value>Интерфейс ввода/вывода: GPRS</value>
+  </data>
+  <data name="current_device_text" xml:space="preserve">
+    <value>Текущее устройство:</value>
+  </data>
+  <data name="before_closing_text" xml:space="preserve">
+    <value>Подождите, идет закрытие порта...</value>
+  </data>
+  <data name="msg_error_from_device" xml:space="preserve">
+    <value>Информация, полученная от прибора, некорректна</value>
+  </data>
+  <data name="name_columns_measures_number_global" xml:space="preserve">
+    <value>Кол-во измерений за весь интервал</value>
+  </data>
+  <data name="msg_sql_img_error_page_img_created" xml:space="preserve">
+    <value>Произошел сбой во время сохранения данных архива.
+Убедительная просьба сообщить о данной ошибке в службу поддержки Марс-Энерго (support@mars-energo.ru) и приложить к письму Отладочный файл:
+{0}.</value>
+  </data>
+  <data name="msg_sql_img_error_page_img_not_created" xml:space="preserve">
+    <value>Произошел сбой во время сохранения данных архива. Файл Образа не был создан.
+Убедительная просьба сообщить о данной ошибке в службу поддержки Марс-Энерго (support@mars-energo.ru).</value>
+  </data>
+  <data name="msg_sql_img_forming_error_caption" xml:space="preserve">
+    <value>Ошибка создания Образа</value>
+  </data>
+  <data name="msg_device_no_archive_error" xml:space="preserve">
+    <value>Не удалось считать из устройства ни одного архива.</value>
+  </data>
+  <data name="msg_device_data_reading_error_caption" xml:space="preserve">
+    <value>Ошибка чтения данных из прибора</value>
+  </data>
+  <data name="db_error_nopage_nosql_text" xml:space="preserve">
+    <value>Произошел сбой во время сохранения информации Базу Данных (БД).
+Возможно нарушиловсь соединение с сервером БД или был сформирован некорректный SQL запрос.
+
+Также не удалось создать файл Образа.
+
+Убедительная просьба сообщить о данной ошибке в службу поддержки Марс-Энерго (support@mars-energo.ru).</value>
+  </data>
+  <data name="msg_device_db_error_page_nosql" xml:space="preserve">
+    <value>Произошел сбой во время сохранения информации Базу Данных (БД).
+Возможно нарушиловсь соединение с сервером БД или был сформирован некорректный SQL запрос.
+
+Также не удалось создать файл Образа.
+
+Убедительная просьба сообщить о данной ошибке в службу поддержки Марс-Энерго (support@mars-energo.ru) и приложить к письму Отладочный файл:
+"{0}".</value>
+  </data>
+  <data name="db_error_nopage_sql_text" xml:space="preserve">
+    <value>Произошел сбой во время сохранения информации в Базу Данных (БД). 
+Возможно нарушиловсь соединение с сервером БД или был сформирован некорректный SQL запрос.
+
+Данные сохранены в файл Образа:
+"{0}".
+
+Проверьте соединение с сервером БД и воспользуйтесь файлом образа для завершения операции сохранения. В случае, если ошибка повторится, мы просим вас сообщить об этом в службу поддержки Марс-Энерго (support@mars-energo.ru). Просьба приложить к письму файл Образа.</value>
+  </data>
+  <data name="msg_device_db_error_page_sql" xml:space="preserve">
+    <value>Произошeл сбой во время сохранения информации в Базу Данных (БД).
+Возможно нарушиловсь соединение с сервером БД или был сформирован некорректный SQL запрос.
+
+Данные сохранены в файл Образа:
+"{0}".
+
+Проверьте соединение с сервером БД и воспользуйтесь файлом Образа для завершения операции сохранения. В случае, если ошибка повторится, мы просим вас сообщить об этом в службу поддержки Марс-Энерго (support@mars-energo.ru). Просьба приложить к письму файл Образа и Отладочный файл:
+"{1}".</value>
+  </data>
+  <data name="msg_sql_img_writing_error_caption" xml:space="preserve">
+    <value>Ошибка сохранения файла Образа</value>
+  </data>
+  <data name="msg_image_tryopendebugfile_text" xml:space="preserve">
+    <value>Вы пытаетесь открыть отладочный файл образа
+{0}
+
+Эта функция используется разработчиками в целях выявления ошибок и отладки приложения. Вы уверены, что хотите продолжить?
+(не рекомендуется)</value>
+  </data>
+  <data name="warning_caption" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="msg_image_export_error_caption" xml:space="preserve">
+    <value>Ошибка создания Образа.</value>
+  </data>
+  <data name="msg_image_export_error_text" xml:space="preserve">
+    <value>Произошел сбой при попытке экспорта Архива.
+Возможно нарушилось соединение с сервером Базы Данных (БД).
+
+Убедительная просьба сообщить о данной ошибке в службу поддержки
+Марс-Энерго (support@mars-energo.ru).</value>
+  </data>
+  <data name="msg_image_bad_sql_image_file_text" xml:space="preserve">
+    <value>Не удалось прочитать данные из файла
+{0}.
+
+Файл не является файлом Образа данных Прибора или поврежден!</value>
+  </data>
+  <data name="msg_image_bad_sql_image_file_caption" xml:space="preserve">
+    <value>Ошибка чтения файла Образа</value>
+  </data>
+  <data name="cancel_text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="confirm_exit_msg" xml:space="preserve">
+    <value>Вы уверены, что хотите закрыть программу?</value>
+  </data>
+  <data name="confirm_cancel_msg" xml:space="preserve">
+    <value>Вы уверены, что хотите прервать операцию?</value>
+  </data>
+  <data name="msg_auto_detect_time" xml:space="preserve">
+    <value>Поиск устройства может занять несколько минут.</value>
+  </data>
+  <data name="msg_constraints_saved" xml:space="preserve">
+    <value>Код уставок успешно сохранен в файл '{0}'</value>
+  </data>
+  <data name="caption_error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="msg_invalid_ip_address" xml:space="preserve">
+    <value>Неправильный формат IP адреса!</value>
+  </data>
+  <data name="msg_invalid_ip_port" xml:space="preserve">
+    <value>Неправильный формат номера порта!</value>
+  </data>
+  <data name="msg_invalid_data" xml:space="preserve">
+    <value>Введены некорректные данные!</value>
+  </data>
+  <data name="msg_invalid_serial" xml:space="preserve">
+    <value>Неправильный формат серийного номера!</value>
+  </data>
+  <data name="msg_invalid_phone_number" xml:space="preserve">
+    <value>Неправильный формат номера телефона!</value>
+  </data>
+  <data name="msg_error_load_constraints" xml:space="preserve">
+    <value>Ошибка при загрузке уставок: {0}</value>
+  </data>
+  <data name="msg_error_load_objnames" xml:space="preserve">
+    <value>Ошибка при загрузке имен объектов: {0}</value>
+  </data>
+  <data name="msg_error_load_devname" xml:space="preserve">
+    <value>Ошибка при загрузке имени устройства: {0}</value>
+  </data>
+  <data name="msg_error_save_constraints" xml:space="preserve">
+    <value>Ошибка при сохранении уставок: {0}</value>
+  </data>
+  <data name="msg_error_save_objnames" xml:space="preserve">
+    <value>Ошибка при сохранении имен объектов: {0}</value>
+  </data>
+  <data name="msg_error_save_devname" xml:space="preserve">
+    <value>Ошибка при сохранении имени устройства: {0}</value>
+  </data>
+  <data name="msg_unknown_devtype" xml:space="preserve">
+    <value>Неизвестный тип устройства</value>
+  </data>
+  <data name="msg_device_connect_error_short" xml:space="preserve">
+    <value>Невозможно установить соединение с устройством!</value>
+  </data>
+  <data name="msg_db_connect_error" xml:space="preserve">
+    <value>Невозможно установить соединение с сервером базы данных!</value>
+  </data>
+  <data name="msg_start_date_more_than_end_date" xml:space="preserve">
+    <value>Дата начала архива превышает дату окончания!</value>
+  </data>
+  <data name="msg_error_load_xml_image" xml:space="preserve">
+    <value>Ошибка при загрузке Xml образа</value>
+  </data>
+  <data name="msg_error_load_sql_image" xml:space="preserve">
+    <value>Ошибка при загрузке Sql образа</value>
+  </data>
+  <data name="msg_error_cant_access_file" xml:space="preserve">
+    <value>Программа не может получить доступ к файлу!</value>
+  </data>
+  <data name="msg_error_create_dir" xml:space="preserve">
+    <value>Ошибка при создании каталога!</value>
+  </data>
+  <data name="msg_export_success" xml:space="preserve">
+    <value>Экспорт завершен успешно</value>
+  </data>
+  <data name="msg_error_export" xml:space="preserve">
+    <value>Ошибка экспорта!</value>
+  </data>
+  <data name="msg_fsk_report_open_archive" xml:space="preserve">
+    <value>Для создания отчета должны быть открыты архивы ПКЭ и усредненных значений, а также архив провалов и перенапряжений (если он есть). Обратите внимание, что должны быть открыты архивы одного и того же объекта!</value>
+  </data>
+  <data name="msg_fsk_report_the_same_object" xml:space="preserve">
+    <value>Обратите внимание, что должны быть открыты архивы одного и того же объекта!</value>
+  </data>
+  <data name="msg_outofmemory" xml:space="preserve">
+    <value>Программе не хватает оперативной памяти для выполнения данной операции!</value>
+  </data>
+  <data name="msg_db_not_init" xml:space="preserve">
+    <value>База данных не была проинициализирована или нарушена работа сервера PosgreSQL. Руководство по инициализации БД находится в справке к программе (стр.23).</value>
+  </data>
+  <data name="str_dev_connected" xml:space="preserve">
+    <value>Соединение с прибором установлено</value>
+  </data>
+  <data name="str_dev_disconnected" xml:space="preserve">
+    <value>Соединение с прибором отсутствует</value>
+  </data>
+  <data name="str_no_sender" xml:space="preserve">
+    <value>Необходимо заполнить поле "Отправитель"</value>
+  </data>
+  <data name="str_no_email" xml:space="preserve">
+    <value>Необходимо заполнить поле "E-mail адрес"</value>
+  </data>
+  <data name="str_invalid_email" xml:space="preserve">
+    <value>E-mail адрес указан некорректно.</value>
+  </data>
+  <data name="msg_error_send_logs" xml:space="preserve">
+    <value>Ошибка при отправке сообщения в службу поддержки</value>
+  </data>
+  <data name="msg_error2_send_logs" xml:space="preserve">
+    <value>Неизвестная ошибка при отправке сообщения в службу поддержки</value>
+  </data>
+  <data name="msg_error_get_volvalues" xml:space="preserve">
+    <value>Не удалось получить значения отклонений напряжения!</value>
+  </data>
+  <data name="msg_param_was_added" xml:space="preserve">
+    <value>Этот параметр уже добавлен на панель графиков!</value>
+  </data>
+  <data name="str_dip" xml:space="preserve">
+    <value>Провалы</value>
+  </data>
+  <data name="str_interrupt" xml:space="preserve">
+    <value>Прерывания</value>
+  </data>
+</root>

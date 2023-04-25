@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="name_measure_type_avg_full" xml:space="preserve">
+    <value>Averaged Network Parameters</value>
+  </data>
+  <data name="name_measure_type_dns_full" xml:space="preserve">
+    <value>Voltage Dips and Swells </value>
+  </data>
+  <data name="name_measure_type_pke_full" xml:space="preserve">
+    <value>Power Quality Parameters</value>
+  </data>
+  <data name="name_submeasure_avg_angles" xml:space="preserve">
+    <value>Harmonic powers and angles</value>
+  </data>
+  <data name="name_submeasure_avg_harmonics" xml:space="preserve">
+    <value>Individual Harmonic Ratios</value>
+  </data>
+  <data name="name_submeasure_avg_main" xml:space="preserve">
+    <value>Basic Network Parameters</value>
+  </data>
+  <data name="msg_device_connect_lost_caption" xml:space="preserve">
+    <value>Reading error</value>
+  </data>
+  <data name="msg_device_connect_lost_text" xml:space="preserve">
+    <value>The connection with the Device has been lost.
+Interface: {0} (interface parameters: {1}{2}).
+Saving process has been interrupted.</value>
+  </data>
+  <data name="msg_device_data_reading_error_caption" xml:space="preserve">
+    <value>The data reading error has been occurred.</value>
+  </data>
+  <data name="name_exchange_window_caption" xml:space="preserve">
+    <value>Importing data from the Image file</value>
+  </data>
+  <data name="name_exchange_window_tree_caption" xml:space="preserve">
+    <value>Image file data:</value>
+  </data>
+  <data name="dialog_filter" xml:space="preserve">
+    <value>EmWorkNet7 Image Files|*.{0}|All Files|*.*</value>
+  </data>
+  <data name="warning_caption" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="msg_dns_empty_text" xml:space="preserve">
+    <value>There was no event during this period</value>
+  </data>
+  <data name="event_journal_0_text" xml:space="preserve">
+    <value>The device has been turned on</value>
+  </data>
+  <data name="event_journal_1_text" xml:space="preserve">
+    <value>The device has been turned off</value>
+  </data>
+  <data name="event_journal_2_text" xml:space="preserve">
+    <value>A new PQP archive has been created</value>
+  </data>
+  <data name="event_journal_3_text" xml:space="preserve">
+    <value>The memory was formatted</value>
+  </data>
+  <data name="event_journal_4_text" xml:space="preserve">
+    <value>Program rerun</value>
+  </data>
+  <data name="msg_device_licence_failed_caption" xml:space="preserve">
+    <value>The device is not registered</value>
+  </data>
+  <data name="msg_device_licence_failed_text" xml:space="preserve">
+    <value>The device is not registered.
+If you have the licence file for the device's identification,
+open Settings &lt; Options &lt; Device manager and register it.</value>
+  </data>
+  <data name="msg_device_connect_error_caption" xml:space="preserve">
+    <value>Connection error</value>
+  </data>
+  <data name="msg_device_connect_error_text" xml:space="preserve">
+    <value>Cannot establish connection with the Device.
+Interface: {0} (interface parameters: {1}{2}).</value>
+  </data>
+  <data name="msg_device_devinfo_error_text" xml:space="preserve">
+    <value>Cannot read system information from the Device.
+Interface: {0} (interface parameters: {1}{2}).</value>
+  </data>
+  <data name="msg_device_connect_em33t_error_text" xml:space="preserve">
+    <value>Cannot establish connection with the Device Em-33T. This service isn't incarnated for other devices! 
+Interface: {0} (interface parameters: {1}{2}).</value>
+  </data>
+  <data name="information_caption" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="msg_device_empty_text" xml:space="preserve">
+    <value>Device's memory contains no archives</value>
+  </data>
+  <data name="unfortunately_caption" xml:space="preserve">
+    <value>Unfortunately</value>
+  </data>
+  <data name="msg_db_connect_error_text" xml:space="preserve">
+    <value>Could not establish connection with database {0} on host {1}:{2}.
+Please check PostgreSQL server and try another time.</value>
+  </data>
+  <data name="msg_invalid_interface_text" xml:space="preserve">
+    <value>The Device {0} doesn't support {1} I/O interface.</value>
+  </data>
+  <data name="pke_reading_failed" xml:space="preserve">
+    <value>Unable to read the PQP archive at {0}.</value>
+  </data>
+  <data name="avg_reading_failed" xml:space="preserve">
+    <value>Unable to read the AVG archive at {0}.</value>
+  </data>
+  <data name="dns_reading_failed" xml:space="preserve">
+    <value>Unable to read the DNS archive at {0}.</value>
+  </data>
+  <data name="etpqp_version_is_old" xml:space="preserve">
+    <value>The device firmware version is obsolete. The program cannot communicate with it. Apply to the manufacturer to a get new firmware version.</value>
+  </data>
+  <data name="archive_more_than_limit" xml:space="preserve">
+    <value>You've selected an archive of 3-second values which lasted more than {0} hours. We recommend to decrease the time interval. Continue with such interval?</value>
+  </data>
+  <data name="msg_not_read_avg_index" xml:space="preserve">
+    <value>Unable to read data for the selected time interval (AVG)</value>
+  </data>
+  <data name="msg_time_not_correct" xml:space="preserve">
+    <value>Current time of the computer and current time of the device are different! It's necessary to correct time!</value>
+  </data>
+  <data name="msg_crc_error_pages" xml:space="preserve">
+    <value>CRC errors occured while reading system information on pages: {0}!</value>
+  </data>
+</root>

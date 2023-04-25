@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsYGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAm
+        yJt9/z9F5pFtAEgjCGfPuPc/Y/rt/+lTbvxPmXj1f2Lfpf+xXef+R7Se/h/SePJ/QO3R/z6VB/97lO79
+        71K4HeFakKYMJE0xnef/R7SDNB0HajoM1uQG0lSw/b9d7tb/Npkb/1umrcP0LshmisIA5GyKDAD5mSID
+        QAFGkQGg0KbIgJDm4+QZEN9z5T846sDxjYg6j9LdwPje+d8he+t/68xN/81T1/03TVr13zB+xX+D6KUI
+        yxCa9oMTiRNIEzS+zYHxbZK0GqxJL3rZf52oxf+1IhaCMYZ3QTZSFAYg51JkADmaAYCVp+sGZ4ygAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsYGridLine.Text" xml:space="preserve">
+    <value>Показывать основные линии Y оси</value>
+  </data>
+  <data name="tsYMinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPpJREFUOE9jYKAm
+        yJt9/z9F5pFtAEgjCGfPuPc/Y/rt/+lTbvxPmXj1f2Lfpf+xXef+R7Se/h/SePJ/QO3R/z6VB/97lO79
+        71K4HdO1WVNvU+YFkM1khQHI2RlIzo7pPP8/oh3k7ONAZx8GO9sN5OyC7f/tcrf+t8nc+N8ybR2mZSA/
+        k+UCmCZQgJFlQHzPlf9gZ4NDG+Fsj9LdwNDe+d8he+t/68xN/81T1/03TVr13zB+xX+D6KWYloU0HyfP
+        BTBnBwEDjCwvIJy9H5xInEDOhoa2OTC0TZJWg52tF73sv07U4v9aEQvBGMMykJ/JcgFMEyjAKDKAHM0A
+        ucyn5UEgpF0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsYMinorGridLine.Text" xml:space="preserve">
+    <value>Показывать промежуточные линии Y оси</value>
+  </data>
+  <data name="tsXGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAANBJREFUOE+t0zEL
+        AXEcxvF7PZIyKINMBsMN0g2XSKQuRBkMNxgki0EpSpkkJWUwGGS4JEnKoJRSvJSH5wU8XcnVZ3v6/pff
+        GcY/v/rkDVJNq30GyTf9AqnWESQD1fELpAamuwfJQGX0BKlBsrkDyYAzfIDUINHYgmSgNLiD1CBe24Bk
+        oNC/gdQgVl6DZCDXu4LUIOqsQDJgdy8gNYgUlyAZsDonkBqE8wuQDKRbB5AahLJzkAyYrvc9FE8OgpkZ
+        SAb8DiVgT0Ey4HcovoFf/uwPxRGM8wmibGAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tsXGridLine.Text" xml:space="preserve">
+    <value>Показывать основные линии X оси</value>
+  </data>
+  <data name="tsXMinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPVJREFUOE9jYKAm
+        yJt9/z/MvKzpt+Hs+L5LcHZI40k4G8NuZAPSJt+EK4zpPA9nB9QexW1A9ox7cMmUiVfh7IjW03C2T+VB
+        3AZkTUU4OxHZ2c3H4Zo8SnfjNiB9yg2szg6sPQIXdyncidsAFGe3Y3e2Xe5W3AagOLsRu7NtMjfiNiC2
+        6xxSaB+Gs52QnG2Rvha3AbhC2yEb4WzTpFW4DQhBCm230r1whcjONoxfgduAoFqEs5FD2zJtHVyTXsxS
+        3Ab4VO6HSzoghbZJ0mq4uE7UYtwGICcSm2xEaBvFL4dr0opYiNsAZGdbpCJCG9nZeA0gJ2cDACLUjPGh
+        UiYpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsXMinorGridLine.Text" xml:space="preserve">
+    <value>Показывать промежуточные линии X оси</value>
+  </data>
+  <data name="tsY2GridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO5JREFUOE9jYKA3
+        CGk8+Z8iOwNqj2IakDf7/n8Qzp5x73/G9Nv/06fc+J8y8er/xL5L/2O7zv2PaD39H2QzSLNP5cH/HqV7
+        /7sUbkcYBNKUgaQppvP8/4h2kKbjQE2HwZrcQJoKtv+3y9363yZz43/LtHXkecWlcCd5GmEBB3IBRYEI
+        cj5FBlikr6XMANOkVZQZYBi/AtOA+J4r/8FRB45vRNR5lO4GxvfO/w7ZW/9bZ276b5667j/IBSBDDKKX
+        IgxCaNoPTiROIE3Q+DYHxrdJ0mqwJr3oZf91ohb/14pYCMZkBSbZGmG2UWwAurMBdZykO4si3LkAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="tsY2GridLine.Text" xml:space="preserve">
+    <value>Показывать основные линии правой Y оси</value>
+  </data>
+  <data name="tsY2MinorGridLine.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPBJREFUOE9jYKA3
+        CGk8+Z8iOwNqj2IakDf7/n8Qzp5x73/G9Nv/06fc+J8y8er/xL5L/2O7zv2PaD39H2QzSLNP5cH/HqV7
+        /7sUbifPJR6lu8nTCPO3S+FOTANAzs5AcnZM5/n/Ee0gZx8HOvsw2NluIGcXbP9vl7v1v03mxv+WaevI
+        cwlIM0WxYJG+FtOA+J4r/8HOBoc2wtmgAAP52SF763/rzE3/zVPX/TdNWvXfMH7Ff4PopeS5BKSZIi/o
+        xWCxGeHs/eBE4gRyNjS0zYGhbZK0Guxsvehl/3WiFv/XilgIxmS5hGyNMNsoNgDd2QDJQaRBRqAtLgAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tsY2MinorGridLine.Text" xml:space="preserve">
+    <value>Показывать промежуточные линии правой Y оси</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AABjSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/2NJNf9jSTX/Y0k1/wAA
+        AAAAAAAAno6B/8Kzpv/08e7//fz8///////+/fz/+/j2//jy7v/z7Of/8OXe/+zf1f/o2c3/2sm8/8i3
+        qf9jSTX/AAAAAJ6Ogf/08e7/hTAJ/0osHv9KLB7/zMO//wtifv8BN0v/GzM7/7OimP8NKID/BRlb/wUZ
+        W/8FGVv/yLep/2NJNf+ejoH//fz8/4UwCf/gdTz/t1oq/0osHv8RZX7/AL/s/wCcwv8qMTL/Ey6B/w08
+        0/8HLqz/By6s/wUZW/9jSTX/no6B//////+MNxH/6IlV/+aBS/+6Yzb/GGl//wTA7P8Av+z/AJzC/xo0
+        gv8cSNj/FULV/wsyrv8FGVv/AAAAAJ6Ogf/+/fz/lkIb//Gcb//ulWX/wXRL/yBugP8Yxe7/D8Pt/wWf
+        w/8jO4T/MVfe/yZP2/8XO7L/BRlb/wAAAACejoH/+/j2/6JOJ//4rob/9qh9/8eEYP8pcoL/M8zw/yfJ
+        7/8XosT/LEKF/0Zp5f87YOL/KEi4/wUZW/8AAAAAno6B//jy7v+mUiv/sWZC/8SAX//OknL/MneD/1LU
+        8f9E0PH/LajF/zVKh/9deu3/UnLq/zpWvf8FGVv/AAAAAJ6Ogf/z7Of/tmI7//3w6v/+6t///dbC/zp8
+        hP9z3fT/ZNnz/0eux/89UIn/cov0/2iD8f9NZcP/BRlb/wAAAACejoH/8OXe/+bHt//mlG3/4pBp/9yK
+        Y/9DgIX/k+X2/4Xh9f9jt8r/RVaK/4OZ+v97k/f/XnPJ/wUZW/8AAAAAno6B/+zf1f/u4tr/Y0k1/wAA
+        AAAAAAAASYSG/7Hs+P+l6fj/fb3L/01ejv9mdqj/c4bS/2x+zv8FGVv/AAAAAJ6Ogf/o2c3/6tzS/2NJ
+        Nf8AAAAAAAAAAFGIh//K8vr/wPD6/5bDzP9MfoT/b36p/9jg/v+zw///CBxe/wAAAACvopj/18i8/+bW
+        yv9jSTX/AAAAAAAAAABUi4j/aZqY/4Szs/+pyM7/SH9//wAAAABjc6H/Y3Ok/1BfjP8AAAAA1sa6/6+c
+        jf/Xxrr/Y0k1/wAAAAAAAAAAVIuI//D9/f/o/Pz/zfj5/0h/f/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADWxbn/saCR/2NJNf8AAAAAAAAAAAAAAABUi4j/VIuI/1SLiP9Ui4j/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANfHu/+Ufm7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAMAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAwBAAAMAQAADBEAAAwf
+        AACOHwAAz/8AAA==
+</value>
+  </data>
+  <data name="$this.TabText" xml:space="preserve">
+    <value>Графики</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Графики (Отклонение частоты)</value>
+  </data>
+</root>

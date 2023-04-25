@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="str_f" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="str_f_a" xml:space="preserve">
+    <value>Частота по фазе А</value>
+  </data>
+  <data name="str_f_b" xml:space="preserve">
+    <value>Частота по фазе B</value>
+  </data>
+  <data name="str_f_c" xml:space="preserve">
+    <value>Частота по фазе C</value>
+  </data>
+  <data name="str_f_ab" xml:space="preserve">
+    <value>Частота по линии АB</value>
+  </data>
+  <data name="str_f_bc" xml:space="preserve">
+    <value>Частота по линии BC</value>
+  </data>
+  <data name="str_f_ca" xml:space="preserve">
+    <value>Частота по линии CA</value>
+  </data>
+  <data name="str_u_a" xml:space="preserve">
+    <value>Фазное напряжение UA</value>
+  </data>
+  <data name="str_u_b" xml:space="preserve">
+    <value>Фазное напряжение UB</value>
+  </data>
+  <data name="str_u_c" xml:space="preserve">
+    <value>Фазное напряжение UC</value>
+  </data>
+  <data name="str_u_a_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы A</value>
+  </data>
+  <data name="str_u_b_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы B</value>
+  </data>
+  <data name="str_u_c_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы C</value>
+  </data>
+  <data name="str_u_ab_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения линии AВ</value>
+  </data>
+  <data name="str_u_bc_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения линии BС</value>
+  </data>
+  <data name="str_u_ca_const" xml:space="preserve">
+    <value>Постоянная составляющая напряжения линии CА</value>
+  </data>
+  <data name="str_u1_a" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UA</value>
+  </data>
+  <data name="str_u1_b" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UB</value>
+  </data>
+  <data name="str_u1_c" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UC</value>
+  </data>
+  <data name="str_u_a_1harm" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UA</value>
+  </data>
+  <data name="str_u_b_1harm" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UB</value>
+  </data>
+  <data name="str_u_c_1harm" xml:space="preserve">
+    <value>Фазное напряжение 1-ой гармоники UC</value>
+  </data>
+  <data name="str_u_ab_1harm" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UAB</value>
+  </data>
+  <data name="str_u_bc_1harm" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UBC</value>
+  </data>
+  <data name="str_u_ca_1harm" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UCA</value>
+  </data>
+  <data name="str_u_ab" xml:space="preserve">
+    <value>Линейное напряжение UAB</value>
+  </data>
+  <data name="str_u_bc" xml:space="preserve">
+    <value>Линейное напряжение UBC</value>
+  </data>
+  <data name="str_u_ca" xml:space="preserve">
+    <value>Линейное напряжение UCA</value>
+  </data>
+  <data name="str_u1_ab" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UAB</value>
+  </data>
+  <data name="str_u1_bc" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UBC</value>
+  </data>
+  <data name="str_u1_ca" xml:space="preserve">
+    <value>Линейное напряжение 1-ой гармоники UCA</value>
+  </data>
+  <data name="str_u0_a" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы A</value>
+  </data>
+  <data name="str_u0_b" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы B</value>
+  </data>
+  <data name="str_u0_c" xml:space="preserve">
+    <value>Постоянная составляющая напряжения фазы C</value>
+  </data>
+  <data name="str_u0_ab" xml:space="preserve">
+    <value>Постоянная составляющая линейного напряжения UAB</value>
+  </data>
+  <data name="str_u0_bc" xml:space="preserve">
+    <value>Постоянная составляющая линейного напряжения UBC</value>
+  </data>
+  <data name="str_u0_ca" xml:space="preserve">
+    <value>Постоянная составляющая линейного напряжения UCA</value>
+  </data>
+  <data name="str_u_hp_a" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе А</value>
+  </data>
+  <data name="str_u_hp_b" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе B</value>
+  </data>
+  <data name="str_u_hp_c" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе C</value>
+  </data>
+  <data name="str_u_a_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе А</value>
+  </data>
+  <data name="str_u_b_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе B</value>
+  </data>
+  <data name="str_u_c_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по фазе C</value>
+  </data>
+  <data name="str_u_ab_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по линии АB</value>
+  </data>
+  <data name="str_u_bc_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по линии BC</value>
+  </data>
+  <data name="str_u_ca_avdirect" xml:space="preserve">
+    <value>Средневыпрямленное значение напряжения по линии CA</value>
+  </data>
+  <data name="str_u_1" xml:space="preserve">
+    <value>Напряжение прямой последовательности</value>
+  </data>
+  <data name="str_u_2" xml:space="preserve">
+    <value>Напряжение обратной последовательности</value>
+  </data>
+  <data name="str_u_0" xml:space="preserve">
+    <value>Напряжение нулевой последовательности</value>
+  </data>
+  <data name="str_i_a" xml:space="preserve">
+    <value>Ток по фазе A</value>
+  </data>
+  <data name="str_i_b" xml:space="preserve">
+    <value>Ток по фазе B</value>
+  </data>
+  <data name="str_i_c" xml:space="preserve">
+    <value>Ток по фазе C</value>
+  </data>
+  <data name="str_i_a_const" xml:space="preserve">
+    <value>Ток по фазе A, постоянная составляющая</value>
+  </data>
+  <data name="str_i_b_const" xml:space="preserve">
+    <value>Ток по фазе B, постоянная составляющая</value>
+  </data>
+  <data name="str_i_c_const" xml:space="preserve">
+    <value>Ток по фазе C, постоянная составляющая</value>
+  </data>
+  <data name="str_i_n_const" xml:space="preserve">
+    <value>Ток нейтрали, постоянная составляющая</value>
+  </data>
+  <data name="str_i_a_avdirect" xml:space="preserve">
+    <value>Ток по фазе A, средневыпрямленное значение</value>
+  </data>
+  <data name="str_i_b_avdirect" xml:space="preserve">
+    <value>Ток по фазе B, средневыпрямленное значение</value>
+  </data>
+  <data name="str_i_c_avdirect" xml:space="preserve">
+    <value>Ток по фазе C, средневыпрямленное значение</value>
+  </data>
+  <data name="str_i_n_avdirect" xml:space="preserve">
+    <value>Ток нейтрали, средневыпрямленное значение</value>
+  </data>
+  <data name="str_i1_a" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе A</value>
+  </data>
+  <data name="str_i1_b" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе B</value>
+  </data>
+  <data name="str_i1_c" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе C</value>
+  </data>
+  <data name="str_i_a_1harm" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе A</value>
+  </data>
+  <data name="str_i_b_1harm" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе B</value>
+  </data>
+  <data name="str_i_c_1harm" xml:space="preserve">
+    <value>Ток 1-ой гармоники по фазе C</value>
+  </data>
+  <data name="str_i_n_1harm" xml:space="preserve">
+    <value>Ток 1-ой гармоники тока нейтрали</value>
+  </data>
+  <data name="str_i_1" xml:space="preserve">
+    <value>Ток прямой последовательности</value>
+  </data>
+  <data name="str_i_2" xml:space="preserve">
+    <value>Ток обратной последовательности</value>
+  </data>
+  <data name="str_i_0" xml:space="preserve">
+    <value>Ток нулевой последовательности</value>
+  </data>
+  <data name="str_p_sum" xml:space="preserve">
+    <value>Суммарная активная мощность</value>
+  </data>
+  <data name="str_p_a" xml:space="preserve">
+    <value>Активная мощность по фазе A</value>
+  </data>
+  <data name="str_p_ab" xml:space="preserve">
+    <value>Активная мощность AB</value>
+  </data>
+  <data name="str_p_b" xml:space="preserve">
+    <value>Активная мощность по фазе B</value>
+  </data>
+  <data name="str_p_cb" xml:space="preserve">
+    <value>Активная мощность CB</value>
+  </data>
+  <data name="str_p_c" xml:space="preserve">
+    <value>Активная мощность по фазе C</value>
+  </data>
+  <data name="str_s_sum" xml:space="preserve">
+    <value>Суммарная полная мощность</value>
+  </data>
+  <data name="str_s_12sum" xml:space="preserve">
+    <value>Суммарная полная мощность</value>
+  </data>
+  <data name="str_s_a" xml:space="preserve">
+    <value>Полная мощность по фазе A</value>
+  </data>
+  <data name="str_s_b" xml:space="preserve">
+    <value>Полная мощность по фазе B</value>
+  </data>
+  <data name="str_s_c" xml:space="preserve">
+    <value>Полная мощность по фазе C</value>
+  </data>
+  <data name="str_q_sum_geom" xml:space="preserve">
+    <value>Суммарная реактивная мощность (геом. метод)</value>
+  </data>
+  <data name="str_q_a_geom" xml:space="preserve">
+    <value>Реактивная мощность по фазе A (геом. метод)</value>
+  </data>
+  <data name="str_q_b_geom" xml:space="preserve">
+    <value>Реактивная мощность по фазе B (геом. метод)</value>
+  </data>
+  <data name="str_q_c_geom" xml:space="preserve">
+    <value>Реактивная мощность по фазе C (геом. метод)</value>
+  </data>
+  <data name="str_q_sum" xml:space="preserve">
+    <value>Суммарная реактивная мощность</value>
+  </data>
+  <data name="str_q_12sum" xml:space="preserve">
+    <value>Суммарная реактивная мощность</value>
+  </data>
+  <data name="str_q_a" xml:space="preserve">
+    <value>Реактивная мощность по фазе A</value>
+  </data>
+  <data name="str_q_b" xml:space="preserve">
+    <value>Реактивная мощность по фазе B</value>
+  </data>
+  <data name="str_q_c" xml:space="preserve">
+    <value>Реактивная мощность по фазе C</value>
+  </data>
+  <data name="str_kp_sum" xml:space="preserve">
+    <value>Суммарный коэффициент мощности</value>
+  </data>
+  <data name="str_kp_a" xml:space="preserve">
+    <value>Коэффициент мощности по фазе A</value>
+  </data>
+  <data name="str_kp_b" xml:space="preserve">
+    <value>Коэффициент мощности по фазе B</value>
+  </data>
+  <data name="str_kp_c" xml:space="preserve">
+    <value>Коэффициент мощности по фазе C</value>
+  </data>
+  <data name="str_kp_abc" xml:space="preserve">
+    <value>Коэффициент мощности общий</value>
+  </data>
+  <data name="str_kp_12" xml:space="preserve">
+    <value>Коэффициент мощности общий</value>
+  </data>
+  <data name="str_angle_ua_ub" xml:space="preserve">
+    <value>Угол между фазными напряжениями UA UB</value>
+  </data>
+  <data name="str_angle_ub_uc" xml:space="preserve">
+    <value>Угол между фазными напряжениями UB UC</value>
+  </data>
+  <data name="str_angle_uc_ua" xml:space="preserve">
+    <value>Угол между фазными напряжениями UC UA</value>
+  </data>
+  <data name="str_angle_ua_ia" xml:space="preserve">
+    <value>Угол между фазным напряжением UA и током IA</value>
+  </data>
+  <data name="str_angle_ub_ib" xml:space="preserve">
+    <value>Угол между фазным напряжением UB и током IB</value>
+  </data>
+  <data name="str_angle_uc_ic" xml:space="preserve">
+    <value>Угол между фазным напряжением UC и током IC</value>
+  </data>
+  <data name="str_angle_uab_ucb" xml:space="preserve">
+    <value>Угол между междуфазными напряжениями AB и CB</value>
+  </data>
+  <data name="str_angle_uab_ia" xml:space="preserve">
+    <value>Угол между междуфазным напряжением AB и током IA</value>
+  </data>
+  <data name="str_angle_ucb_ic" xml:space="preserve">
+    <value>Угол между междуфазным напряжением CB и током IC</value>
+  </data>
+  <data name="str_an_u1_a_u1_b" xml:space="preserve">
+    <value>Угол между первыми гармониками напряжений фазы А и В</value>
+  </data>
+  <data name="str_an_u1_b_u1_c" xml:space="preserve">
+    <value>Угол между первыми гармониками напряжений фазы B и C</value>
+  </data>
+  <data name="str_an_u1_c_u1_a" xml:space="preserve">
+    <value>Угол между первыми гармониками напряжений фазы C и A</value>
+  </data>
+  <data name="str_an_u1_a_i1_a" xml:space="preserve">
+    <value>Угол между первыми гармониками фазного напряжения и фазного тока</value>
+  </data>
+  <data name="str_an_u1_b_i1_b" xml:space="preserve">
+    <value>Угол между первыми гармониками фазного напряжения и фазного тока</value>
+  </data>
+  <data name="str_an_u1_c_i1_c" xml:space="preserve">
+    <value>Угол между первыми гармониками фазного напряжения и фазного тока</value>
+  </data>
+  <data name="str_an_u_0_i_0" xml:space="preserve">
+    <value>Угол между током и напряжением нулевой последовательности</value>
+  </data>
+  <data name="str_an_u_1_i_1" xml:space="preserve">
+    <value>Угол между током и напряжением прямой последовательности</value>
+  </data>
+  <data name="str_an_u_2_i_2" xml:space="preserve">
+    <value>Угол между током и напряжением обратной последовательности</value>
+  </data>
+  <data name="str_angle_p_1" xml:space="preserve">
+    <value>Угол мощности прямой последовательности</value>
+  </data>
+  <data name="str_angle_p_2" xml:space="preserve">
+    <value>Угол мощности обратной последовательности</value>
+  </data>
+  <data name="str_angle_p_0" xml:space="preserve">
+    <value>Угол мощности нулевой последовательности</value>
+  </data>
+  <data name="str_p_0" xml:space="preserve">
+    <value>Мощность нулевой последовательности</value>
+  </data>
+  <data name="str_p_1" xml:space="preserve">
+    <value>Мощность прямой последовательности</value>
+  </data>
+  <data name="str_p_2" xml:space="preserve">
+    <value>Мощность обратной последовательности</value>
+  </data>
+  <data name="str_d_f" xml:space="preserve">
+    <value>Отклонение частоты</value>
+  </data>
+  <data name="str_d_u_y" xml:space="preserve">
+    <value>Отклонение напряжения</value>
+  </data>
+  <data name="str_d_u_a" xml:space="preserve">
+    <value>Отклонение фазного напряжения UA от номинала</value>
+  </data>
+  <data name="str_d_u_ab" xml:space="preserve">
+    <value>Отклонение линейного напряжения UAB от номинала</value>
+  </data>
+  <data name="str_d_u_b" xml:space="preserve">
+    <value>Отклонение фазного напряжения UB от номинала</value>
+  </data>
+  <data name="str_d_u_bc" xml:space="preserve">
+    <value>Отклонение линейного напряжения UBC от номинала</value>
+  </data>
+  <data name="str_d_u_c" xml:space="preserve">
+    <value>Отклонение фазного напряжения UC от номинала</value>
+  </data>
+  <data name="str_d_u_ca" xml:space="preserve">
+    <value>Отклонение линейного напряжения UCA от номинала</value>
+  </data>
+  <data name="str_rd_u" xml:space="preserve">
+    <value>Отклонение установившегося напряжения [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_a" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – фаза A [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_b" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – фаза B [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_c" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – фаза C [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_ab" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – линия AB [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_bc" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – линия BC [относительное]</value>
+  </data>
+  <data name="str_rd_u_1harm_ca" xml:space="preserve">
+    <value>Отклонение 1 гармоники от номинала – линия CA [относительное]</value>
+  </data>
+  <data name="str_d_u_pos_a" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза A [абсолютное]</value>
+  </data>
+  <data name="str_d_u_pos_b" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза B [абсолютное]</value>
+  </data>
+  <data name="str_d_u_pos_c" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза C [абсолютное]</value>
+  </data>
+  <data name="str_d_u_pos_ab" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия AB [абсолютное]</value>
+  </data>
+  <data name="str_d_u_pos_bc" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия BC [абсолютное]</value>
+  </data>
+  <data name="str_d_u_pos_ca" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия CA [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_a" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза A [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_b" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза B [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_c" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза C [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_ab" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия AB [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_bc" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия BC [абсолютное]</value>
+  </data>
+  <data name="str_d_u_neg_ca" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия CA [абсолютное]</value>
+  </data>
+  <data name="str_rd_u_pos_a" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза A [относительное]</value>
+  </data>
+  <data name="str_rd_u_pos_b" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза B [относительное]</value>
+  </data>
+  <data name="str_rd_u_pos_c" xml:space="preserve">
+    <value>Положительное отклонение напряжения - фаза C [относительное]</value>
+  </data>
+  <data name="str_rd_u_pos_ab" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия AB [относительное]</value>
+  </data>
+  <data name="str_rd_u_pos_bc" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия BC [относительное]</value>
+  </data>
+  <data name="str_rd_u_pos_ca" xml:space="preserve">
+    <value>Положительное отклонение напряжения - линия CA [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_a" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза A [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_b" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза B [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_c" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - фаза C [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_ab" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия AB [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_bc" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия BC [относительное]</value>
+  </data>
+  <data name="str_rd_u_neg_ca" xml:space="preserve">
+    <value>Отрицательное отклонение напряжения - линия CA [относительное]</value>
+  </data>
+  <data name="str_k_2u" xml:space="preserve">
+    <value>Коэффициент несимметрии напряжения по обратной последовательности</value>
+  </data>
+  <data name="str_k_0u" xml:space="preserve">
+    <value>Коэффициент несимметрии напряжения по нулевой последовательности</value>
+  </data>
+  <data name="str_k_ua" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой напряжения по фазе А</value>
+  </data>
+  <data name="str_k_ub" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой напряжения по фазе B</value>
+  </data>
+  <data name="str_k_uc" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой напряжения по фазе C</value>
+  </data>
+  <data name="str_k_uab" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой линейных напряжений АВ</value>
+  </data>
+  <data name="str_k_ubc" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой линейных напряжений BC</value>
+  </data>
+  <data name="str_k_uca" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой линейных напряжений CA</value>
+  </data>
+  <data name="str_k_ia" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой тока по фазе А</value>
+  </data>
+  <data name="str_k_ib" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой тока по фазе B</value>
+  </data>
+  <data name="str_k_ic" xml:space="preserve">
+    <value>Коэффициент искажения синусоидальности кривой тока по фазе C</value>
+  </data>
+  <data name="str_tangent_p_geom" xml:space="preserve">
+    <value>tg φ (геом. метод)</value>
+  </data>
+  <data name="str_tangent_p_shift" xml:space="preserve">
+    <value>tg φ (метод сдвига)</value>
+  </data>
+  <data name="str_tangent_p_cross" xml:space="preserve">
+    <value>tg φ (метод перекр. включ.)</value>
+  </data>
+  <data name="str_tangent_p_1harm" xml:space="preserve">
+    <value>tg φ (по 1-ой гармонике)</value>
+  </data>
+  <data name="str_q_sum_shift" xml:space="preserve">
+    <value>Суммарная реактивная мощность (метод сдвига)</value>
+  </data>
+  <data name="str_q_a_shift" xml:space="preserve">
+    <value>Реактивная мощность по фазе A (метод сдвига)</value>
+  </data>
+  <data name="str_q_b_shift" xml:space="preserve">
+    <value>Реактивная мощность по фазе B (метод сдвига)</value>
+  </data>
+  <data name="str_q_c_shift" xml:space="preserve">
+    <value>Реактивная мощность по фазе C (метод сдвига)</value>
+  </data>
+  <data name="str_q_sum_cross" xml:space="preserve">
+    <value>Суммарная реактивная мощность Q (метод перекр. включ.)</value>
+  </data>
+  <data name="str_q_a_cross" xml:space="preserve">
+    <value>Реактивная мощность по фазе A (метод перекр. включ.)</value>
+  </data>
+  <data name="str_q_b_cross" xml:space="preserve">
+    <value>Реактивная мощность по фазе B (метод перекр. включ.)</value>
+  </data>
+  <data name="str_q_c_cross" xml:space="preserve">
+    <value>Реактивная мощность по фазе C (метод перекр. включ.)</value>
+  </data>
+  <data name="str_q_sum_1harm" xml:space="preserve">
+    <value>Суммарная реактивная мощность (по 1-ой гармонике)</value>
+  </data>
+  <data name="str_q_a_1harm" xml:space="preserve">
+    <value>Реактивная мощность по фазе A (по 1-ой гармонике)</value>
+  </data>
+  <data name="str_q_b_1harm" xml:space="preserve">
+    <value>Реактивная мощность по фазе B (по 1-ой гармонике)</value>
+  </data>
+  <data name="str_q_c_1harm" xml:space="preserve">
+    <value>Реактивная мощность по фазе C (по 1-ой гармонике)</value>
+  </data>
+  <data name="str_i_n" xml:space="preserve">
+    <value>Ток нейтрали</value>
+  </data>
+  <data name="str_i1_n" xml:space="preserve">
+    <value>1-ая гармоника тока нейтрали</value>
+  </data>
+  <data name="str_k_ux_x" xml:space="preserve">
+    <value>Коэфф. {0}-й гармоники напряжения по фазе {1}</value>
+  </data>
+  <data name="str_k_ix_x" xml:space="preserve">
+    <value>Коэфф. {0}-й гармоники тока по фазе {1}</value>
+  </data>
+  <data name="str_k_uxx_x" xml:space="preserve">
+    <value>Коэфф. {0}-й гармоники линейного напряжения {1}</value>
+  </data>
+  <data name="str_i_n_x" xml:space="preserve">
+    <value>Коэфф. {0}-й гармоники тока нейтрали</value>
+  </data>
+  <data name="str_p_sum_x" xml:space="preserve">
+    <value>Суммарная активная мощность {0}-й гармоники</value>
+  </data>
+  <data name="str_p_x_x" xml:space="preserve">
+    <value>Активная мощность {0}-й гармоники по фазе {1}</value>
+  </data>
+  <data name="str_p_xx_x" xml:space="preserve">
+    <value>Активная мощность {0}-й гармоники, {1}</value>
+  </data>
+  <data name="str_an_u_x_i_x" xml:space="preserve">
+    <value>Фазный угол между напряжением и током {0}-й гармоники</value>
+  </data>
+  <data name="str_p1_3phase" xml:space="preserve">
+    <value>Активная мощность P1</value>
+  </data>
+  <data name="str_p2_3phase" xml:space="preserve">
+    <value>Активная мощность P2</value>
+  </data>
+  <data name="str_if_record_marked" xml:space="preserve">
+    <value>Признак маркированности записи</value>
+  </data>
+  <data name="str_summ_for_order_more_1_a" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_b" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_c" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_ab" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_bc" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_summ_for_order_more_1_ca" xml:space="preserve">
+    <value>Суммарное значение для гармонических подгрупп порядка &gt; 1</value>
+  </data>
+  <data name="str_order_value_x_x" xml:space="preserve">
+    <value>Значение для порядка {0}, фаза {1}</value>
+  </data>
+  <data name="str_order_value_x_n" xml:space="preserve">
+    <value>Значение для порядка {0}, ток нейтрали</value>
+  </data>
+  <data name="str_order_value_x_xx" xml:space="preserve">
+    <value>Значение для порядка {0}, линия {1}</value>
+  </data>
+  <data name="str_summ_coeff_a" xml:space="preserve">
+    <value>Суммарный коэффициент, фаза А</value>
+  </data>
+  <data name="str_summ_coeff_b" xml:space="preserve">
+    <value>Суммарный коэффициент, фаза В</value>
+  </data>
+  <data name="str_summ_coeff_c" xml:space="preserve">
+    <value>Суммарный коэффициент, фаза С</value>
+  </data>
+  <data name="str_summ_coeff_ab" xml:space="preserve">
+    <value>Суммарный коэффициент, линия АB</value>
+  </data>
+  <data name="str_summ_coeff_bc" xml:space="preserve">
+    <value>Суммарный коэффициент, линия ВC</value>
+  </data>
+  <data name="str_summ_coeff_ca" xml:space="preserve">
+    <value>Суммарный коэффициент, линия СA</value>
+  </data>
+  <data name="str_order_coeff_x_x" xml:space="preserve">
+    <value>Коэффициент для порядка {0}, фаза {1}</value>
+  </data>
+  <data name="str_order_coeff_x_n" xml:space="preserve">
+    <value>Коэффициент для порядка {0}, ток нейтрали</value>
+  </data>
+  <data name="str_order_coeff_x_xx" xml:space="preserve">
+    <value>Коэффициент для порядка {0}, линия {1}</value>
+  </data>
+  <data name="str_pharm_p_x_x" xml:space="preserve">
+    <value>Мощности гармоник, активная составляющая (порядок {0}), фаза {1}</value>
+  </data>
+  <data name="str_pharm_q_x_x" xml:space="preserve">
+    <value>Мощности гармоник, реактивная составляющая (порядок {0}), фаза {1}</value>
+  </data>
+  <data name="str_pharm_angle_x_x" xml:space="preserve">
+    <value>Мощности гармоник, угол (порядок {0}), фаза {1}</value>
+  </data>
+  <data name="str_pharm_p_sum_x" xml:space="preserve">
+    <value>Суммарная активная мощность {0}-й гармоники</value>
+  </data>
+  <data name="str_pharm_q_sum_x" xml:space="preserve">
+    <value>Суммарная реактивная мощность {0}-й гармоники</value>
+  </data>
+  <data name="str_pharm_angle_sum_x" xml:space="preserve">
+    <value>Суммарный угол {0}-й гармоники</value>
+  </data>
+  <data name="str_pharm_p_1_x" xml:space="preserve">
+    <value>Мощности гармоник, активная составляющая (порядок {0}), компонент 1</value>
+  </data>
+  <data name="str_pharm_q_1_x" xml:space="preserve">
+    <value>Мощности гармоник, реактивная составляющая (порядок {0}), компонент 1</value>
+  </data>
+  <data name="str_pharm_angle_1_x" xml:space="preserve">
+    <value>Мощности гармоник, угол (порядок {0}), компонент 1</value>
+  </data>
+  <data name="str_pharm_p_2_x" xml:space="preserve">
+    <value>Мощности гармоник, активная составляющая (порядок {0}), компонент 2</value>
+  </data>
+  <data name="str_pharm_q_2_x" xml:space="preserve">
+    <value>Мощности гармоник, реактивная составляющая (порядок {0}), компонент 2</value>
+  </data>
+  <data name="str_pharm_angle_2_x" xml:space="preserve">
+    <value>Мощности гармоник, угол (порядок {0}), компонент 2</value>
+  </data>
+  <data name="str_avg_square_a" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, фаза А</value>
+  </data>
+  <data name="str_avg_square_b" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, фаза В</value>
+  </data>
+  <data name="str_avg_square_c" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, фаза С</value>
+  </data>
+  <data name="str_avg_square_ab" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, линия АB</value>
+  </data>
+  <data name="str_avg_square_bc" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, линия ВC</value>
+  </data>
+  <data name="str_avg_square_ca" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, линия СA</value>
+  </data>
+  <data name="str_avg_square_n" xml:space="preserve">
+    <value>Среднеквадратическое значение субгармонической группы, ток нейтрали</value>
+  </data>
+  <data name="avg_square_order_x_x" xml:space="preserve">
+    <value>Среднеквадратическое значение интергармонических групп порядка {0}</value>
+  </data>
+</root>

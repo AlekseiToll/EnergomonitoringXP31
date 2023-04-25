@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblVTurnRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtCTurnRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;myToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkCurrentTrPresent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblVGradeOfOccuracy.Name" xml:space="preserve">
+    <value>lblVGradeOfOccuracy</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 20</value>
+  </data>
+  <data name="txtCGradeOfOccuracy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblNominalFrequency.Name" xml:space="preserve">
+    <value>lblNominalFrequency</value>
+  </data>
+  <data name="lblCNumbers.Text" xml:space="preserve">
+    <value>Type(s) and serial number(s):</value>
+  </data>
+  <data name="&gt;&gt;txtNominalLinVoltage.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblCNumbers.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtVGradeOfOccuracy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblConstrType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblNominalLinVoltage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="grbVoltageTransformer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="grbCurrentTransformer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblConnectionScheme.Text" xml:space="preserve">
+    <value>Connection scheme:</value>
+  </data>
+  <data name="txtMaxRegime2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 22</value>
+  </data>
+  <data name="&gt;&gt;txtConstrType.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblNomIph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCGradeOfOccuracy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNominalFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.Text" xml:space="preserve">
+    <value>Accuracy class:</value>
+  </data>
+  <data name="&gt;&gt;lblCNumbers.Name" xml:space="preserve">
+    <value>lblCNumbers</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRationsTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomIph.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="grbCurrentTransformer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 304</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceInfo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCNumbers.Name" xml:space="preserve">
+    <value>txtCNumbers</value>
+  </data>
+  <data name="txtDeviceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 353</value>
+  </data>
+  <data name="lblVSecondaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="&gt;&gt;txtCGradeOfOccuracy.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="lblDeviceInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Archive's properties</value>
+  </data>
+  <data name="txtNominalFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="lblVPrimaryWinding.Text" xml:space="preserve">
+    <value>Primary voltage (V):</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="lblEnergyQualityRations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblCSecondaryWinding.Name" xml:space="preserve">
+    <value>lblCSecondaryWinding</value>
+  </data>
+  <data name="&gt;&gt;txtVSecondaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVTurnRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtNominalLinVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVPrimaryWinding.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="lblVPrimaryWinding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Name" xml:space="preserve">
+    <value>txtComment</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtConstrType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkVoltageTrPresent.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblComment.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnJournal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVGradeOfOccuracy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtVPrimaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="&gt;&gt;grbCurrentTransformer.Name" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="txtNomIph.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCTurnRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 177</value>
+  </data>
+  <data name="txtCPrimaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pbDatabase.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNominalPhVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 274</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDeviceName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCTurnRatio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEnergyQualityRations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grbCurrentTransformer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtNominalFrequency.Name" xml:space="preserve">
+    <value>txtNominalFrequency</value>
+  </data>
+  <data name="lblCSecondaryWinding.Text" xml:space="preserve">
+    <value>Secondary current (A):</value>
+  </data>
+  <data name="txtComment.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtVPrimaryWinding.Name" xml:space="preserve">
+    <value>txtVPrimaryWinding</value>
+  </data>
+  <data name="&gt;&gt;lblVTurnRatio.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pbDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 158</value>
+  </data>
+  <data name="lblNominalLinVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCSecondaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtNomIph.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtConnectionScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;gbDbOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="txtCNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtNomIph.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtCPrimaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVGradeOfOccuracy.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="&gt;&gt;lblCTurnRatio.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="lblNominalLinVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 274</value>
+  </data>
+  <data name="&gt;&gt;txtNominalPhVoltage.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="grbVoltageTransformer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="txtVNumbers.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtCNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValues.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtCNumbers.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCurrentTrPresent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRations.Name" xml:space="preserve">
+    <value>lblEnergyQualityRations</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="&gt;&gt;txtCTurnRatio.Name" xml:space="preserve">
+    <value>txtCTurnRatio</value>
+  </data>
+  <data name="&gt;&gt;lblCGradeOfOccuracy.Name" xml:space="preserve">
+    <value>lblCGradeOfOccuracy</value>
+  </data>
+  <data name="lblAverageValues.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltagesTime.Name" xml:space="preserve">
+    <value>lblDipsAndOvervoltagesTime</value>
+  </data>
+  <data name="&gt;&gt;lblNominalLinVoltage.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="chkCurrentTrPresent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtDeviceName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblVNumbers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtVGradeOfOccuracy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCurrentTrPresent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtVGradeOfOccuracy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="lblCNumbers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblComment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;lblNominalLinVoltage.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblAverageValuesTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConstrType.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblDeviceName.Text" xml:space="preserve">
+    <value>Device Name:</value>
+  </data>
+  <data name="&gt;&gt;lblCPrimaryWinding.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblCSecondaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCTurnRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtVPrimaryWinding.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceInfo.Name" xml:space="preserve">
+    <value>txtDeviceInfo</value>
+  </data>
+  <data name="txtMaxRegime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 43</value>
+  </data>
+  <data name="txtNominalLinVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 294</value>
+  </data>
+  <data name="pbDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>867, 98</value>
+  </data>
+  <data name="lblCTurnRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 158</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblVNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAverageValues.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtComment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;pbDatabase.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblMaxRegime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gbDbOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCPrimaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 59</value>
+  </data>
+  <data name="btnJournal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 28</value>
+  </data>
+  <data name="btnJournal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grbVoltageTransformer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 304</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 90</value>
+  </data>
+  <data name="gbDbOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVNumbers.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="grbVoltageTransformer.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDeviceInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblVPrimaryWinding.Name" xml:space="preserve">
+    <value>lblVPrimaryWinding</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 17</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDeviceInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblNominalFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCPrimaryWinding.Text" xml:space="preserve">
+    <value>Primary current (A):</value>
+  </data>
+  <data name="chkVoltageTrPresent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="lblAverageValuesTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblDeviceName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtCSecondaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.Text" xml:space="preserve">
+    <value>Accuracy class:</value>
+  </data>
+  <data name="&gt;&gt;txtCPrimaryWinding.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="chkVoltageTrPresent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 30</value>
+  </data>
+  <data name="lblDeviceInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtConnectionScheme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVTurnRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 158</value>
+  </data>
+  <data name="lblNominalFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCurrentTrPresent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;lblCGradeOfOccuracy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtVSecondaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEnergyQualityRations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="lblVNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 220</value>
+  </data>
+  <data name="&gt;&gt;lblNominalLinVoltage.Name" xml:space="preserve">
+    <value>lblNominalLinVoltage</value>
+  </data>
+  <data name="&gt;&gt;txtCSecondaryWinding.Name" xml:space="preserve">
+    <value>txtCSecondaryWinding</value>
+  </data>
+  <data name="&gt;&gt;lblCTurnRatio.Name" xml:space="preserve">
+    <value>lblCTurnRatio</value>
+  </data>
+  <data name="pbDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtConnectionScheme.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtComment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCGradeOfOccuracy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="lblConstrType.Text" xml:space="preserve">
+    <value>Constraint type:</value>
+  </data>
+  <data name="&gt;&gt;grbCurrentTransformer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtVNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 240</value>
+  </data>
+  <data name="lblAverageValuesTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 11</value>
+  </data>
+  <data name="lblAverageValuesTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 31</value>
+  </data>
+  <data name="lblConnectionScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 114</value>
+  </data>
+  <data name="&gt;&gt;lblCPrimaryWinding.Name" xml:space="preserve">
+    <value>lblCPrimaryWinding</value>
+  </data>
+  <data name="txtNominalPhVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblCSecondaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtVPrimaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="&gt;&gt;txtNomIph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCSecondaryWinding.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtConnectionScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 22</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceName.Name" xml:space="preserve">
+    <value>txtDeviceName</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceName.Name" xml:space="preserve">
+    <value>lblDeviceName</value>
+  </data>
+  <data name="txtDeviceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 22</value>
+  </data>
+  <data name="&gt;&gt;txtConstrType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="btnJournal.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblCNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblVSecondaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblAverageValues.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltagesTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblConstrType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grbVoltageTransformer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Name" xml:space="preserve">
+    <value>lblComment</value>
+  </data>
+  <data name="grbCurrentTransformer.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtMaxRegime2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="lblDeviceName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMaxRegime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValuesTime.Name" xml:space="preserve">
+    <value>lblAverageValuesTime</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceInfo.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblConnectionScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtConnectionScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="&gt;&gt;txtVGradeOfOccuracy.Name" xml:space="preserve">
+    <value>txtVGradeOfOccuracy</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVTurnRatio.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="&gt;&gt;txtNomIph.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMaxRegime2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 78</value>
+  </data>
+  <data name="txtDeviceName.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblNominalFrequency.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.Text" xml:space="preserve">
+    <value>Voltage Dips and Swells:</value>
+  </data>
+  <data name="&gt;&gt;lblConstrType.Name" xml:space="preserve">
+    <value>lblConstrType</value>
+  </data>
+  <data name="txtCNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 54</value>
+  </data>
+  <data name="&gt;&gt;txtVSecondaryWinding.Name" xml:space="preserve">
+    <value>txtVSecondaryWinding</value>
+  </data>
+  <data name="&gt;&gt;txtVNumbers.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="txtNominalPhVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="&gt;&gt;txtNominalPhVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbVoltageTransformer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grbCurrentTransformer.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDeviceName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblComment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtMaxRegime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblNominalFrequency.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="gbDbOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 468</value>
+  </data>
+  <data name="&gt;&gt;chkCurrentTrPresent.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtVTurnRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 177</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMaxRegime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtCGradeOfOccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 177</value>
+  </data>
+  <data name="lblAverageValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 31</value>
+  </data>
+  <data name="lblDeviceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 334</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtNominalFrequency.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblNominalLinVoltage.Text" xml:space="preserve">
+    <value>Unom.lin. (V):</value>
+  </data>
+  <data name="gbDbOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="txtVPrimaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblVNumbers.Text" xml:space="preserve">
+    <value>Type(s) and serial number(s):</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkVoltageTrPresent.Text" xml:space="preserve">
+    <value>Voltage transformer</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValues.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtNominalFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVSecondaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 98</value>
+  </data>
+  <data name="lblCSecondaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOptionsEm32</value>
+  </data>
+  <data name="lblCTurnRatio.Text" xml:space="preserve">
+    <value>Current ratio:</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRationsTime.Name" xml:space="preserve">
+    <value>lblEnergyQualityRationsTime</value>
+  </data>
+  <data name="grbCurrentTransformer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;lblCPrimaryWinding.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="lblCPrimaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txtVPrimaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionScheme.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="txtCTurnRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;gbDbOptions.Name" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblCTurnRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCSecondaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceName.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblVSecondaryWinding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCPrimaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtNominalLinVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNominalPhVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVTurnRatio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 50</value>
+  </data>
+  <data name="lblDeviceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="lblCSecondaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="chkVoltageTrPresent.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblMaxRegime.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltagesTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtVNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblDeviceName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtCTurnRatio.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="txtNominalFrequency.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtVGradeOfOccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 177</value>
+  </data>
+  <data name="gbDbOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblVTurnRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbCurrentTransformer.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblVTurnRatio.Text" xml:space="preserve">
+    <value>Voltage ratio:</value>
+  </data>
+  <data name="&gt;&gt;txtVGradeOfOccuracy.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValuesTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtVTurnRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 22</value>
+  </data>
+  <data name="&gt;&gt;txtVNumbers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblVPrimaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="txtConstrType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="lblMaxRegime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblVNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAverageValuesTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="&gt;&gt;btnJournal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 560</value>
+  </data>
+  <data name="chkCurrentTrPresent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCNumbers.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="txtCGradeOfOccuracy.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtDeviceInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 401</value>
+  </data>
+  <data name="lblNomIph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="&gt;&gt;lblCTurnRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCTurnRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblVPrimaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 39</value>
+  </data>
+  <data name="&gt;&gt;btnJournal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime2.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCGradeOfOccuracy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCurrentTrPresent.Name" xml:space="preserve">
+    <value>chkCurrentTrPresent</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime.Name" xml:space="preserve">
+    <value>txtMaxRegime</value>
+  </data>
+  <data name="txtMaxRegime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtVGradeOfOccuracy.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtMaxRegime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkVoltageTrPresent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDeviceInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="pbDatabase.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="txtNomIph.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblNomIph.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblVTurnRatio.Name" xml:space="preserve">
+    <value>lblVTurnRatio</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;pbDatabase.Name" xml:space="preserve">
+    <value>pbDatabase</value>
+  </data>
+  <data name="txtNominalLinVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="chkCurrentTrPresent.Text" xml:space="preserve">
+    <value>Current transformer</value>
+  </data>
+  <data name="&gt;&gt;txtNominalPhVoltage.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtConstrType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtConstrType.Name" xml:space="preserve">
+    <value>txtConstrType</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 50</value>
+  </data>
+  <data name="grbCurrentTransformer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 119</value>
+  </data>
+  <data name="lblConnectionScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCPrimaryWinding.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblAverageValues.Text" xml:space="preserve">
+    <value>Averaged Network Parameters:</value>
+  </data>
+  <data name="&gt;&gt;gbDbOptions.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblConstrType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime2.Name" xml:space="preserve">
+    <value>txtMaxRegime2</value>
+  </data>
+  <data name="&gt;&gt;lblCTurnRatio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCPrimaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="&gt;&gt;lblVNumbers.Name" xml:space="preserve">
+    <value>lblVNumbers</value>
+  </data>
+  <data name="lblNominalPhVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="&gt;&gt;lblCPrimaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMaxRegime2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtCSecondaryWinding.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValuesTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkVoltageTrPresent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtMaxRegime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 22</value>
+  </data>
+  <data name="txtCSecondaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblNomIph.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValues.Name" xml:space="preserve">
+    <value>lblAverageValues</value>
+  </data>
+  <data name="&gt;&gt;lblVSecondaryWinding.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="btnOk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblNominalFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 274</value>
+  </data>
+  <data name="lblEnergyQualityRations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtVTurnRatio.Name" xml:space="preserve">
+    <value>txtVTurnRatio</value>
+  </data>
+  <data name="lblVSecondaryWinding.Text" xml:space="preserve">
+    <value>Secondary voltage (V):</value>
+  </data>
+  <data name="btnJournal.Text" xml:space="preserve">
+    <value>Event Journal</value>
+  </data>
+  <data name="btnOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtVSecondaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltagesTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pbDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txtNominalLinVoltage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtNominalPhVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblMaxRegime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtNominalLinVoltage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtConstrType.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtVTurnRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblConstrType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 170</value>
+  </data>
+  <data name="txtVPrimaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblCPrimaryWinding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 158</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceInfo.Name" xml:space="preserve">
+    <value>lblDeviceInfo</value>
+  </data>
+  <data name="txtConstrType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 22</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltages.Name" xml:space="preserve">
+    <value>lblDipsAndOvervoltages</value>
+  </data>
+  <data name="txtVNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 54</value>
+  </data>
+  <data name="lblVSecondaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNominalPhVoltage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblDipsAndOvervoltagesTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="&gt;&gt;lblMaxRegime.Name" xml:space="preserve">
+    <value>lblMaxRegime</value>
+  </data>
+  <data name="&gt;&gt;lblCSecondaryWinding.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="txtVSecondaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtNominalFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblVSecondaryWinding.Name" xml:space="preserve">
+    <value>lblVSecondaryWinding</value>
+  </data>
+  <data name="lblAverageValuesTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtVNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbVoltageTransformer.Name" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="lblNomIph.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCSecondaryWinding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblNominalPhVoltage.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="txtNominalPhVoltage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblMaxRegime.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtCTurnRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 22</value>
+  </data>
+  <data name="txtVTurnRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grbVoltageTransformer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblCPrimaryWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRations.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAverageValuesTime.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="lblNominalLinVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="txtNomIph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 241</value>
+  </data>
+  <data name="&gt;&gt;grbVoltageTransformer.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCNumbers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txtCSecondaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gbDbOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 118</value>
+  </data>
+  <data name="lblNomIph.Text" xml:space="preserve">
+    <value>I nom.ph. (A):</value>
+  </data>
+  <data name="grbVoltageTransformer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="&gt;&gt;txtNomIph.Name" xml:space="preserve">
+    <value>txtNomIph</value>
+  </data>
+  <data name="txtVGradeOfOccuracy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pbDatabase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 220</value>
+  </data>
+  <data name="gbDbOptions.Text" xml:space="preserve">
+    <value>General info</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblNominalPhVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtVNumbers.Name" xml:space="preserve">
+    <value>txtVNumbers</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblNominalPhVoltage.Text" xml:space="preserve">
+    <value>Unom.ph. (V):</value>
+  </data>
+  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblConnectionScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="lblNomIph.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNominalPhVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblNominalFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 16</value>
+  </data>
+  <data name="&gt;&gt;lblNominalPhVoltage.Name" xml:space="preserve">
+    <value>lblNominalPhVoltage</value>
+  </data>
+  <data name="txtCNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 240</value>
+  </data>
+  <data name="&gt;&gt;lblConstrType.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="txtNominalFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="lblEnergyQualityRations.Text" xml:space="preserve">
+    <value>Power Quality Parameters:</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;txtNominalFrequency.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="lblVPrimaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblAverageValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 17</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceName.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="chkVoltageTrPresent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 114</value>
+  </data>
+  <data name="&gt;&gt;lblAverageValuesTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDeviceInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRationsTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblEnergyQualityRations.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblCGradeOfOccuracy.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="&gt;&gt;txtConnectionScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVGradeOfOccuracy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblVSecondaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCGradeOfOccuracy.Name" xml:space="preserve">
+    <value>txtCGradeOfOccuracy</value>
+  </data>
+  <data name="txtNomIph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 560</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionScheme.Name" xml:space="preserve">
+    <value>lblConnectionScheme</value>
+  </data>
+  <data name="&gt;&gt;txtNominalLinVoltage.Name" xml:space="preserve">
+    <value>txtNominalLinVoltage</value>
+  </data>
+  <data name="chkVoltageTrPresent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblEnergyQualityRations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 11</value>
+  </data>
+  <data name="lblDeviceInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 382</value>
+  </data>
+  <data name="&gt;&gt;txtVTurnRatio.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtVSecondaryWinding.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblDeviceInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblVTurnRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConstrType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblNominalLinVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkVoltageTrPresent.Name" xml:space="preserve">
+    <value>chkVoltageTrPresent</value>
+  </data>
+  <data name="&gt;&gt;lblVGradeOfOccuracy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMaxRegime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="lblDeviceName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtVTurnRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCTurnRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtCSecondaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 118</value>
+  </data>
+  <data name="btnJournal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 560</value>
+  </data>
+  <data name="&gt;&gt;btnJournal.Name" xml:space="preserve">
+    <value>btnJournal</value>
+  </data>
+  <data name="&gt;&gt;chkCurrentTrPresent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCNumbers.Parent" xml:space="preserve">
+    <value>grbCurrentTransformer</value>
+  </data>
+  <data name="lblDipsAndOvervoltages.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDeviceInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblConstrType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="&gt;&gt;txtConnectionScheme.Name" xml:space="preserve">
+    <value>txtConnectionScheme</value>
+  </data>
+  <data name="grbVoltageTransformer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 119</value>
+  </data>
+  <data name="txtConnectionScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pbDatabase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblDeviceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMaxRegime2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDeviceInfo.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVoltageTrPresent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCNumbers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>867, 601</value>
+  </data>
+  <data name="txtConstrType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 190</value>
+  </data>
+  <data name="txtDeviceInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 22</value>
+  </data>
+  <data name="txtComment.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblConnectionScheme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbDbOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblNominalLinVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNominalPhVoltage.Name" xml:space="preserve">
+    <value>txtNominalPhVoltage</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCPrimaryWinding.Name" xml:space="preserve">
+    <value>txtCPrimaryWinding</value>
+  </data>
+  <data name="txtComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 462</value>
+  </data>
+  <data name="txtCPrimaryWinding.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVPrimaryWinding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCPrimaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="&gt;&gt;txtVSecondaryWinding.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="txtNominalFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 294</value>
+  </data>
+  <data name="lblEnergyQualityRationsTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblComment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtDeviceName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRationsTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtMaxRegime2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCurrentTrPresent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 114</value>
+  </data>
+  <data name="&gt;&gt;txtCGradeOfOccuracy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtVNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblNominalFrequency.Text" xml:space="preserve">
+    <value>Fnom. (Hz):</value>
+  </data>
+  <data name="txtVSecondaryWinding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 118</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtVTurnRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblVPrimaryWinding.Parent" xml:space="preserve">
+    <value>grbVoltageTransformer</value>
+  </data>
+  <data name="&gt;&gt;lblEnergyQualityRations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVPrimaryWinding.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtCSecondaryWinding.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblVTurnRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNomIph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 222</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltages.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCTurnRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtNominalPhVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 294</value>
+  </data>
+  <data name="&gt;&gt;lblCNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;myToolTip.Name" xml:space="preserve">
+    <value>myToolTip</value>
+  </data>
+  <data name="&gt;&gt;lblDipsAndOvervoltages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVPrimaryWinding.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtConnectionScheme.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblDeviceInfo.Text" xml:space="preserve">
+    <value>Device Info:</value>
+  </data>
+  <data name="lblCGradeOfOccuracy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 28</value>
+  </data>
+  <data name="&gt;&gt;lblConnectionScheme.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;grbCurrentTransformer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 438</value>
+  </data>
+  <data name="&gt;&gt;lblNomIph.Name" xml:space="preserve">
+    <value>lblNomIph</value>
+  </data>
+  <data name="lblVNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVNumbers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMaxRegime.Text" xml:space="preserve">
+    <value>Max regime:</value>
+  </data>
+  <data name="lblVNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="lblAverageValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNominalFrequency.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtNominalLinVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCTurnRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="&gt;&gt;lblVSecondaryWinding.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNominalPhVoltage.Parent" xml:space="preserve">
+    <value>gbDbOptions</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="myToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
+</root>
